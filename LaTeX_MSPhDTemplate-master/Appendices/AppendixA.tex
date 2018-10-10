@@ -1,29 +1,107 @@
 \cleartooddpage[\thispagestyle{empty}]
-\chapter{Proof of Existence}\label{APPENDIXA}
+\chapter{Statistics}\label{APPENDIXA}
 
-Lorem ipsum dolor sit amet, at qui viderer recusabo aliquando, dignissim
-evertitur ei his. Ignota iuvaret fabulas ei vim. Ne utinam inciderint quo.
-Pri ea congue postulant conclusionemque.
+Multiple logistic regression (MLR) analysis looks both to estimate the odds of a dichotomous outcome occurring, and to determine the effects of a specific covariate in relation to the other covariates in a model. The probability of an outcome occuring in MLR can be calculated as such:
 
-Discere dissentiet vel et, soluta nostrum epicurei ad eam, cu has aperiam
-vituperata. In prima quaeque diceret pri. Enim labores contentiones eos at,
-duo altera denique nominavi ea, eos inani nominavi consectetuer at. Ut elitr
-dicam elaboraret pro, ius altera voluptaria cu. Eam mazim aliquip cu,
-recusabo pericula accommodare at mea, facer affert nonumes qui ea.
+\begin{equation}
+\hat{p} = \frac{exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}
+\end{equation}
 
-Lorem ipsum dolor sit amet, at qui viderer recusabo aliquando, dignissim
-evertitur ei his. Ignota iuvaret fabulas ei vim in 
+\^{p} being the probability of the desired outcome, X\textsubscript{1} through X\textsubscript{p} as the individual dependent variables applied to the model, and b\textsubscript{1} to b\textsubscript{p} being the regression coefficients. 
+To determine the expected log odds ratios of the model's variables, the logit function of the above equation can be calculated:
+
+\begin{equation}
+\begin{aligned}
+logit[\hat{p}] & = ln[\frac{\hat{p}}{1-\hat{p}}] \\
+			   & = ln\left[\frac{\frac{exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}}{1 - \frac{exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}}\right] \\
+			   & = ln\left[\frac{\frac{exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p}}{\frac{1}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p}}\right] \\
+			   & = ln [ exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p] \\ 
+			   & = b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p
+\end{aligned}
+\end{equation}
+
+Taking the logit of the event's (desired outcome) probability, transforms the occurrence of the event given X into a simplified linear function.
+
+For each variable added to a regression model, the resultant R\textsuperscript{2} (coefficient of multiple determination) increases, indication an improved fit of the data. However applying an large number of variables to a predictive model may result in overfitting: attempting to estimate too many parameters from too small a sample size. In an overfitted model, the regression coefficients and R\textsuperscript{2} values determined may lead to misleading outcomes. To reduce the initial choices of variables to apply to (eventual) predictive models, the correlation between variables were determined. The correlation of data can be determine by:
+
+\begin{equation}
+r_{jk} = \frac{s_{jk}}{s_j s_k} = \frac{\sum_{i=1}^{n}(x_{ij} - \overline{x}_j)(x_{ik} - \overline{x}_k)}{\sqrt{\sum_{i=1}^{n}(x_{ij} - \overline{x}_j)^2}{\sqrt{\sum_{i=1}^{n}(x_{ik} - \overline{x}_k)^2}}}
+\end{equation}
+with r as the Pearson correlation coefficient between variables x\textsubscript{j} and x\textsubscript{k}, n as the sample size, and $\overline{x}$ is a variable sample mean. Correlations between multiple variables are often displayed in a correlation table:
+
+\[
+R = 
+\begin{bmatrix}
+    1       & r_{12} & r_{13} & \dots  & r_{1p} \\
+    r_{21}       & 1 & r_{23} & \dots  & r_{2p} \\
+    r_3{1}  & r_{32} & 1      & \dots  & r_{3p} \\
+    \vdots  & \vdots & \vdots & \ddots & \dots  \\
+    r_{p1}       & r_{p2}     & r_{p3} & \dots & 1
+\end{bmatrix}
+\]
+
+Initial correlation analysis of all available geometric and hemodynamic variables was performed to eliminate highly correlated variables from analysis: i.e aneurysm volume and surface area are highly correlated so surface area was removed from analysis. 
+
+From the remaining variables, stepwise MLR was implemented to determine the parsimonious model (ideal model with the fewest number of variables). First a linear regression is perfomred for each variable X one at a time, and the variable with the highest R\textsuperscript{2} is kept as the first variable. Next, a multiple regression step is performed with the first variable and each remaining variable, adding the subsequent variable with the largest increase in R\textsubscript{2}, if the \textit{p} value of the R\textsuperscript{2} is below a desired cuttoff ($<$0.05). The calculation of the \textit{p} value of an increase in R\textsuperscript{2} resulting from the increasing of X variable(s) from \textit{a} to \textit{b} is as follows:
+\begin{equation}
+p_{ab} = \frac{(R^2 _b - R^2 _a)/(b-a)}{(1-R^2 _b) / (n-b-1)}
+\end{equation}
+with the total sample size \textit{n}.
+
+Each time a new variable is added to the model, the impact of removing any of the other variables (already added to the model) on equation outcomes is tested. The chosen (removed) variable is excluded from the model if it does not make R\textsuperscript{2} significantly worse. This process is continued till adding any new X variables does not increase R\textsuperscript{2} and removing any X variables does not significantly decrease R\textsuperscript{2}
+
+
+
+
+In the event that all of the independent variables in the model are completely uncorrelated with each other, the interpretation of coefficients are as such:
+\begin{equation}
+OR = exp(b_1)^z
+\end{equation}
+Where z is the number of unit changes for a variable X, and OR is the odds ratio resultant from said change. When the variables are not uncorrelated, the $OR = exp^zb_1$ is expressed as the change of unit z for a variable \textit{adjusted in relation to the impacts of the other variables in the model}. This stresses the need to assess collinearity between variables prior to model assessment.
+
+
+   in 
 Section \ref{APPENDIXA_SECTION1}.
 
-\section{Section 1}\label{APPENDIXA_SECTION1}
+\section{Section 1}\label{ROC_Curve}
+To assess the diagnostic ability of predictive model(s), a receiver operating characteristic curve (ROC) is often deployed (REFERENCES). The ROC curve assesses a model's predictive true positive rate (TPR) against its false positive rate (FPR) as a means to determine overall predictive strength (HANLEY). From a statistical perspective, ROC analysis can be considered as a plot of the power (probability of a test correctly rejecting the null hypothesis when an alternative hypothesis is true) 
 
-At vix indoctum disputando. Eam cu doctus reprimique, quaeque democritum
-an eos, sit veniam facete dissentias id. Tale volumus eos te, an eum nulla
-tincidunt. Mea id recteque theophrastus.
+\begin{equation}
+\begin{aligned}
+& TPR = \frac{\Sigma True Positive}{\Sigma Condition Positive} \\
+& FPR = \frac{\Sigma False Ppositive}{\Sigma Condition Negative} \\
+& FNR = \frac{\Sigma False Negative}{\Sigma Condition Positive} \\ 
+& Specificity = \frac{\Sigma True Negative}{\Sigma Condition Negative} 
+\end{aligned}
+\end{equation}
+When dealing with a binary classification, as per this study, the prediction for each instance is based on a continuous random variable (x), which is the value computed for each instance. Given a desired threshold (T), each instance is positive if x$>$T (and negative if x$<$T). As the value of x is akin to a probability density function each instance can be considered positive when f\textsubscript{1}(x). Given this, TPR is calculated as:
 
-Eirmod malorum vis ei. Choro euismod incorrupte in vim, ludus ornatus vis ex.
-Hinc wisi impedit eum no, vocent definiebas referrentur in quo. Sanctus
-vulputate repudiandae usu ut.
+\begin{equation}
+TPR(T) = \int_{T}^{\infty} f_1(x) dx
+\end{equation}
+
+and the FNR as:
+ 
+\begin{equation}
+FPR(T) = \int_{T}^{\infty} f_0(x) dx
+\end{equation}
+
+The ROC curve is generated by plotting TPR(T) against FPR(T) parametrically, varying across T.
+
+
+Comparing the resultant ROC curves across model conditions provides the capability to select a desired model based off of varying predictive accuracies. To quantify the predictive accuracy, the area under the curve (AUC) of the ROC curve is calculated, as it equals the probability of a classifier ranking a positive instance higher than a negative instance (both chosen at random).
+
+\begin{equation}
+\begin{aligned}
+A &= \int_{\infty}^{-\infty} TPR(T) FPR' (T) dT \\
+  &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} I(T' >T)f_1 (T' )f_0 (T) dT' dT = P(X_1 > X_0)
+\end{aligned}
+\end{equation}
+
+The initial integral has reversed boundaries due to larger T values having a lower value on the x-axis.
+  
+  
+
 
 \section{Section 2}\label{APPENDIXA_SECTION2}
 

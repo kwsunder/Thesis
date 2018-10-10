@@ -333,6 +333,12 @@
 \newblock Small-sample precision of roc-related estimates.
 \newblock {\em Bioinformatics 26}, 6 (2010), 822--830.
 
+\bibitem{hanley1982meaning}
+{\sc Hanley, J.~A., and McNeil, B.~J.}
+\newblock The meaning and use of the area under a receiver operating
+  characteristic (roc) curve.
+\newblock {\em Radiology 143}, 1 (1982), 29--36.
+
 \bibitem{harrell1996multivariable}
 {\sc Harrell, F.~E., Lee, K.~L., and Mark, D.~B.}
 \newblock Multivariable prognostic models: issues in developing models,
