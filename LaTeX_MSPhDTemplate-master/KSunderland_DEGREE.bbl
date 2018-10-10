@@ -1,0 +1,732 @@
+\begin{thebibliography}{100}
+
+\bibitem{abboud2017morphology}
+{\sc Abboud, T., Rustom, J., Bester, M., Czorlich, P., Vittorazzi, E.,
+  Pinnschmidt, H.~O., Westphal, M., and Regelsberger, J.}
+\newblock Morphology of ruptured and unruptured intracranial aneurysms.
+\newblock {\em World neurosurgery 99\/} (2017), 610--617.
+
+\bibitem{aird2005spatial}
+{\sc Aird, W.}
+\newblock Spatial and temporal dynamics of the endothelium.
+\newblock {\em Journal of Thrombosis and Haemostasis 3}, 7 (2005), 1392--1406.
+
+\bibitem{LAPACK_00}
+{\sc Anderson, E., Bai, Z., Bischof, C., Blackford, S., Demmel, J., Dongarra,
+  J.~J., Croz, J.~D., Greenbaum, A., Hammarling, S., McKenney, A., and
+  Sorensen, D.}
+\newblock {\em {LAPACK Users' Guide}}, 3~ed.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
+  1999.
+
+\bibitem{Backes951}
+{\sc Backes, D., Rinkel, G.~J., Laban, K.~G., Algra, A., and Vergouwen, M.~D.}
+\newblock Patient- and aneurysm-specific risk factors for intracranial aneurysm
+  growth.
+\newblock {\em Stroke 47}, 4 (2016), 951--957.
+
+\bibitem{baek2009flow}
+{\sc Baek, H., Jayaraman, M., Richardson, P., and Karniadakis, G.}
+\newblock Flow instability and wall shear stress variation in intracranial
+  aneurysms.
+\newblock {\em Journal of the Royal Society Interface\/} (2009), rsif20090476.
+
+\bibitem{balaguru2016disturbed}
+{\sc Balaguru, U.~M., Sundaresan, L., Manivannan, J., Majunathan, R., Mani, K.,
+  Swaminathan, A., Venkatesan, S., Kasiviswanathan, D., and Chatterjee, S.}
+\newblock Disturbed flow mediated modulation of shear forces on endothelial
+  plane: A proposed model for studying endothelium around atherosclerotic
+  plaques.
+\newblock {\em Scientific reports 6\/} (2016), 27304.
+
+\bibitem{baratchi2017molecular}
+{\sc Baratchi, S., Khoshmanesh, K., Woodman, O.~L., Potocnik, S., Peter, K.,
+  and McIntyre, P.}
+\newblock Molecular sensors of blood flow in endothelial cells.
+\newblock {\em Trends in molecular medicine 23}, 9 (2017), 850--868.
+
+\bibitem{barath2004anatomically}
+{\sc Bar{\'a}th, K., Cassot, F., R{\"u}fenacht, D.~A., and Fasel, J.~H.}
+\newblock Anatomically shaped internal carotid artery aneurysm in vitro model
+  for flow analysis to evaluate stent effect.
+\newblock {\em American Journal of Neuroradiology 25}, 10 (2004), 1750--1759.
+
+\bibitem{bazilevs2010computational}
+{\sc Bazilevs, Y., Hsu, M.-C., Zhang, Y., Wang, W., Kvamsdal, T., Hentschel,
+  S., and Isaksen, J.}
+\newblock Computational vascular fluid--structure interaction: methodology and
+  application to cerebral aneurysms.
+\newblock {\em Biomechanics and modeling in mechanobiology 9}, 4 (2010),
+  481--498.
+
+\bibitem{biasetti2011blood}
+{\sc Biasetti, J., Hussain, F., and Gasser, T.~C.}
+\newblock Blood flow and coherent vortices in the normal and aneurysmatic
+  aortas: a fluid dynamical approach to intra-luminal thrombus formation.
+\newblock {\em Journal of The Royal Society Interface\/} (2011), rsif20110041.
+
+\bibitem{brinjikji2015risk}
+{\sc Brinjikji, W., Zhu, Y.-Q., Lanzino, G., Cloft, H., Murad, M., Wang, Z.,
+  and Kallmes, D.}
+\newblock Risk factors for growth of intracranial aneurysms: A systematic
+  review and meta-analysis.
+\newblock {\em American Journal of Neuroradiology\/} (2015).
+
+\bibitem{byrne2013vortex}
+{\sc Byrne, G., and Cebral, J.}
+\newblock Vortex dynamics in cerebral aneurysms.
+\newblock {\em arXiv preprint arXiv:1309.7875\/} (2013).
+
+\bibitem{byrne2014quantifying}
+{\sc Byrne, G., Mut, F., and Cebral, J.}
+\newblock Quantifying the large-scale hemodynamics of intracranial aneurysms.
+\newblock {\em American Journal of Neuroradiology 35}, 2 (2014), 333--338.
+
+\bibitem{can2015association}
+{\sc Can, A., and Du, R.}
+\newblock Association of hemodynamic factors with intracranial aneurysm
+  formation and rupture: systematic review and meta-analysis.
+\newblock {\em Neurosurgery 78}, 4 (2015), 510--520.
+
+\bibitem{CPMD_01}
+{\sc Car, R., and Parrinello, M.}
+\newblock {Unified Approach for Molecular Dynamics and Density-Functional
+  Theory}.
+\newblock {\em Physical Review Letters 55\/} (1985), 2471.
+
+\bibitem{castro2013wall}
+{\sc Castro, M.~A., Olivares, M. C.~A., Putman, C.~M., and Cebral, J.~R.}
+\newblock Wall motion and hemodynamics in intracranial aneurysms.
+\newblock In {\em Journal of Physics: Conference Series\/} (2013), vol.~477,
+  IOP Publishing, p.~012004.
+
+\bibitem{Cebral119}
+{\sc Cebral, J., Ollikainen, E., Chung, B.~J., Mut, F., Sippola, V., Jahromi,
+  B.~R., Tulamo, R., Hernesniemi, J., Niemel{\"a}, M., Robertson, A., and
+  Fr{\"o}sen, J.}
+\newblock Flow conditions in the intracranial aneurysm lumen are associated
+  with inflammation and degenerative changes of the aneurysm wall.
+\newblock {\em American Journal of Neuroradiology 38}, 1 (2017), 119--126.
+
+\bibitem{cecchi2011role}
+{\sc Cecchi, E., Giglioli, C., Valente, S., Lazzeri, C., Gensini, G.~F.,
+  Abbate, R., and Mannini, L.}
+\newblock Role of hemodynamic shear stress in cardiovascular disease.
+\newblock {\em Atherosclerosis 214}, 2 (2011), 249--256.
+
+\bibitem{chalouhi2013review}
+{\sc Chalouhi, N., Hoh, B.~L., and Hasan, D.}
+\newblock Review of cerebral aneurysm formation, growth, and rupture.
+\newblock {\em Stroke 44}, 12 (2013), 3613--3622.
+
+\bibitem{chalouhi2015safety}
+{\sc Chalouhi, N., Zanaty, M., Whiting, A., Yang, S., Tjoumakaris, S., Hasan,
+  D., Starke, R.~M., Hann, S., Hammer, C., Kung, D., and et. al.}
+\newblock Safety and efficacy of the pipeline embolization device in 100 small
+  intracranial aneurysms.
+\newblock {\em Journal of neurosurgery 122}, 6 (2015), 1498--1502.
+
+\bibitem{chen2006neutrophils}
+{\sc Chen, C.-N., Chang, S.-F., Lee, P.-L., Chang, K., Chen, L.-J., Usami, S.,
+  Chien, S., and Chiu, J.-J.}
+\newblock Neutrophils, lymphocytes, and monocytes exhibit diverse behaviors in
+  transendothelial and subendothelial migrations under coculture with smooth
+  muscle cells in disturbed flow.
+\newblock {\em Blood 107}, 5 (2006), 1933--1942.
+
+\bibitem{chen2009pecam}
+{\sc Chen, Z., and Tzima, E.}
+\newblock Pecam-1 is necessary for flow-induced vascular remodeling.
+\newblock {\em Arteriosclerosis, thrombosis, and vascular biology 29}, 7
+  (2009), 1067--1073.
+
+\bibitem{chien2007mechanotransduction}
+{\sc Chien, S.}
+\newblock Mechanotransduction and endothelial cell homeostasis: the wisdom of
+  the cell.
+\newblock {\em American Journal of Physiology-Heart and Circulatory Physiology
+  292}, 3 (2007), H1209--H1224.
+
+\bibitem{chiu2011effects}
+{\sc Chiu, J.-J., and Chien, S.}
+\newblock Effects of disturbed flow on vascular endothelium: pathophysiological
+  basis and clinical perspectives.
+\newblock {\em Physiological reviews 91}, 1 (2011), 327--387.
+
+\bibitem{CPMD_02}
+{\sc The CPMD Consortium}.
+\newblock {\em {CPMD (v3.15.1): An \textsl{ab initio} Electronic Structure and
+  Molecular Dynamcis Program}}, 2011.
+
+\bibitem{DMOL3_01}
+{\sc Delley, B.}
+\newblock {An All-Electron Numerical Method for Solving the Local Density
+  Functional for Polyatomic Molecules}.
+\newblock {\em Journal of Chemical Physics 92\/} (1990), 508.
+
+\bibitem{DMOL3_02}
+{\sc Delley, B.}
+\newblock {Fast Calculation of Electrostatics in Crystals and Large Molecules}.
+\newblock {\em Journal of Physical Chemistry 100\/} (1996), 6107.
+
+\bibitem{demartini2004numeric}
+{\sc Demartini, L.~C., Vielmo, H.~A., and M{\"o}ller, S.}
+\newblock Numeric and experimental analysis of the turbulent flow through a
+  channel with baffle plates.
+\newblock {\em Journal of the Brazilian Society of Mechanical Sciences and
+  Engineering 26}, 2 (2004), 153--159.
+
+\bibitem{dempere2006cfd}
+{\sc Dempere-Marco, L., Oubel, E., Castro, M., Putman, C., Frangi, A., and
+  Cebral, J.}
+\newblock Cfd analysis incorporating the influence of wall motion: application
+  to intracranial aneurysms.
+\newblock In {\em International Conference on Medical Image Computing and
+  Computer-Assisted Intervention\/} (2006), Springer, pp.~438--445.
+
+\bibitem{deplano2007flow}
+{\sc Deplano, V., Knapp, Y., Bertrand, E., and Gaillard, E.}
+\newblock Flow behaviour in an asymmetric compliant experimental model for
+  abdominal aortic aneurysm.
+\newblock {\em Journal of biomechanics 40}, 11 (2007), 2406--2413.
+
+\bibitem{dolan2013high}
+{\sc Dolan, J.~M., Kolega, J., and Meng, H.}
+\newblock High wall shear stress and spatial gradients in vascular pathology: a
+  review.
+\newblock {\em Annals of biomedical engineering 41}, 7 (2013), 1411--1427.
+
+\bibitem{dolan2011high}
+{\sc Dolan, J.~M., Meng, H., Singh, S., Paluch, R., and Kolega, J.}
+\newblock High fluid shear stress and spatial shear stress gradients affect
+  endothelial proliferation, survival, and alignment.
+\newblock {\em Annals of biomedical engineering 39}, 6 (2011), 1620--1631.
+
+\bibitem{HPL_02}
+{\sc Dongarra, J.~J.}
+\newblock {LINPACK Working Note 3: Fortran BLAS Timing}.
+\newblock {\em Argonne National Laboratory Report, ANL-80-24\/} (1980).
+
+\bibitem{HPL_01}
+{\sc Dongarra, J.~J., Bunch, J., Moler, C., and Stewart, G.~W.}
+\newblock {\em {LINPACK User's Guide}}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
+  1979.
+
+\bibitem{HPL_DGEMM_02}
+{\sc Dongarra, J.~J., Croz, J.~D., Hammarling, S., and Duff, I.~S.}
+\newblock {A Set of Level 3 Basic Linear Algebra Subprograms}.
+\newblock {\em Association for Computing Machinery Transactions on Mathematical
+  Software 16\/} (1990), 1.
+
+\bibitem{HPL_DGEMM_01}
+{\sc Dongarra, J.~J., Croz, J.~D., Hammarling, S., and Hanson, R.}
+\newblock {An Extended Set of FORTRAN Basic Linear Algebra Subprograms}.
+\newblock {\em Association for Computing Machinery Transactions on Mathematical
+  Software 14\/} (1988), 1.
+
+\bibitem{Crystal09_01}
+{\sc Dovesi, R., Orlando, R., Civalleri, B., Roetti, C., Saunders, V.~R., and
+  Zicovich-Wilson, C.~M.}
+\newblock {CRYSTAL: A Computational Tool for the Ab Initio Study of the
+  Electronic Properties of Crystals}.
+\newblock {\em Zieitschrift f\"{u}r Kristallographie 220\/} (2005), 571.
+
+\bibitem{Crystal09_02}
+{\sc Dovesi, R., Saunders, V.~R., Roetti, C., Orlando, R., Zicovich-Wilson,
+  C.~M., Pascale, F., Civalleri, B., Doll, K., Harrison, N.~M., Bush, I.~J.,
+  D'Arco, P., and Llunell, M.}
+\newblock {\em CRYSTAL 09 User's Manual}.
+\newblock University of Torino, Italy, 2009.
+
+\bibitem{elad2004physical}
+{\sc Elad, D., and Einav, S.}
+\newblock Physical and flow properties of blood.
+\newblock {\em Standard handbook of biomedical engineering and design\/}
+  (2004), 3--1.
+
+\bibitem{etminan2015unruptured}
+{\sc Etminan, N., Brown, R.~D., Beseoglu, K., Juvela, S., Raymond, J., Morita,
+  A., Torner, J.~C., Derdeyn, C.~P., Raabe, A., Mocco, J., and et. al}.
+\newblock The unruptured intracranial aneurysm treatment score a
+  multidisciplinary consensus.
+\newblock {\em Neurology 85}, 10 (2015), 881--889.
+
+\bibitem{HYPRE_01}
+{\sc Falgout, R.~D., and Yang, U.~M.}
+\newblock {HYPRE: A Library of High Performance Preconditioners}.
+\newblock In {\em Proceedings of the International Conference on Computational
+  Science - Part III\/} (London, UK, 2002), ICCS '02, Springer-Verlag, p.~632.
+
+\bibitem{feliciani2015multiscale}
+{\sc Feliciani, G., Potters, W.~V., van Ooij, P., Schneiders, J.~J., Nederveen,
+  A.~J., van Bavel, E., Majoie, C.~B., and Marquering, H.~A.}
+\newblock Multiscale 3-d+ t intracranial aneurysmal flow vortex detection.
+\newblock {\em IEEE Trans. Biomed. Engineering 62}, 5 (2015), 1355--1362.
+
+\bibitem{ford2005characterization}
+{\sc Ford, M.~D., Alperin, N., Lee, S.~H., Holdsworth, D.~W., and Steinman,
+  D.~A.}
+\newblock Characterization of volumetric flow rate waveforms in the normal
+  internal carotid and vertebral arteries.
+\newblock {\em Physiological measurement 26}, 4 (2005), 477.
+
+\bibitem{ford2008piv}
+{\sc Ford, M.~D., Nikolov, H.~N., Milner, J.~S., Lownie, S.~P., DeMont, E.~M.,
+  Kalata, W., Loth, F., Holdsworth, D.~W., and Steinman, D.~A.}
+\newblock Piv-measured versus cfd-predicted flow dynamics in anatomically
+  realistic cerebral aneurysm models.
+\newblock {\em Journal of biomechanical engineering 130}, 2 (2008), 021015.
+
+\bibitem{FFTW3_00}
+{\sc Frigo, M., and Johnson, S.~G.}
+\newblock {The Design and Implementation of FFTW3}.
+\newblock In {\em Proceedings of the IEEE\/} (2005), vol.~93, p.~216.
+
+\bibitem{GABRIEL2017195}
+{\sc Gabriel, S.~A., Ding, Y., and Feng, Y.}
+\newblock Quantifying the influence of oscillatory flow disturbances on blood
+  flow.
+\newblock {\em Journal of Theoretical Biology 430\/} (2017), 195 -- 206.
+
+\bibitem{GULP_02}
+{\sc Gale, J.~D.}
+\newblock {Empirical Potential Derivation for Ionic Materials}.
+\newblock {\em Philosophical Magazine B 73\/} (1996), 3.
+
+\bibitem{GULP_01}
+{\sc Gale, J.~D.}
+\newblock {GULP - A Computer Program for the Symmetry Adapted Simulation of
+  Solids}.
+\newblock {\em Journal of Chemical Society, Faraday Transactions 93\/} (1997),
+  629.
+
+\bibitem{greving2014development}
+{\sc Greving, J.~P., Wermer, M.~J., Jr, M. J.~B., Morit, A., Juvela, S.,
+  Yonekura, M., Ishibashi, T., Torner, J.~C., Nakayama, T., Rinkel, G.~J., and
+  et. al.}
+\newblock Development of the phases score for prediction of risk of rupture of
+  intracranial aneurysms: a pooled analysis of six prospective cohort studies.
+\newblock {\em The Lancet Neurology 13}, 1 (2014), 59--66.
+
+\bibitem{kim20163d}
+{\sc gsam Kim, Y., Par, Y., and Lim, S.}
+\newblock 3d simulations of blood flow dynamics in compliant vessels: normal,
+  aneurysmal, and stenotic arteries.
+\newblock {\em Communications in Computational Physics 19}, 5 (2016),
+  1167--1190.
+
+\bibitem{hackenberg2018unruptured}
+{\sc Hackenberg, K.~A., H{\"a}nggi, D., and Etminan, N.}
+\newblock Unruptured intracranial aneurysms: Contemporary data and management.
+\newblock {\em Stroke 49}, 9 (2018), 2268--2275.
+
+\bibitem{haimes1999velocity}
+{\sc Haimes, R., and Kenwright, D.}
+\newblock On the velocity gradient tensor and fluid feature extraction.
+\newblock In {\em 14th Computational Fluid Dynamics Conference\/} (1999),
+  p.~3288.
+
+\bibitem{doi:10.1093/bioinformatics/btq037}
+{\sc Hanczar, B., Hu, J., Sim, C., Weinstein, J., Bittner, M., and RDougherty,
+  E.}
+\newblock Small-sample precision of roc-related estimates.
+\newblock {\em Bioinformatics 26}, 6 (2010), 822--830.
+
+\bibitem{harrell1996multivariable}
+{\sc Harrell, F.~E., Lee, K.~L., and Mark, D.~B.}
+\newblock Multivariable prognostic models: issues in developing models,
+  evaluating assumptions and adequacy, and measuring and reducing errors.
+\newblock {\em Statistics in medicine 15}, 4 (1996), 361--387.
+
+\bibitem{hasan2012cerebral}
+{\sc Hasan, D.~M., Nadareyshvili, A.~I., Hoppe, A.~L., Mahane, K.~B., Kung,
+  D.~K., and Raghavan, M.~L.}
+\newblock Cerebral aneurysm sac growth as the etiology of recurrence after
+  successful coil embolization.
+\newblock {\em Stroke 43}, 3 (2012), 866--868.
+
+\bibitem{helmke2005molecular}
+{\sc Helmke, B.~P.}
+\newblock Molecular control of cytoskeletal mechanics by hemodynamic forces.
+\newblock {\em Physiology 20}, 1 (2005), 43--53.
+
+\bibitem{GROMACS4}
+{\sc Hess, B., Kutzner, C., van~der Spoel, D., and Lindahl, E.}
+\newblock {GROMACS 4: Algorithms for Highly Efficient, Load-Balanced, and
+  Scalable Molecular Simulation}.
+\newblock {\em Journal of Chemical Theory and Computation 4\/} (2008), 235.
+
+\bibitem{holdsworth1999characterization}
+{\sc Holdsworth, D., Norley, C., Frayne, R., Steinman, D., and Rutt, B.}
+\newblock Characterization of common carotid artery blood-flow waveforms in
+  normal human subjects.
+\newblock {\em Physiological measurement 20}, 3 (1999), 219.
+
+\bibitem{hoppe2015comparison}
+{\sc Hoppe, A.~L., Raghava, M.~L., and Hasan, D.~M.}
+\newblock Comparison of the association of sac growth and coil compaction with
+  recurrence in coil embolized cerebral aneurysms.
+\newblock {\em PloS one 10}, 4 (2015), e0123017.
+
+\bibitem{Wikipedia}
+{\sc http://wikipedia.org/}.
+\newblock {\em Wikipedia}.
+\newblock Wikipedia, The Internet, 2012.
+
+\bibitem{VMD_01}
+{\sc Humphrey, W., Dalke, A., and Schulten, K.}
+\newblock {VMD - Visual Molecular Dynamics}.
+\newblock {\em Journal of Molecular Graphics 14\/} (1996), 33.
+
+\bibitem{huo2009effects}
+{\sc Huo, Y., Choy, J.~S., Svendsen, M., Sinha, A.~K., and Kassab, G.~S.}
+\newblock Effects of vessel compliance on flow pattern in porcine epicardial
+  right coronary arterial tree.
+\newblock {\em Journal of biomechanics 42}, 5 (2009), 594--602.
+
+\bibitem{jiang2005detection}
+{\sc Jiang, M., Machiraju, R., and Thompson, D.}
+\newblock Detection and visualization of vortices.
+\newblock {\em The visualization handbook 295\/} (2005).
+
+\bibitem{juvela2013natural}
+{\sc Juvela, S., Poussa, K., Lehto, H., and Porras, M.}
+\newblock Natural history of unruptured intracranial aneurysms: a long-term
+  follow-up study.
+\newblock {\em Stroke 44}, 9 (2013), 2414--2421.
+
+\bibitem{karino1977flow}
+{\sc Karino, T., and Goldsmith, H.}
+\newblock Flow behaviour of blood cells and rigid spheres in an annular vortex.
+\newblock {\em Phil. Trans. R. Soc. Lond. B 279}, 967 (1977), 413--445.
+
+\bibitem{kashiwazaki2013size}
+{\sc Kashiwazaki, D., and Kuroda, S.}
+\newblock Size ratio can highly predict rupture risk in intracranial small (< 5
+  mm) aneurysms.
+\newblock {\em Stroke 44}, 8 (2013), 2169--2173.
+
+\bibitem{khan2015narrowing}
+{\sc Khan, M., Valen-Sendstad, K., and Steinman, D.}
+\newblock Narrowing the expertise gap for predicting intracranial aneurysm
+  hemodynamics: impact of solver numerics versus mesh and time-step resolution.
+\newblock {\em American Journal of Neuroradiology\/} (2015).
+
+\bibitem{kohler2013semi}
+{\sc K{\"o}hler, B., Gasteiger, R., Preim, U., Theisel, H., Gutberlet, M., and
+  Preim, B.}
+\newblock Semi-automatic vortex extraction in 4d pc-mri cardiac blood flow data
+  using line predicates.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics 19}, 12
+  (2013), 2773--2782.
+
+\bibitem{XCrySDen1999}
+{\sc Kolkaji, A.}
+\newblock {\em Molecular Graphics Modelling 17\/} (1999), 176.
+
+\bibitem{Kotowski42}
+{\sc Kotowski, M., Naggara, O., Darsaut, T.~E., Nolet, S., Gevry, G.,
+  Kouznetsov, E., and Raymond, J.}
+\newblock Safety and occlusion rates of surgical treatment of unruptured
+  intracranial aneurysms: a systematic review and meta-analysis of the
+  literature from 1990 to 2011.
+\newblock {\em Journal of Neurology, Neurosurgery \& Psychiatry 84}, 1 (2013),
+  42--48.
+
+\bibitem{VASP_01}
+{\sc Kresse, G., and Hafner, J.}
+\newblock {Ab Initio Molecular Dynamics for Liquid Metals}.
+\newblock {\em Physical Review B 47\/} (1993), 558.
+
+\bibitem{VASP_02}
+{\sc Kresse, G., and Hafner, J.}
+\newblock {Ab Initio Molecular-Dynamics Simulation of the
+  Liquid-Metal-Amorphous-Semiconductor Transition in Germanium}.
+\newblock {\em Physical Review B 49\/} (1994), 14251.
+
+\bibitem{ku1985pulsatile}
+{\sc Ku, D., Giddens, D.~P., Zarins, C.~K., and Glagov, S.}
+\newblock Pulsatile flow and atherosclerosis in the human carotid bifurcation.
+  positive correlation between plaque location and low oscillating shear
+  stress.
+\newblock {\em Arteriosclerosis: An Official Journal of the American Heart
+  Association, Inc. 5}, 3 (1985), 293--302.
+
+\bibitem{kulcsar2011hemodynamics}
+{\sc Kulcs{\'a}r, Z., Ugron, A., Berentei, Z., Pa{\'a}l, G., Szikora, I., and
+  et~al}.
+\newblock Hemodynamics of cerebral aneurysm initiation: the role of wall shear
+  stress and spatial wall shear stress gradient.
+\newblock {\em American Journal of neuroradiology\/} (2011).
+
+\bibitem{Lee2015neurosurg}
+{\sc Lee, G., Eom, K., Lee, C., Kim, D., and Kang, S.}
+\newblock Rupture of very small intracranial aneurysms: Incidence and clinical
+  characteristics.
+\newblock {\em J Cerebrovasc Endovasc Neurosurg 17(3)\/} (2015), 217--222.
+
+\bibitem{liu2016recanalization}
+{\sc Liu, J., Jing, L., Wang, C., Zhang, Y., and Yang, X.}
+\newblock Recanalization, regrowth, and delayed rupture of a previously coiled
+  unruptured anterior communicating artery aneurysm: a longitudinal hemodynamic
+  analysis.
+\newblock {\em World neurosurgery 89\/} (2016), 726--e5.
+
+\bibitem{Liu2015}
+{\sc Liu, X., Sun, A., Fan, Y., and Deng, X.}
+\newblock Physiological significance of helical flow in the arterial system and
+  its potential clinical applications.
+\newblock {\em Annals of Biomedical Engineering 43}, 1 (Jan 2015), 3--15.
+
+\bibitem{LONGO2017632}
+{\sc Longo, M., Granata, F., Racchiusa, S., Mormina, E., Grasso, G., Longo,
+  G.~M., Garufi, G., Salpietro, F.~M., and Alafaci, C.}
+\newblock Role of hemodynamic forces in unruptured intracranial aneurysms: An
+  overview of a complex scenario.
+\newblock {\em World Neurosurgery 105\/} (2017), 632 -- 642.
+
+\bibitem{mannino2015yourself}
+{\sc Mannino, R.~G., Myers, D.~R., Ahn, B., Wang, Y., Rollins, M., Gole, H.,
+  Lin, A.~S., Guldberg, R.~E., Giddens, D.~P., Timmins, L.~H., and et. al.}
+\newblock Do-it-yourself in vitro vasculature that recapitulates in vivo
+  geometries for investigating endothelial-blood cell interactions.
+\newblock {\em Scientific reports 5\/} (2015), 12401.
+
+\bibitem{markl2010vivo}
+{\sc Markl, M., Wegent, F., Zech, T., Bauer, S., Strecker, C., Schumacher, M.,
+  Weiller, C., Hennig, J., and Harloff, A.}
+\newblock In vivo wall shear stress distribution in the carotid artery: effect
+  of bifurcation geometry, internal carotid artery stenosis, and recanalization
+  therapy.
+\newblock {\em Circulation: Cardiovascular Imaging 3}, 6 (2010), 647--655.
+
+\bibitem{mascitelli2015predictors}
+{\sc Mascitelli, J.~R., Oermann, E.~K., Leacy, R. A.~D., Moyle, H., Mocco, J.,
+  and Patel, A.~B.}
+\newblock Predictors of treatment failure following coil embolization of
+  intracranial aneurysms.
+\newblock {\em Journal of Clinical Neuroscience 22}, 8 (2015), 1275--1281.
+
+\bibitem{Miura519}
+{\sc Miura, Y., Ishida, F., Umeda, Y., Tanemura, H., Suzuki, H., Matsushima,
+  S., Shimosaka, S., and Taki, W.}
+\newblock Low wall shear stress is independently associated with the rupture
+  status of middle cerebral artery aneurysms.
+\newblock {\em Stroke 44}, 2 (2013), 519--521.
+
+\bibitem{nobari2013effect}
+{\sc Nobari, S., Mongrain, R., Leask, R., and Cartier, R.}
+\newblock The effect of aortic wall and aortic leaflet stiffening on coronary
+  hemodynamic: a fluid--structure interaction study.
+\newblock {\em Medical \& biological engineering \& computing 51}, 8 (2013),
+  923--936.
+
+\bibitem{nowicki2014novel}
+{\sc Nowicki, K.~W., Hosaka, K., He, Y., McFetridge, P.~S., Scott, E.~W., and
+  Hoh, B.~L.}
+\newblock Novel high-throughput in vitro model for identifying
+  hemodynamic-induced inflammatory mediators of cerebral aneurysm formation.
+\newblock {\em Hypertension 64}, 6 (2014), 1306--1313.
+
+\bibitem{oeltze2016cluster}
+{\sc Oeltze-Jafra, S., Cebral, J.~R., Janig, G., and Preim, B.}
+\newblock Cluster analysis of vortical flow in simulations of cerebral aneurysm
+  hemodynamics.
+\newblock {\em IEEE transactions on visualization and computer graphics 22}, 1
+  (2016), 757--766.
+
+\bibitem{ollikainen2016}
+{\sc Ollikainen, E., Tulamo, R., Lehti, S., Lee-Rueckert, M., Hernesniemi, J.,
+  Niemelä, M., Ylä-Herttuala, S., Kovanen, P.~T., and Frösen, J.}
+\newblock Smooth muscle cell foam cell formation, apolipoproteins, and abca1 in
+  intracranial aneurysms: Implications for lipid accumulation as a promoter of
+  aneurysm wall rupture.
+\newblock {\em Journal of Neuropathology and Experimental Neurology 75}, 7
+  (2016), 689--699.
+
+\bibitem{SIESTA_02}
+{\sc Ordej\'{o}, P., Drabold, D.~A., Grumbach, M.~P., and Martin, R.~M.}
+\newblock {Unconstrained Minimization Approach for Electronic Computations That
+  Scales Linearly with System Size}.
+\newblock {\em Physical Review B 48\/} (1993), 14646.
+
+\bibitem{otani2013computational}
+{\sc Otani, T., Nakamura, M., Fujinaka, T., Hirata, M., Kuroda, J., Shibano,
+  K., and Wada, S.}
+\newblock Computational fluid dynamics of blood flow in coil-embolized
+  aneurysms: effect of packing density on flow stagnation in an idealized
+  geometry.
+\newblock {\em Medical \& biological engineering \& computing 51}, 8 (2013),
+  901--910.
+
+\bibitem{oubel2007analysis}
+{\sc Oubel, E., Craene, M.~D., Putman, C.~M., Cebral, J.~R., and Frangi, A.~F.}
+\newblock Analysis of intracranial aneurysm wall motion and its effects on
+  hemodynamic patterns.
+\newblock In {\em Medical Imaging 2007: Physiology, Function, and Structure
+  from Medical Images\/} (2007), vol.~6511, International Society for Optics
+  and Photonics, p.~65112A.
+
+\bibitem{papaioannou2005vascular}
+{\sc Papaioannou, T.~G., and Stefanadis, C.}
+\newblock Vascular wall shear stress: basic principles and methods.
+\newblock {\em Hellenic J Cardiol 46}, 1 (2005), 9--15.
+
+\bibitem{LAMMPS_01}
+{\sc Plimpton, S.~J.}
+\newblock {Fast Parallel Algorithms for Short-Range Molecular Dynamics}.
+\newblock {\em Journal of Computational Physics 117\/} (1995), 1.
+
+\bibitem{potters2014measuring}
+{\sc Potters, W.~V., Marquering, H.~A., VanBavel, E., and Nederveen, A.~J.}
+\newblock Measuring wall shear stress using velocity-encoded mri.
+\newblock {\em Current Cardiovascular Imaging Reports 7}, 4 (2014), 9257.
+
+\bibitem{qiu2014biomechanical}
+{\sc Qiu, J., Zheng, Y., Hu, J., Liao, D., Gregersen, H., Deng, X., Fan, Y.,
+  and Wang, G.}
+\newblock Biomechanical regulation of vascular smooth muscle cell functions:
+  from in vitro to in vivo understanding.
+\newblock {\em Journal of The Royal Society Interface 11}, 90 (2014), 20130852.
+
+\bibitem{R_01}
+{\sc {R Development Core Team}}.
+\newblock {\em {R: A Language and Environment for Statistical Computing}}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2011.
+
+\bibitem{SMEAGOL_02}
+{\sc Rocha, A.~R.}
+\newblock {\em {Theoretical and Computational Aspects of Electronic Transport
+  at the Nanoscale}}.
+\newblock PhD thesis, University of Dublin, Trinity College, 2007.
+
+\bibitem{SMEAGOL_01}
+{\sc Rungger, I., and Sanvito, S.}
+\newblock {Algorithm for the Construction of Self-Energies for Electronic
+  Transport Calculations Based on Singularity Elimination and Singular Value
+  Decomposition}.
+\newblock {\em Physical Review B 78\/} (2008), 035407.
+
+\bibitem{sawyer2016lymphocytes}
+{\sc Sawyer, D.~M., Pace, L.~A., Pascale, C.~L., Kutchin, A.~C., O’Neill,
+  B.~E., Starke, R.~M., and Dumont, A.~S.}
+\newblock Lymphocytes influence intracranial aneurysm formation and rupture:
+  role of extracellular matrix remodeling and phenotypic modulation of vascular
+  smooth muscle cells.
+\newblock {\em Journal of neuroinflammation 13}, 1 (2016), 185.
+
+\bibitem{MolDen2000}
+{\sc Schaftenaar, G., and Noordik, J.~H.}
+\newblock {\em Journal of Computer-Aided Molecular Design 14\/} (2000), 123.
+
+\bibitem{sforza2009hemodynamics}
+{\sc Sforza, D.~M., Putman, C.~M., and Cebral, J.~R.}
+\newblock Hemodynamics of cerebral aneurysms.
+\newblock {\em Annual review of fluid mechanics 41\/} (2009), 91--107.
+
+\bibitem{SIESTA_01}
+{\sc Soler, J.~M., Artacho, E., Gale, J.~D., Garc\'{i}a, A., Junquera, J.,
+  Ordej\'{o}n, P., and S\'{a}nchez-Portal, D.}
+\newblock {The SIESTA Method for Ab Initio Order-N Materials Simulation}.
+\newblock {\em Journal of Physics: Condensed Matter 14\/} (2002), 2745.
+
+\bibitem{sujudi1995identification}
+{\sc Sujudi, D., and Haimes, R.}
+\newblock Identification of swirling flow in 3-d vector fields.
+\newblock In {\em 12th Computational Fluid Dynamics Conference\/} (1995),
+  p.~1715.
+
+\bibitem{turjman2014role}
+{\sc Turjma, A.~S., Turjman, F., and Edelman, E.~R.}
+\newblock Role of fluid dynamics and inflammation in intracranial aneurysm
+  formation.
+\newblock {\em Circulation 129}, 3 (2014), 373--382.
+
+\bibitem{tzima2005mechanosensory}
+{\sc Tzima, E., Irani-Tehrani, M., Kiosses, W.~B., Dejana, E., Schultz, D.~A.,
+  Engelhardt, B., Cao, G., DeLisser, H., and Schwartz, M.~A.}
+\newblock A mechanosensory complex that mediates the endothelial cell response
+  to fluid shear stress.
+\newblock {\em Nature 437}, 7057 (2005), 426.
+
+\bibitem{Frösen2012}
+{\sc uhana Fr{\"o}sen, Tulamo, R., Paetau, A., Laaksamo, E., Korja, M., Laakso,
+  A., MikaNiemel{\"a}, and Hernesniemi, J.}
+\newblock Saccular intracranial aneurysm: pathology and mechanisms.
+\newblock {\em Acta Neuropathologica 123}, 6 (Jun 2012), 773--786.
+
+\bibitem{uzarski2013adaptation}
+{\sc Uzarski, J.~S., Scott, E.~W., and McFetridge, P.~S.}
+\newblock Adaptation of endothelial cells to physiologically-modeled, variable
+  shear stress.
+\newblock {\em PloS one 8}, 2 (2013), e57004.
+
+\bibitem{valen2013mind}
+{\sc Valen-Sendstad, K., and Steinman, D.}
+\newblock Mind the gap: impact of computational fluid dynamics solution
+  strategy on prediction of intracranial aneurysm hemodynamics and rupture
+  status indicators.
+\newblock {\em American Journal of Neuroradiology\/} (2013).
+
+\bibitem{varble2018stroke}
+{\sc Varble, N., Tutino, V., Yu, J., Sonig, A., Siddiqui, A., Davies, J., and
+  Meng, H.}
+\newblock Shared and distinct rupture disciminants of small and large
+  intracranial.
+\newblock {\em Stroke 49\/} (2018), 856--864.
+
+\bibitem{watton2011modelling}
+{\sc Watton, P., Selimovic, A., Raberger, N.~B., Huang, P., Holzapfel, G., and
+  Ventikos, Y.}
+\newblock Modelling evolution and the evolving mechanical environment of
+  saccular cerebral aneurysms.
+\newblock {\em Biomechanics and modeling in mechanobiology 10}, 1 (2011),
+  109--132.
+
+\bibitem{wen2014numerical}
+{\sc Wen, J., Ding, G., Jiang, W., Wang, Q., and Zheng, T.}
+\newblock Numerical simulation of compliant artery bypass grafts using
+  fluid--structure interaction framework.
+\newblock {\em Asaio Journal 60}, 5 (2014), 533--540.
+
+\bibitem{wolf2016bioengineered}
+{\sc Wolf, F., Vogt, F., Schmitz-Rode, T., Jockenhoevel, S., and Mela, P.}
+\newblock Bioengineered vascular constructs as living models for in vitro
+  cardiovascular research.
+\newblock {\em Drug discovery today 21}, 9 (2016), 1446--1455.
+
+\bibitem{Xiang144}
+{\sc Xiang, J., Natarajan, S.~K., Tremmel, M., Ma, D., Mocco, J., Hopkins,
+  L.~N., Siddiqui, A.~H., Levy, E.~I., and Meng, H.}
+\newblock Hemodynamic{\textendash}morphologic discriminants for intracranial
+  aneurysm rupture.
+\newblock {\em Stroke 42}, 1 (2011), 144--152.
+
+\bibitem{xiang2014effect}
+{\sc Xiang, J., Siddiqui, A., and Meng, H.}
+\newblock The effect of inlet waveforms on computational hemodynamics of
+  patient-specific intracranial aneurysms.
+\newblock {\em Journal of biomechanics 47}, 16 (2014), 3882--3890.
+
+\bibitem{xiong2011simulation}
+{\sc Xiong, G., Figueroa, C.~A., Xiao, N., and Taylor, C.~A.}
+\newblock Simulation of blood flow in deformable vessels using subject-specific
+  geometry and spatially varying wall properties.
+\newblock {\em International journal for numerical methods in biomedical
+  engineering 27}, 7 (2011), 1000--1016.
+
+\bibitem{xu2016exploring}
+{\sc Xu, L., Gu, L., and Liu, H.}
+\newblock Exploring potential association between flow instability and rupture
+  in patients with matched-pairs of ruptured--unruptured intracranial
+  aneurysms.
+\newblock {\em Biomedical engineering online 15}, 2 (2016), 166.
+
+\bibitem{zhou2017association}
+{\sc Zhou, G., Zhu, Y., Yin, Y., Su, M., and Li, M.}
+\newblock Association of wall shear stress with intracranial aneurysm rupture:
+  systematic review and meta-analysis.
+\newblock {\em Scientific reports 7}, 1 (2017), 5331.
+
+\end{thebibliography}

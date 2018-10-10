@@ -1,0 +1,21 @@
+\contentsline {chapter}{List of Figures}{ix}{section*.2}
+\contentsline {chapter}{List of Tables}{xi}{section*.3}
+\contentsline {chapter}{Preface}{xiii}{section*.4}
+\contentsline {chapter}{Acknowledgments}{xvii}{section*.5}
+\contentsline {chapter}{Definitions}{xix}{section*.6}
+\contentsline {chapter}{List of Abbreviations}{xxiii}{section*.7}
+\contentsline {chapter}{Abstract}{xxvii}{section*.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Section 1}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Subsection 1}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Subsection 2}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Section 2}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}Theory and Practice}{7}{chapter.2}
+\contentsline {chapter}{\numberline {3}Results and Discussion}{13}{chapter.3}
+\contentsline {chapter}{References}{23}{chapter*.22}
+\contentsline {chapter}{\numberline {A}Statistics}{45}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Section 1}{47}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Section 2}{47}{section.a.A.2}
+\contentsline {chapter}{\numberline {B}Sample Code}{49}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}HelloWorld.c}{50}{section.a.B.1}
+\contentsline {chapter}{\numberline {C}Letters of Permission}{51}{Appendix.a.C}

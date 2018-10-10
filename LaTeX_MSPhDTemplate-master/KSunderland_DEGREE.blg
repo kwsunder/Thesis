@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: KSunderland_DEGREE.aux
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: References/References.aux
+The style file: acm.bst
+A level-1 auxiliary file: Appendices/AppendixA.aux
+A level-1 auxiliary file: Appendices/AppendixB.aux
+A level-1 auxiliary file: Appendices/AppendixC.aux
+Database file #1: References/References.bib
+Warning--can't use both volume and number fields in castro2013wall
+Warning--empty title in XCrySDen1999
+Warning--empty title in MolDen2000
+You've used 115 entries,
+            2253 wiz_defined-function locations,
+            1227 strings with 29577 characters,
+and the built_in function-call counts, 44677 in all, are:
+= -- 4153
+> -- 2864
+< -- 0
++ -- 1174
+- -- 1054
+* -- 4140
+:= -- 7543
+add.period$ -- 342
+call.type$ -- 115
+change.case$ -- 865
+chr.to.int$ -- 0
+cite$ -- 118
+duplicate$ -- 1157
+empty$ -- 2999
+format.name$ -- 1054
+if$ -- 8817
+int.to.chr$ -- 0
+int.to.str$ -- 115
+missing$ -- 114
+newline$ -- 575
+num.names$ -- 228
+pop$ -- 714
+preamble$ -- 1
+purify$ -- 758
+quote$ -- 0
+skip$ -- 685
+stack$ -- 0
+substring$ -- 2684
+swap$ -- 293
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 454
+warning$ -- 3
+while$ -- 388
+width$ -- 118
+write$ -- 1152
+(There were 3 warnings)
