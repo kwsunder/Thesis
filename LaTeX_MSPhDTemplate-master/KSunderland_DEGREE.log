@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  10 OCT 2018 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.6)  11 OCT 2018 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,9 +1624,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
 \openout7 = `KSunderland_DEGREE.x.gnuplot'.
 
 runsystem(gnuplot KSunderland_DEGREE.x.gnuplot)...disabled (restricted).
@@ -1634,7 +1631,7 @@ runsystem(gnuplot KSunderland_DEGREE.x.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.x.table' not found. on 
-input line 103.
+input line 83.
 
 \openout7 = `KSunderland_DEGREE.sin.gnuplot'.
 
@@ -1642,7 +1639,7 @@ runsystem(gnuplot KSunderland_DEGREE.sin.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.sin.table' not found. o
-n input line 105.
+n input line 85.
 
 \openout7 = `KSunderland_DEGREE.exp.gnuplot'.
 
@@ -1650,26 +1647,28 @@ runsystem(gnuplot KSunderland_DEGREE.exp.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.exp.table' not found. o
-n input line 107.
+n input line 87.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-[6]
+ [4])
+[5]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (./Chapters/Chapter2.tex
+ (./Chapters/Chapter2.tex [6
+
+
+
+]
 Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
-
-
 
 
 ]
@@ -1685,7 +1684,7 @@ Histogram-eps-converted-to.pdf ./Figures/NearestNeighborsHistogram.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/NearestNeighborsHistogram-eps-converted-to.pdf, id=390, 467.7475pt x
+<./Figures/NearestNeighborsHistogram-eps-converted-to.pdf, id=399, 467.7475pt x
  407.5225pt>
 File: ./Figures/NearestNeighborsHistogram-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1706,7 +1705,7 @@ Histogram200-eps-converted-to.pdf ./Figures/NearestNeighborsHistogram200.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf, id=391, 467.7475p
+<./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf, id=400, 467.7475p
 t x 407.5225pt>
 File: ./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1762,7 +1761,7 @@ on-eps-converted-to.pdf ./Figures/RandomDistribution.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/RandomDistribution-eps-converted-to.pdf, id=445, 479.7925pt x 390.45
+<./Figures/RandomDistribution-eps-converted-to.pdf, id=454, 479.7925pt x 390.45
 876pt>
 File: ./Figures/RandomDistribution-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1792,7 +1791,7 @@ Package epstopdf Info: Source file: <./Figures/TurboProp.eps>
 nverted-to.pdf ./Figures/TurboProp.eps>
 (epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
- <./Figures/TurboProp-eps-converted-to.pdf, id=478, 578.16pt x 325.215pt>
+ <./Figures/TurboProp-eps-converted-to.pdf, id=487, 578.16pt x 325.215pt>
 File: ./Figures/TurboProp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/TurboProp-eps-converted-to.pdf>
@@ -1937,7 +1936,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `KSunderland_DEGREE.out' has not changed.
-(rerunfilecheck)             Checksum: 51231BA40439F22756312C8A534A0EB1;1184.
+(rerunfilecheck)             Checksum: D00B09ACA01E32CE6B7B0E351F47D106;1179.
 
 
 LaTeX Warning: There were undefined references.
@@ -1948,13 +1947,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 30690 strings out of 494910
- 592742 string characters out of 6179837
- 811921 words of memory out of 5000000
- 32904 multiletter control sequences out of 15000+600000
+ 30694 strings out of 494910
+ 592843 string characters out of 6179837
+ 811933 words of memory out of 5000000
+ 32907 multiletter control sequences out of 15000+600000
  20353 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,13n,394p,819b,1416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,394p,1047b,1416s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kevin/.texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1200.600pk> </home/k
 evin/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
@@ -1977,10 +1976,10 @@ msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KSunderland_DEGREE.pdf (83 pages, 817335 bytes).
+Output written on KSunderland_DEGREE.pdf (83 pages, 818355 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 758 compressed objects within 8 object streams
- 273 named destinations out of 1000 (max. 500000)
+ 912 PDF objects out of 1000 (max. 8388607)
+ 763 compressed objects within 8 object streams
+ 274 named destinations out of 1000 (max. 500000)
  347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
