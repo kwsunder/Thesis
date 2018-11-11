@@ -1,14 +1,17 @@
 \cleartooddpage[\thispagestyle{empty}]
 \chapter{Statistics}\label{APPENDIXA}
 
-Multiple logistic regression (MLR) analysis looks both to estimate the odds of a dichotomous outcome occurring, and to determine the effects of a specific covariate in relation to the other covariates in a model. The probability of an outcome occuring in MLR can be calculated as such:
+In this type of predictive modeling, there exists an input-output dataset (X,Y) $ \in X x Y$ w with an unknown probability distribution \textit{P}. The goal of predictive modeling is to find a function $f_n : X \rightarrow Y$, that is determined using a training set (X\textsubscript{1}, Y\textsubscript{1},...,(X\textsubscript{n}, Y\textsubscript{n}) of \textit{n} random pairs distributed as (X,Y). A desirable solution of \textit{f}\textsubscript{n} is one that, given a new data-point $x \in X$, the resultant \textit{f}\textsubscript{n}(x) is an accurate prediction of the true output $y \in Y$. This desired outcomes not only relies on the chosen function's predictive accuracy, but also of the selecting of relevant variables that are capable of achieving desired predictions. For desired models, it is often preferred to find the prediction function that achieves the desired accuracy while using the minimal amount of variables required: i.e a \textit{parsimonious} model. Brute-force methods of testing all variable combinations becomes increasingly unviable, especially when the number of variables in a dataset is larger than the number of \textit{n} data points (cases) available for analysis: often refereed to the "large \textit{p}, small \textit{n} paradigm". One type of methodology to determine a desired model is through the use of sparsity-based regularization methods \cite{tibshirani1996regression,frank1993bridge,tibshirani2002diagnosis,zou2005elastic}
+
+\section{Section 1}\label{Mult_log_regression}
+Multiple logistic regression (MLR) analysis looks both to estimate the odds of a dichotomous outcome occurring, and to determine the impact of an individual variable (covariate) in relation to the other covariates in a model. The probability of an outcome occurring in MLR can be calculated as such:
 
 \begin{equation}
 \hat{p} = \frac{exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}{1 + exp(b_0 + b_1 X_1 + b_2 X_2 + ... + b_p X_p)}
 \end{equation}
 
-\^{p} being the probability of the desired outcome, X\textsubscript{1} through X\textsubscript{p} as the individual dependent variables applied to the model, and b\textsubscript{1} to b\textsubscript{p} being the regression coefficients. 
-To determine the expected log odds ratios of the model's variables, the logit function of the above equation can be calculated:
+\^{p} being the probability of the desired outcome, X\textsubscript{1} through X\textsubscript{p} as the individual dependent variables applied to the model, and b\textsubscript{1} to b\textsubscript{p} being each variable's (respective) regression coefficients. 
+To determine the expected log odds ratios of the model's variables, the $logit$ function of the above equation can be calculated:
 
 \begin{equation}
 \begin{aligned}
@@ -20,20 +23,20 @@ logit[\hat{p}] & = ln[\frac{\hat{p}}{1-\hat{p}}] \\
 \end{aligned}
 \end{equation}
 
-Taking the logit of the event's (desired outcome) probability, transforms the occurrence of the event given X into a simplified linear function.
+Taking the $logit$ of the desired outcome's probability, transforms the occurrence of the event given Xs into a simplified linear function.
 
-For each variable added to a regression model, the resultant R\textsuperscript{2} (coefficient of multiple determination) increases, indication an improved fit of the data. However applying an large number of variables to a predictive model may result in overfitting: attempting to estimate too many parameters from too small a sample size. In an overfitted model, the regression coefficients and R\textsuperscript{2} values determined may lead to misleading outcomes. To reduce the initial choices of variables to apply to (eventual) predictive models, the correlation between variables were determined. The correlation of data can be determine by:
+For each variable added to a regression model, the resultant R\textsuperscript{2} (coefficient of multiple determination) may increase, indicating an improved fit of the data. However applying a large number of variables to a predictive model may result in over-fitting without a significantly large dataset: large \textit{p}, small \textit{n} paradigm. In such an event, the R\textsuperscript{2} values, regression coefficients, and any statistical significance (\textit{p}-values) determined may be misleading. To reduce the initial choices of variables in assessed predictive models, the correlation between variables were determined. The correlation of data can be determine by:
 
 \begin{equation}
 r_{jk} = \frac{s_{jk}}{s_j s_k} = \frac{\sum_{i=1}^{n}(x_{ij} - \overline{x}_j)(x_{ik} - \overline{x}_k)}{\sqrt{\sum_{i=1}^{n}(x_{ij} - \overline{x}_j)^2}{\sqrt{\sum_{i=1}^{n}(x_{ik} - \overline{x}_k)^2}}}
 \end{equation}
-with r as the Pearson correlation coefficient between variables x\textsubscript{j} and x\textsubscript{k}, n as the sample size, and $\overline{x}$ is a variable sample mean. Correlations between multiple variables are often displayed in a correlation table:
+with r as the Pearson correlation coefficient between variables x\textsubscript{j} and x\textsubscript{k}, n as the sample size, and $\overline{x}$ is a variable sample mean. Correlations between the variables are often displayed via a correlation table:
 
 \[
 R = 
 \begin{bmatrix}
     1       & r_{12} & r_{13} & \dots  & r_{1p} \\
-    r_{21}       & 1 & r_{23} & \dots  & r_{2p} \\
+    r_{21}  & 1      & r_{23} & \dots  & r_{2p} \\
     r_3{1}  & r_{32} & 1      & \dots  & r_{3p} \\
     \vdots  & \vdots & \vdots & \ddots & \dots  \\
     r_{p1}       & r_{p2}     & r_{p3} & \dots & 1
@@ -42,15 +45,13 @@ R =
 
 Initial correlation analysis of all available geometric and hemodynamic variables was performed to eliminate highly correlated variables from analysis: i.e aneurysm volume and surface area are highly correlated so surface area was removed from analysis. 
 
-From the remaining variables, stepwise MLR was implemented to determine the parsimonious model (ideal model with the fewest number of variables). First a linear regression is perfomred for each variable X one at a time, and the variable with the highest R\textsuperscript{2} is kept as the first variable. Next, a multiple regression step is performed with the first variable and each remaining variable, adding the subsequent variable with the largest increase in R\textsubscript{2}, if the \textit{p} value of the R\textsuperscript{2} is below a desired cuttoff ($<$0.05). The calculation of the \textit{p} value of an increase in R\textsuperscript{2} resulting from the increasing of X variable(s) from \textit{a} to \textit{b} is as follows:
+From the remaining variables, stepwise MLR was implemented to determine the parsimonious model. In stepwise regression, a linear regression is first performed for each variable X one at a time, and the variable with the highest R\textsuperscript{2} is kept for the model. Next, a multiple regression step is performed with the kept variable and each remaining variable. The variable with the largest increase in R\textsubscript{2}, if the \textit{p} value of the R\textsuperscript{2} is below a desired cuttoff ($<$0.05), is added to the model. The calculation of the \textit{p} value of an increase in R\textsuperscript{2} resulting from the increasing of X variable(s) from \textit{a} to \textit{b} is as follows:
 \begin{equation}
 p_{ab} = \frac{(R^2 _b - R^2 _a)/(b-a)}{(1-R^2 _b) / (n-b-1)}
 \end{equation}
 with the total sample size \textit{n}.
 
-Each time a new variable is added to the model, the impact of removing any of the other variables (already added to the model) on equation outcomes is tested. The chosen (removed) variable is excluded from the model if it does not make R\textsuperscript{2} significantly worse. This process is continued till adding any new X variables does not increase R\textsuperscript{2} and removing any X variables does not significantly decrease R\textsuperscript{2}
-
-
+Each time a new variable is added to the model, the impact of removing any of the other variables (already added to the model) on outcomes is tested. The chosen (removed) variable is excluded from the model if it does not make R\textsuperscript{2} significantly worse. This process is continued till adding any new variables does not increase R\textsuperscript{2} and removing any X variables does not significantly decrease R\textsuperscript{2}
 
 
 In the event that all of the independent variables in the model are completely uncorrelated with each other, the interpretation of coefficients are as such:
@@ -63,7 +64,68 @@ Where z is the number of unit changes for a variable X, and OR is the odds ratio
    in 
 Section \ref{APPENDIXA_SECTION1}.
 
-\section{Section 1}\label{ROC_Curve}
+\section{Section 2}\label{Nearest Shrunken Centroid}
+Limitations may arise in applying multiple logistic regression analysis to data sets with a large number of variables in relation to the number of samples.
+
+
+According to Tibshirani et.al. \cite{tibshirani2002diagnosis} the NSC method shrinks each class' centroid toward the overall centroids after standardization using the within-class standard deviation for each variable. Standardizing the resultant centroid gives higher impact to variables whose expression is more stable withing samples of the same class. 
+
+For the NSC method: \textit{x\textsubscript{ij}} is the measured value for each input \textit{i}  = 1, 2, ...\textit{p} for each sample \textit{j}=1, 2, ...n, with classes (in this case, rupture status) 1, 2, ....K and \textit{C\textsubscript{k}} as the indices of the \textit{n\textsubscript{k}} samples in class k. For each class \textit{k}, its \textit{i}th component of the centroid is $\overline{\mbox{\textit{x}}}\textsubscript{ik} = \sum_{j\in \textit{C\textsubscript{k}}} \textit{x\textsubscript{jk}}/\textit{n\textsubscript{k}}$, calculating the mean expression value in \textit{k} for variable \textit{i}. The \textit{i}th component of the overall centroid is $\overline{\mbox{\textit{x}}}\textsubscript{i} = \sum_{j=1}^{n} \textit{x\textsubscript{ij}} / \textit{n}$.
+
+Taking into account the standardization of centroid, the standardization factor is calculated as:
+
+\begin{equation} \label{NSC_d}
+d_{ik} = \frac{\overline{x}_{ik} - \overline{x}_i}{m_k \cdot (s_i + s_0)}
+\end{equation}
+
+where \textit{s}\textsubscript{i} is the within-class standard deviation (for the variable \textit{i}):
+
+\begin{equation}
+s_i^2 = \frac{1}{n-K} \sum_k \sum_{j \in C_k} (x_{ij} - \overline{x}_{ik})^2
+m_k = \sqrt{\frac{1}{n_k} + \frac{1}{n}}
+\end{equation}
+
+The value of $m_k \cdot s_i$ equal to the estimated standard error of the numerator of \textit{d}\textsubscript{ik}. The value of \textit{s}\textsubscript{0} is kept as a positive constant to protect against the occurrence of a large \textit{d}\textsubscript{ik} from variables with low levels of expression. The median value of \textit{s}\textsubscript{i} over the variables is used to set the value of \textit{s}\textsubscript{0}.
+
+The calculation of \textit{d}ik acts as a \textit{t} statistics for the variables, comparing each class \textit{k} to the overall centroid. This leads to a re-write of \ref{NSC_d} as:
+
+\begin{equation} \label{NSC_drw}
+\overline{x}_{ik} = \overline{x}_i + m_k (s_i + s_0)d_{ik}
+\end{equation}
+
+The value of \textit{d}\textsubscript{ik} is shrunk toward zero where:
+\begin{equation} \label{NSC_drw_shrunk}
+\overline{x}_{ik}' = \overline{x}_i + m_k (s_i + s_0)d_{ik}'
+\end{equation}
+
+The level of shrinkage (thresholding) for \textit{d}\textsubscript{ik} is determined by a value $\Delta$ and is set to zero if the value is negative. The thresholding is calculated as:
+
+\begin{equation} \label{NSC_threshold}
+d_{ik}' = sign(d_{ik})(|d_{ik}| - \Delta)_+
+\end{equation}
+with + identifying the positive aspect of the threshold.
+
+The thresholding of \textit{d}\textsubscript{ik} results in the elimination of a number of variables from prediction model(s) as $\Delta$ increases. The remove a variable from a model is decided if, as (for a variable \textit{i}), \textit{d}\textsubscript{ik} is shrunken to zero for all \textit{k} which results in the centroid for variable $\overline{\mbox{x}}_i$ being the same for all \textit{k}. This results in a variable does not contribute to the nearest-centroid calculation. The ideal value of $\Delta$ for a model is chosen by cross-validation. THe threshold value that gives the minim cross-validated misclassification error is chosen as the final threshold.
+
+\section{Section 3}\label{Elasitc Net Regularization}
+Elastic Net Regularization (ENR) overcomes some of the limitations of the LASSO selection method, primarily being able to accurately handle data sets with a high number of variables in relation to the sample size \cite{tibshirani1996regression,efron2004least}. Additionally, the ENR method is able to handle data sets with groups of highly correlated variables. 
+
+ENR solves two optimization problems:
+\begin{equation} \label{ENR_optimization}
+\begin{aligned}
+&\tilde{\beta} = \text{arg min}_\beta \sum_{i=1}^{N} (y_i - (X\beta)_i)^2 \\
+&\text{subject to} \sum_{j=1}^{p} |\beta_j | \le t_1 \text{ and } \sum_{j=1}^{p} \beta_j^2 \le t_2
+\end{aligned}
+\end{equation}
+were a penalty is places on the \textit{L}\textsubscript{i} norm$(\sum_{j=1}^{p} |\beta_j|)$ and the \textit{L}\textsubscript{2} norm $(\sum_{j=1}^{p}\beta_{j}^{2} \le t_2$ of the regression coefficients. The purpose of these penalties are as follows: \textit{L}\textsubscript{1} performs variable selection by setting some coefficients to 0, and \textit{L}\textsubscript{2} works toward group selection by shrinking the coefficients of correlated variables toward each other. Re-writing equation \ref{ENR_optimization} in the Lagrangian form using two tuning parameters $(lambda_1 \text{ and } \lambda_2)$ is as follows:
+\begin{equation} \label{ENR_lagrangian}
+\tilde{\beta} = \text{arg min}_\beta \left(\sum_{i=1}^{N} (y_i - (X\beta)_i)^2 + \lambda_1 \sum_{j=1}^{p} |\beta_j| + \lambda_2 \sum_{j=1}^{p} \beta_{j}^{2}\right)
+\end{equation}
+
+The choice of tuning parameter values is performed by analyzing an array of $\lambda_2$ values (0, 0.01, 0.1, 1, 10, and 100). For each value in the array, the LARS-EN algorithm calculates the resultant $\lambda_1$ value. The $lambda_1$ value that yields the smallest \textit{k}-fold cross validation error, and its $lambda_2$ value used to generate it, are used as the tunning parameters for the ENR method.
+
+
+\section{Section 4}\label{Reciever Operator Characterisitics}
 To assess the diagnostic ability of predictive model(s), a receiver operating characteristic curve (ROC) is often deployed (REFERENCES). The ROC curve assesses a model's predictive true positive rate (TPR) against its false positive rate (FPR) as a means to determine overall predictive strength (HANLEY). From a statistical perspective, ROC analysis can be considered as a plot of the power (probability of a test correctly rejecting the null hypothesis when an alternative hypothesis is true) 
 
 \begin{equation}
@@ -74,22 +136,27 @@ To assess the diagnostic ability of predictive model(s), a receiver operating ch
 & Specificity = \frac{\Sigma True Negative}{\Sigma Condition Negative} 
 \end{aligned}
 \end{equation}
-When dealing with a binary classification, as per this study, the prediction for each instance is based on a continuous random variable (x), which is the value computed for each instance. Given a desired threshold (T), each instance is positive if x$>$T (and negative if x$<$T). As the value of x is akin to a probability density function each instance can be considered positive when f\textsubscript{1}(x). Given this, TPR is calculated as:
+When dealing with a binary classification, as per this study, the predictive test measure for  each instance is denoted by a continuous random variable (x). Given a desired threshold (T), each instance is positive if x$>$T and negative if x$<$T. Setting the probability distribution functions of the positive and negative values of x to f\textsubscript{p}(x) and f\textsubscript{n}(x) respectively, the . Given this, TPR is calculated as:
 
 \begin{equation}
-TPR(T) = \int_{T}^{\infty} f_1(x) dx
+TPR(T) = \int_{T}^{\infty} f_p(x) dx
 \end{equation}
 
 and the FNR as:
  
 \begin{equation}
-FPR(T) = \int_{T}^{\infty} f_0(x) dx
+FPR(T) = 1- \int_{T}^{\infty} f_n(x) dx
 \end{equation}
 
-The ROC curve is generated by plotting TPR(T) against FPR(T) parametrically, varying across T.
+The ROC curve is generated by plotting TPR(T) against FPR(T) parametrically, varying across T, or as a plot of:
 
+\begin{equation}
+ROC(T) = 1 - f_p(f_n ^{-1} (1-T))
+\end{equation}
 
-Comparing the resultant ROC curves across model conditions provides the capability to select a desired model based off of varying predictive accuracies. To quantify the predictive accuracy, the area under the curve (AUC) of the ROC curve is calculated, as it equals the probability of a classifier ranking a positive instance higher than a negative instance (both chosen at random).
+over T from [0,1] where $f_p$\textsuperscript{-1}(1-T) = inf
+
+Comparing the resultant ROC curves across multiple models provides the selection of the desired model based off of varying predictive accuracies. To quantify the predictive accuracy, the area under the curve (AUC) of the ROC curve is calculated, as it equals the probability of a classifier ranking a positive instance higher than a negative instance (both chosen at random).
 
 \begin{equation}
 \begin{aligned}
@@ -103,7 +170,7 @@ The initial integral has reversed boundaries due to larger T values having a low
   
 
 
-\section{Section 2}\label{APPENDIXA_SECTION2}
+\section{Section 5}\label{APPENDIXA_SECTION2}
 
 Docendi eligendi sit et, pri ea dicam eligendi percipitur, has soleat
 dolores convenire te. Sed altera placerat an, id verterem abhorreant

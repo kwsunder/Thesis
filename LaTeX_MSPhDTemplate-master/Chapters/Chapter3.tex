@@ -1,5 +1,40 @@
 \cleartooddpage[\thispagestyle{empty}]
-\chapter{Results and Discussion}\label{CHAPTER3}
+\chapter{Vortex Analysis to predict IA Initiation}\label{CHAPTER3}
+
+The tangential, frictional stress caused by blood flowing along the vessel wall is known as WSS. The ANSYS-FLUENT software calculates WSS by the normal velocity gradient at the vessel wall:
+	\begin{equation}
+\tau\textsubscript{w} = \mu\frac{\partial v}{\partial n}
+	\end{equation}
+where $\mu$ is the dynamic viscosity. In this work, areas of high WSS were of interest as it is thought to play a role in the IA initiation \cite{Meng1254}. High WSS was defined as values $\ge$ 20 Pa during peak systole of the MRI waveform.
+
+The WSSG was calculated using in-house VMTK scripts and is derived from three spatial derivatives of the WSS as follows:
+	\begin{equation}
+WSSG = \sqrt{(\frac{\partial{\tau_{w}}}{\partial{x}})^2 + (\frac{\partial{\tau_{w}}}{\partial{y}})^2 + (\frac{\partial{\tau_{w}}}{\partial{z}})^2}
+	\end{equation}
+with the time-averaged WSSG calculated as
+	\begin{equation}
+WSSG\textsubscript{av} = \frac{1}{T}\int_{0}^{T} | WSSG | dt
+	\end{equation}
+	
+OSI is a nondimentional parameter, computing oscillations in the direction of the WSS vectors over the course of a cardiac cycle:
+	\begin{equation}
+OSI=\frac{1}{2}\left\{1-\frac{| \int_{0}^{T} \mathrm{\tau}_{i}dt |}{\int_{0}^{T} | \mathrm{\tau}_{i} | dt}\right\}
+	\end{equation}
+were $\tau\textsubscript{i}$ represents the WSS vector at a given time step across the duration of the cardiac cycle (T). The OSI describes the changes of a WSS vector's alignment with the cardiac cycle's temporally-averaged WSS vector. An OSI of 0 indicates no change in directionality and 0.5 being a complete direction reversal. 
+
+The AFI \cite{Mantha1113} quantifies the variation in angle between the instantaneous WSS vector and time-averaged WSS vector:
+	\begin{equation}
+AFI=cos(\theta)=\frac{\mathrm{\tau}_{i}\cdot \mathrm{\tau}_{av}}{| \mathrm{\tau}_{i} |*| \mathrm{\tau}_{av}|}
+	\end{equation}
+For each point along the vessel wall, the minimum AFI calculated during the cardiac cycle was used to indicate the greatest deviation of the WSS vector from its mean direction. A minimum AFI of -1, 0, and 1 indicate deviations of 180\textdegree, 90\textdegree, and 0\textdegree respectively.
+
+The GON index \cite{Shimogonya2009} quantifies fluctuations in WSSG directionality over the cardiac cycle. 
+	\begin{equation}
+GON=1-\frac{|\int_{0}^{T}Gdt|}{\int_{0}^{T}| G | dt}
+	\end{equation}
+T is the period of the cardiac cycle and G is the spatial wall shear stress gradient vector
+
+
 
 Lorem ipsum dolor sit amet, at qui viderer recusabo aliquando, dignissim 
 evertitur ei his. Ignota iuvaret fabulas ei vim. Ne utinam inciderint quo. 

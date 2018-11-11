@@ -10,48 +10,53 @@ A level-1 auxiliary file: Appendices/AppendixA.aux
 A level-1 auxiliary file: Appendices/AppendixB.aux
 A level-1 auxiliary file: Appendices/AppendixC.aux
 Database file #1: References/References.bib
+Warning--I didn't find a database entry for "Korja1958"
+Warning--I didn't find a database entry for "Mantha1113"
+Warning--I didn't find a database entry for "Shimogonya2009"
 Warning--can't use both volume and number fields in castro2013wall
+Warning--empty journal in hunt1988eddies
 Warning--empty title in XCrySDen1999
+Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
-You've used 117 entries,
+You've used 147 entries,
             2253 wiz_defined-function locations,
-            1238 strings with 29991 characters,
-and the built_in function-call counts, 45371 in all, are:
-= -- 4223
-> -- 2898
+            1406 strings with 35945 characters,
+and the built_in function-call counts, 56685 in all, are:
+= -- 5330
+> -- 3508
 < -- 0
-+ -- 1189
-- -- 1066
-* -- 4204
-:= -- 7657
-add.period$ -- 348
-call.type$ -- 117
-change.case$ -- 877
++ -- 1445
+- -- 1286
+* -- 5238
+:= -- 9510
+add.period$ -- 437
+call.type$ -- 147
+change.case$ -- 1077
 chr.to.int$ -- 0
-cite$ -- 120
-duplicate$ -- 1175
-empty$ -- 3051
-format.name$ -- 1066
-if$ -- 8955
+cite$ -- 152
+duplicate$ -- 1474
+empty$ -- 3871
+format.name$ -- 1286
+if$ -- 11220
 int.to.chr$ -- 0
-int.to.str$ -- 117
-missing$ -- 116
-newline$ -- 585
-num.names$ -- 232
-pop$ -- 722
+int.to.str$ -- 147
+missing$ -- 146
+newline$ -- 734
+num.names$ -- 292
+pop$ -- 873
 preamble$ -- 1
-purify$ -- 768
+purify$ -- 938
 quote$ -- 0
-skip$ -- 695
+skip$ -- 880
 stack$ -- 0
-substring$ -- 2739
-swap$ -- 297
+substring$ -- 3601
+swap$ -- 375
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 462
-warning$ -- 3
-while$ -- 396
-width$ -- 120
-write$ -- 1172
-(There were 3 warnings)
+type$ -- 582
+warning$ -- 5
+while$ -- 509
+width$ -- 150
+write$ -- 1471
+(There were 8 warnings)

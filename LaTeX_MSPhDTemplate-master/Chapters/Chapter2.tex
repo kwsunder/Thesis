@@ -1,21 +1,43 @@
 \cleartooddpage[\thispagestyle{empty}]
-\chapter{Theory and Practice}\label{CHAPTER2}
+\chapter{Hemodynamic Flow Vortex Identification}\label{CHAPTER2}
 
-Lorem ipsum dolor sit amet, at qui viderer recusabo aliquando, dignissim 
-evertitur ei his. Ignota iuvaret fabulas ei vim. Ne utinam inciderint quo. 
-Pri ea congue postulant conclusionemque. \cite{SMEAGOL_02}
-Discere dissentiet vel et, soluta nostrum epicurei ad eam, cu has aperiam
-vituperata. 
 
-At vix indoctum disputando. Eam cu doctus reprimique, quaeque democritum 
-an eos, sit veniam facete dissentias id. Tale volumus eos te, an eum nulla 
-tincidunt. Mea id recteque theophrastus.
+
 \begin{equation}
-  d\nu \;=\; \frac{N}{V}\:\left( \frac{m}{2\pi\:kT} \right)^{3/2}\;
-             e^{-mv^2/2kT}\;v^3\;
-             \sin\theta\;\cos\theta\;d\theta\;d\phi\;dv
-  \label{CHAPTER2_EQN01}
+\begin{aligned}
+\nabla \vec{u} & = S + \Omega \\
+  			   & S = \frac{1}{2}\left[(\nabla \vec{u}) + (\nabla \vec{u})^T\right] \\
+  			   & \Omega = \left[\frac{1}{2}(\nabla \vec{u}) - (\nabla \vec{u}^T)\right]
+\end{aligned}
+ \label{CHAPTER2_velocity_gradient_tensor}
 \end{equation}
+
+Where $\nabla\vec{u}$ is the calculation of the velocity gradient: S as the rate-of-strain tensor and $\Omega$ as the vorticity tensor.
+
+Hunt, Wray and Moin \cite{hunt1988eddies} defined a vortex as the spatial region of flow where  the Euclidean norm of the vorticity tensor dominates.
+\begin{equation}
+Q = \frac{1}{2}\left[|\Omega|^2 - |S|^2\right] > 0
+\label{CHAPTER2_Q}
+\end{equation}
+
+Jeong and Hussain identified the vortices as:
+\begin{equation}
+\lambda_2 = (S^2 + \Omega^2) < 0
+\label{CHAPTER2_lambda2}
+\end{equation}
+where $\lambda_2{A}$ identifies a vortex when the second intermediate eigenvalue of the 3 x 3 tensor \textit{A} is symmetric (all three eigenvalues are real). 
+
+In our original study, the normalized Q and $\lambda_2$ values were tested to identify vortices within IAs.
+
+\begin{equation}
+\begin{aligned}
+&Q(x,t) = \frac{Q(x,t)}{|\vec{u}(x,t)|^2} \\
+&\lambda_2 (x,t) = \frac{\lambda_2 (x,t)}{|\vec{u}(x,t)|^2}
+\end{aligned}
+\label{CHAPTER2_normalized_Q_lambda2}
+\end{equation}
+
+
 
 Eirmod malorum vis ei. Choro euismod incorrupte in vim, ludus ornatus vis ex. 
 Hinc wisi impedit eum no, vocent definiebas referrentur in quo. Sanctus 

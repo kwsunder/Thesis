@@ -19,6 +19,20 @@
 \newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
   1999.
 
+\bibitem{antiga2004robust}
+{\sc Antiga, L., and Steinman, D.~A.}
+\newblock Robust and objective decomposition and mapping of bifurcating
+  vessels.
+\newblock {\em IEEE transactions on medical imaging 23}, 6 (2004), 704--713.
+
+\bibitem{Aoki2016}
+{\sc Aoki, T., Yamamoto, K., Fukuda, M., Shimogonya, Y., Fukuda, S., and
+  Narumiya, S.}
+\newblock Sustained expression of mcp-1 by low wall shear stress loading
+  concomitant with turbulent flow on endothelial cells of intracranial
+  aneurysm.
+\newblock {\em Acta Neuropathologica Communications 4}, 1 (2016), 48.
+
 \bibitem{Backes951}
 {\sc Backes, D., Rinkel, G.~J., Laban, K.~G., Algra, A., and Vergouwen, M.~D.}
 \newblock Patient- and aneurysm-specific risk factors for intracranial aneurysm
@@ -239,6 +253,18 @@
 \newblock {\em CRYSTAL 09 User's Manual}.
 \newblock University of Torino, Italy, 2009.
 
+\bibitem{duan2018morphological}
+{\sc Duan, Z., Li, Y., Guan, S., Ma, C., Han, Y., Ren, X., We, L., Li, W., Lo,
+  J., and Yang, Z.}
+\newblock Morphological parameters and anatomical locations associated with
+  rupture status of small intracranial aneurysms.
+\newblock {\em Scientific reports 8\/} (2018).
+
+\bibitem{efron2004least}
+{\sc Efron, B., Hastie, T., Johnstone, I., Tibshirani, R., and et. al.}
+\newblock Least angle regression.
+\newblock {\em The Annals of statistics 32}, 2 (2004), 407--499.
+
 \bibitem{elad2004physical}
 {\sc Elad, D., and Einav, S.}
 \newblock Physical and flow properties of blood.
@@ -264,6 +290,13 @@
 \newblock Multiscale 3-d+ t intracranial aneurysmal flow vortex detection.
 \newblock {\em IEEE Trans. Biomed. Engineering 62}, 5 (2015), 1355--1362.
 
+\bibitem{ford2009objective}
+{\sc Ford, M., Hoi, Y., Piccinelli, M., Antiga, L., and Steinman, D.}
+\newblock An objective approach to digital removal of saccular aneurysms:
+  technique and applications.
+\newblock {\em The British Journal of Radiology 82}, special\_issue\_1 (2009),
+  S55--S61.
+
 \bibitem{ford2005characterization}
 {\sc Ford, M.~D., Alperin, N., Lee, S.~H., Holdsworth, D.~W., and Steinman,
   D.~A.}
@@ -282,6 +315,12 @@
 {\sc Frigo, M., and Johnson, S.~G.}
 \newblock {The Design and Implementation of FFTW3}.
 \newblock In {\em Proceedings of the IEEE\/} (2005), vol.~93, p.~216.
+
+\bibitem{fung2000residence}
+{\sc Fung, J. C.~H.}
+\newblock Residence time of inertial particles in a vortex.
+\newblock {\em Journal of Geophysical Research: Oceans 105}, C6 (2000),
+  14261--14272.
 
 \bibitem{GABRIEL2017195}
 {\sc Gabriel, S.~A., Ding, Y., and Feng, Y.}
@@ -385,16 +424,41 @@
 \newblock {VMD - Visual Molecular Dynamics}.
 \newblock {\em Journal of Molecular Graphics 14\/} (1996), 33.
 
+\bibitem{hunt1988eddies}
+{\sc Hunt, J.~C., Wray, A.~A., and Moin, P.}
+\newblock Eddies, streams, and convergence zones in turbulent flows.
+
 \bibitem{huo2009effects}
 {\sc Huo, Y., Choy, J.~S., Svendsen, M., Sinha, A.~K., and Kassab, G.~S.}
 \newblock Effects of vessel compliance on flow pattern in porcine epicardial
   right coronary arterial tree.
 \newblock {\em Journal of biomechanics 42}, 5 (2009), 594--602.
 
+\bibitem{frank1993bridge}
+{\sc Ildiko, F.~E., and Friedman, J.~H.}
+\newblock A statistical view of some chemometrics regression tools.
+\newblock {\em Technometrics 35}, 2 (1993), 109--135.
+
+\bibitem{jeong1995identification}
+{\sc Jeong, J., and Hussain, F.}
+\newblock On the identification of a vortex.
+\newblock {\em Journal of fluid mechanics 285\/} (1995), 69--94.
+
 \bibitem{jiang2005detection}
 {\sc Jiang, M., Machiraju, R., and Thompson, D.}
 \newblock Detection and visualization of vortices.
 \newblock {\em The visualization handbook 295\/} (2005).
+
+\bibitem{forget2001review}
+{\sc Jr, T. R.~F., Benitez, R., Veznedaroglu, E., Sharan, A., Mitchell, W.,
+  Silva, M., and Rosenwasser, R.~H.}
+\newblock A review of size and location of ruptured intracranial aneurysms.
+\newblock {\em Neurosurgery 49}, 6 (2001), 1322--1326.
+
+\bibitem{Juvela392}
+{\sc Juvela, S.}
+\newblock Risk factors for multiple intracranial aneurysms.
+\newblock {\em Stroke 31}, 2 (2000), 392--397.
 
 \bibitem{juvela2013natural}
 {\sc Juvela, S., Poussa, K., Lehto, H., and Porras, M.}
@@ -419,6 +483,12 @@
   hemodynamics: impact of solver numerics versus mesh and time-step resolution.
 \newblock {\em American Journal of Neuroradiology\/} (2015).
 
+\bibitem{Kim2006}
+{\sc Kim, M.-C., Nam, J.~H., and Lee, C.-S.}
+\newblock Near-wall deposition probability of blood elements as a new
+  hemodynamic wall parameter.
+\newblock {\em Annals of Biomedical Engineering 34}, 6 (Jun 2006), 958--970.
+
 \bibitem{kohler2013semi}
 {\sc K{\"o}hler, B., Gasteiger, R., Preim, U., Theisel, H., Gutberlet, M., and
   Preim, B.}
@@ -427,9 +497,28 @@
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics 19}, 12
   (2013), 2773--2782.
 
+\bibitem{kolavr2007vortex}
+{\sc Kol{\'a}{\v{r}}, V.}
+\newblock Vortex identification: New requirements and limitations.
+\newblock {\em International journal of heat and fluid flow 28}, 4 (2007),
+  638--652.
+
 \bibitem{XCrySDen1999}
 {\sc Kolkaji, A.}
 \newblock {\em Molecular Graphics Modelling 17\/} (1999), 176.
+
+\bibitem{komotar2008guidelines}
+{\sc Komotar, R.~J., Mocco, J., and Solomon, R.~A.}
+\newblock Guidelines for the surgical treatment of unruptured intracranial
+  aneurysms: the first annual j. lawrence pool memorial research
+  symposium—controversies in the management of cerebral aneurysms.
+\newblock {\em Neurosurgery 62}, 1 (2008), 183--194.
+
+\bibitem{Korja2014}
+{\sc Korja, M., Lehto, H., and Juvela, S.}
+\newblock Lifelong rupture risk of intracranial aneurysms depends on risk
+  factors.
+\newblock {\em Stroke 45}, 7 (2014), 1958--1963.
 
 \bibitem{Kotowski42}
 {\sc Kotowski, M., Naggara, O., Darsaut, T.~E., Nolet, S., Gevry, G.,
@@ -492,6 +581,26 @@
   overview of a complex scenario.
 \newblock {\em World Neurosurgery 105\/} (2017), 632 -- 642.
 
+\bibitem{lorensen1987marching}
+{\sc Lorensen, W.~E., and Cline, H.~E.}
+\newblock Marching cubes: A high resolution 3d surface construction algorithm.
+\newblock In {\em ACM siggraph computer graphics\/} (1987), vol.~21, ACM,
+  pp.~163--169.
+
+\bibitem{ma2010size}
+{\sc Ma, D., Tremmel, M., Paluch, R.~A., Levy, E. L.~I., Meng, H., and Mocco,
+  J.}
+\newblock Size ratio for clinical assessment of intracranial aneurysm rupture
+  risk.
+\newblock {\em Neurological research 32}, 5 (2010), 482--486.
+
+\bibitem{ma2014graph}
+{\sc Ma, J., Wang, C., Shene, C.-K., and Jiang, J.}
+\newblock A graph-based interface for visualanalytics of 3d streamlines and
+  pathlines.
+\newblock {\em IEEE transactions on visualization and computer graphics 20}, 8
+  (2014), 1127--1140.
+
 \bibitem{mannino2015yourself}
 {\sc Mannino, R.~G., Myers, D.~R., Ahn, B., Wang, Y., Rollins, M., Gole, H.,
   Lin, A.~S., Guldberg, R.~E., Giddens, D.~P., Timmins, L.~H., and et. al.}
@@ -513,6 +622,13 @@
 \newblock Predictors of treatment failure following coil embolization of
   intracranial aneurysms.
 \newblock {\em Journal of Clinical Neuroscience 22}, 8 (2015), 1275--1281.
+
+\bibitem{Meng1254}
+{\sc Meng, H., Tutino, V.~M., Xiang, J., and Siddiqui, A.}
+\newblock High wss or low wss? complex interactions of hemodynamics with
+  intracranial aneurysm initiation, growth, and rupture: Toward a unifying
+  hypothesis.
+\newblock {\em American Journal of Neuroradiology 35}, 7 (2014), 1254--1262.
 
 \bibitem{Miura519}
 {\sc Miura, Y., Ishida, F., Umeda, Y., Tanemura, H., Suzuki, H., Matsushima,
@@ -579,6 +695,13 @@
 \newblock Vascular wall shear stress: basic principles and methods.
 \newblock {\em Hellenic J Cardiol 46}, 1 (2005), 9--15.
 
+\bibitem{piccinelli2012characterization}
+{\sc Piccinelli, M., Steinman, D.~A., Hoi, Y., Tong, F., Veneziani, A., and
+  Antiga, L.}
+\newblock Automatic neck plane detection and 3d geometric characterization of
+  aneurysmal sacs.
+\newblock {\em Annals of BIomedical Engineering 40}, 10 (2012), 2188--2211.
+
 \bibitem{LAMMPS_01}
 {\sc Plimpton, S.~J.}
 \newblock {Fast Parallel Algorithms for Short-Range Molecular Dynamics}.
@@ -601,6 +724,12 @@
 \newblock {\em {R: A Language and Environment for Statistical Computing}}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria, 2011.
 
+\bibitem{rinne1994multiple}
+{\sc Rinne, J., Hernesniemi, J., Puranen, M., and Saari, T.}
+\newblock Multiple intracranial aneurysms in a defined population: prospective
+  angiographic and clinical study.
+\newblock {\em Neurosurgery 35}, 5 (1994), 803--808.
+
 \bibitem{SMEAGOL_02}
 {\sc Rocha, A.~R.}
 \newblock {\em {Theoretical and Computational Aspects of Electronic Transport
@@ -622,6 +751,14 @@
   smooth muscle cells.
 \newblock {\em Journal of neuroinflammation 13}, 1 (2016), 185.
 
+\bibitem{schafhitzel2008topology}
+{\sc Schafhitzel, T., Vollrath, J.~E., Gois, J.~P., Weiskopf, D., Castelo, A.,
+  and Ertl, T.}
+\newblock Topology-preserving $\lambda$2-based vortex core line detection for
+  flow visualization.
+\newblock In {\em Computer Graphics Forum\/} (2008), vol.~27, Wiley Online
+  Library, pp.~1023--1030.
+
 \bibitem{MolDen2000}
 {\sc Schaftenaar, G., and Noordik, J.~H.}
 \newblock {\em Journal of Computer-Aided Molecular Design 14\/} (2000), 123.
@@ -630,6 +767,12 @@
 {\sc Sforza, D.~M., Putman, C.~M., and Cebral, J.~R.}
 \newblock Hemodynamics of cerebral aneurysms.
 \newblock {\em Annual review of fluid mechanics 41\/} (2009), 91--107.
+
+\bibitem{shannon2001mathematical}
+{\sc Shannon, C.~E.}
+\newblock A mathematical theory of communication.
+\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review 5}, 1
+  (2001), 3--55.
 
 \bibitem{SIESTA_01}
 {\sc Soler, J.~M., Artacho, E., Gale, J.~D., Garc\'{i}a, A., Junquera, J.,
@@ -642,6 +785,25 @@
 \newblock Identification of swirling flow in 3-d vector fields.
 \newblock In {\em 12th Computational Fluid Dynamics Conference\/} (1995),
   p.~1715.
+
+\bibitem{sunderland2016vortex}
+{\sc Sunderland, K., Haferman, C., Chintalapani, G., and Jiang, J.}
+\newblock Vortex analysis of intra-aneurismal flow in cerebral aneurysms.
+\newblock {\em Computational and Mathematical Methods in Medicine 2016\/}
+  (2016).
+
+\bibitem{tibshirani1996regression}
+{\sc Tibshirani, R.}
+\newblock Regression shrinkage and selection via the lasso.
+\newblock {\em Journal of the Royal Statistical Society. Series B
+  (Methodological)\/} (1996), 267--288.
+
+\bibitem{tibshirani2002diagnosis}
+{\sc Tibshirani, R., Hastie, T., Narasimhan, B., and Chu, G.}
+\newblock Diagnosis of multiple cancer types by shrunken centroids of gene
+  expression.
+\newblock {\em Proceedings of the National Academy of Sciences 99}, 10 (2002),
+  6567--6572.
 
 \bibitem{turjman2014role}
 {\sc Turjma, A.~S., Turjman, F., and Edelman, E.~R.}
@@ -703,6 +865,11 @@
   fluid--structure interaction framework.
 \newblock {\em Asaio Journal 60}, 5 (2014), 533--540.
 
+\bibitem{williams2013management}
+{\sc Williams, L.~N., and Brown, R.~D.}
+\newblock Management of unruptured intracranial aneurysms.
+\newblock {\em Neurology: Clinical Practice 3}, 2 (2013), 99--108.
+
 \bibitem{wolf2016bioengineered}
 {\sc Wolf, F., Vogt, F., Schmitz-Rode, T., Jockenhoevel, S., and Mela, P.}
 \newblock Bioengineered vascular constructs as living models for in vitro
@@ -736,10 +903,28 @@
   aneurysms.
 \newblock {\em Biomedical engineering online 15}, 2 (2016), 166.
 
+\bibitem{xu2010information}
+{\sc Xu, L., Lee, T.-Y., and Shen, H.-W.}
+\newblock An information-theoretic framework for flow visualization.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics 16}, 6
+  (2010), 1216--1224.
+
+\bibitem{yasuda2011aneurysm}
+{\sc Yasuda, R., Strother, C.~M., Taki, W., Shinki, K., Royalty, K., Pulfer,
+  K., and Karmonik, C.}
+\newblock Aneurysm volume-to-ostium area ratio: a parameter useful for
+  discriminating the rupture status of intracranial aneurysms.
+\newblock {\em Neurosurgery 68}, 2 (2011), 310--318.
+
 \bibitem{zhou2017association}
 {\sc Zhou, G., Zhu, Y., Yin, Y., Su, M., and Li, M.}
 \newblock Association of wall shear stress with intracranial aneurysm rupture:
   systematic review and meta-analysis.
 \newblock {\em Scientific reports 7}, 1 (2017), 5331.
+
+\bibitem{zou2005elastic}
+{\sc Zou, H., and Hastie, T.}
+\newblock Regularization and variable selection via the elastic net.
+\newblock {\em J.R. Statist. Soc. B\/} (2005), 301--320.
 
 \end{thebibliography}
