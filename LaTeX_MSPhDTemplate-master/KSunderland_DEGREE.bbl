@@ -11,6 +11,12 @@
 \newblock Spatial and temporal dynamics of the endothelium.
 \newblock {\em Journal of Thrombosis and Haemostasis 3}, 7 (2005), 1392--1406.
 
+\bibitem{ALSOUDI2017951}
+{\sc Al-Soudi, A., Kaaij, M., and Tas, S.}
+\newblock Endothelial cells: From innocent bystanders to active participants in
+  immune responses.
+\newblock {\em Autoimmunity Reviews 16}, 9 (2017), 951 -- 962.
+
 \bibitem{LAPACK_00}
 {\sc Anderson, E., Bai, Z., Bischof, C., Blackford, S., Demmel, J., Dongarra,
   J.~J., Croz, J.~D., Greenbaum, A., Hammarling, S., McKenney, A., and
@@ -24,6 +30,12 @@
 \newblock Robust and objective decomposition and mapping of bifurcating
   vessels.
 \newblock {\em IEEE transactions on medical imaging 23}, 6 (2004), 704--713.
+
+\bibitem{aoki2007a}
+{\sc Aoki, T., Kataoka, H., Morimoto, M., Nozaki, K., and Hashimoto, N.}
+\newblock Macrophage-derived matrix metalloproteinase-2 and -9 promote the
+  progression of cerebral aneurysms in rats.
+\newblock {\em Stroke 38\/}, 162--169.
 
 \bibitem{Aoki2016}
 {\sc Aoki, T., Yamamoto, K., Fukuda, M., Shimogonya, Y., Fukuda, S., and
@@ -128,6 +140,13 @@
 \newblock Role of hemodynamic shear stress in cardiovascular disease.
 \newblock {\em Atherosclerosis 214}, 2 (2011), 249--256.
 
+\bibitem{chalouhi2012biology}
+{\sc Chalouhi, N., Ali, M.~S., Jabbour, P.~M., Tjoumakaris, S.~I., Gonzalez,
+  L.~F., Rosenwasser, R.~H., Koch, W.~J., and Dumont, A.~S.}
+\newblock Biology of intracranial aneurysms: role of inflammation.
+\newblock {\em Journal of Cerebral Blood Flow \& Metabolism 32}, 9 (2012),
+  1659--1676.
+
 \bibitem{chalouhi2013review}
 {\sc Chalouhi, N., Hoh, B.~L., and Hasan, D.}
 \newblock Review of cerebral aneurysm formation, growth, and rupture.
@@ -140,7 +159,7 @@
   intracranial aneurysms.
 \newblock {\em Journal of neurosurgery 122}, 6 (2015), 1498--1502.
 
-\bibitem{chen2006neutrophils}
+\bibitem{cheng2006neutrophils}
 {\sc Chen, C.-N., Chang, S.-F., Lee, P.-L., Chang, K., Chen, L.-J., Usami, S.,
   Chien, S., and Chiu, J.-J.}
 \newblock Neutrophils, lymphocytes, and monocytes exhibit diverse behaviors in
@@ -290,6 +309,12 @@
 \newblock Multiscale 3-d+ t intracranial aneurysmal flow vortex detection.
 \newblock {\em IEEE Trans. Biomed. Engineering 62}, 5 (2015), 1355--1362.
 
+\bibitem{finch2014comparison}
+{\sc Finch, H.}
+\newblock A comparison of methods for group prediction with high dimensional
+  data.
+\newblock {\em Journal of Modern Applied Statistical Methods 13}, 2 (2014), 5.
+
 \bibitem{ford2009objective}
 {\sc Ford, M., Hoi, Y., Piccinelli, M., Antiga, L., and Steinman, D.}
 \newblock An objective approach to digital removal of saccular aneurysms:
@@ -391,6 +416,12 @@
   successful coil embolization.
 \newblock {\em Stroke 43}, 3 (2012), 866--868.
 
+\bibitem{hashimoto2006}
+{\sc Hashimoto, T., Meng, H., and Young, W.}
+\newblock Intracranial aneurysms: links among inflammation, hemodynamics and
+  vascular remodeling.
+\newblock {\em Neurol Res 28\/} (2006), 372--380.
+
 \bibitem{helmke2005molecular}
 {\sc Helmke, B.~P.}
 \newblock Molecular control of cytoskeletal mechanics by hemodynamic forces.
@@ -449,6 +480,11 @@
 \newblock Detection and visualization of vortices.
 \newblock {\em The visualization handbook 295\/} (2005).
 
+\bibitem{gimbrone2016endothelial}
+{\sc Jr, M. A.~G., and Garc{\'\i}a-Carde{\~n}a, G.}
+\newblock Endothelial cell dysfunction and the pathobiology of atherosclerosis.
+\newblock {\em Circulation research 118}, 4 (2016), 620--636.
+
 \bibitem{forget2001review}
 {\sc Jr, T. R.~F., Benitez, R., Veznedaroglu, E., Sharan, A., Mitchell, W.,
   Silva, M., and Rosenwasser, R.~H.}
@@ -476,6 +512,13 @@
 \newblock Size ratio can highly predict rupture risk in intracranial small (< 5
   mm) aneurysms.
 \newblock {\em Stroke 44}, 8 (2013), 2169--2173.
+
+\bibitem{kaufmann2007}
+{\sc Kaufmann, B.~A., Sanders, J.~M., Davis, C., Xie, A., Aldred, P.,
+  Sarembock, I.~J., and Lidner, J.~R.}
+\newblock Molecular imaging of inflammation in atherosclerosis with targeted
+  ultrasound detection of vascualr cell adhesion molecule-1.
+\newblock {\em Circulation 116}, 3 (2007), 276--284.
 
 \bibitem{khan2015narrowing}
 {\sc Khan, M., Valen-Sendstad, K., and Steinman, D.}
@@ -519,6 +562,12 @@
 \newblock Lifelong rupture risk of intracranial aneurysms depends on risk
   factors.
 \newblock {\em Stroke 45}, 7 (2014), 1958--1963.
+
+\bibitem{kosierkiewicz1994}
+{\sc Kosierkiewicz, T., Factor, S., and Dickson, D.}
+\newblock Immunocytochemical studies of atherosclerotic lesions of cerebral
+  berry aneurysms.
+\newblock {\em J Neuropathol Exp Neurol 53}, 4 (1994), 399--406.
 
 \bibitem{Kotowski42}
 {\sc Kotowski, M., Naggara, O., Darsaut, T.~E., Nolet, S., Gevry, G.,
@@ -774,6 +823,13 @@
 \newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review 5}, 1
   (2001), 3--55.
 
+\bibitem{signorelli2018}
+{\sc Signorelli, F., Sela, S., Gesualdo, L., Chevrel, S., Tollet, F.,
+  Pailler-Mattei, C., Tacconi, L., Turjman, F., Vacca, A., and Schul, D.~B.}
+\newblock Hemodynamic stress, inflammation, and intracranial aneurysm
+  development and rupture: A systematic review.
+\newblock {\em World Neurosurgery 115\/} (2018), 234 -- 244.
+
 \bibitem{SIESTA_01}
 {\sc Soler, J.~M., Artacho, E., Gale, J.~D., Garc\'{i}a, A., Junquera, J.,
   Ordej\'{o}n, P., and S\'{a}nchez-Portal, D.}
@@ -792,6 +848,13 @@
 \newblock {\em Computational and Mathematical Methods in Medicine 2016\/}
   (2016).
 
+\bibitem{thomas2016biomimetic}
+{\sc Thomas, A., Ou-Yang, H.~D., Lowe-Krentz, L., Muzykantov, V.~R., and Liu,
+  Y.}
+\newblock Biomimetic channel modeling local vascular dynamics of
+  pro-inflammatory endothelial changes.
+\newblock {\em Biomicrofluidics 10}, 1 (2016), 014101.
+
 \bibitem{tibshirani1996regression}
 {\sc Tibshirani, R.}
 \newblock Regression shrinkage and selection via the lasso.
@@ -804,6 +867,13 @@
   expression.
 \newblock {\em Proceedings of the National Academy of Sciences 99}, 10 (2002),
   6567--6572.
+
+\bibitem{tronic2000}
+{\sc Tronic, F., Mallat, Z., Lehoux, S., Wassef, M., Esposito, B., and Tedgui,
+  A.}
+\newblock Role of matrix metalloproteinases in blood flow-induced arterial
+  enlargement: interacdtion with no.
+\newblock {\em Arterioscler Thromb Vasc Biol 20}, 12 (2000), E120--E126.
 
 \bibitem{turjman2014role}
 {\sc Turjma, A.~S., Turjman, F., and Edelman, E.~R.}
@@ -837,6 +907,11 @@
   status indicators.
 \newblock {\em American Journal of Neuroradiology\/} (2013).
 
+\bibitem{vanhoutte2009endothelial}
+{\sc Vanhoutte, P.~M., Shimokawa, H., Tang, E.~H., and Feletou, M.}
+\newblock Endothelial dysfunction and vascular disease.
+\newblock {\em Acta physiologica 196}, 2 (2009), 193--222.
+
 \bibitem{varble2018stroke}
 {\sc Varble, N., Tutino, V., Yu, J., Sonig, A., Siddiqui, A., Davies, J., and
   Meng, H.}
@@ -850,6 +925,12 @@
   sex, age, comorbidity, country, and time period: a systematic review and
   meta-analysis.
 \newblock {\em The Lancet Neurology 10}, 7 (2011), 626--636.
+
+\bibitem{wang2013endothelial}
+{\sc Wang, C., Baker, B.~M., Chen, C.~S., and Schwartz, M.~A.}
+\newblock Endothelial cell sensing of flow directionsignificance.
+\newblock {\em Arteriosclerosis, thrombosis, and vascular biology 33}, 9
+  (2013), 2130--2136.
 
 \bibitem{watton2011modelling}
 {\sc Watton, P., Selimovic, A., Raberger, N.~B., Huang, P., Holzapfel, G., and

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.23)  1 NOV 2018 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.23)  8 DEC 2018 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,9 +53,36 @@ or  <return>  to continue without it.
 
 \bibdata{References/References}
 (./References.bbl
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--1
+
+! LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}
+                           {}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
 []
  []
+
+
+! LaTeX Error: \begin{document} ended by \end{thebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{thebibliography}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ))
 ! Emergency stop.
@@ -65,11 +92,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--1
 
  
 Here is how much of TeX's memory you used:
- 8 strings out of 494910
- 180 string characters out of 6179835
+ 10 strings out of 494910
+ 213 string characters out of 6179835
  45417 words of memory out of 5000000
- 3397 multiletter control sequences out of 15000+600000
+ 3399 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 5i,0n,5p,64b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 8i,0n,6p,95b,19s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
