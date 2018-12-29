@@ -223,6 +223,12 @@
   abdominal aortic aneurysm.
 \newblock {\em Journal of biomechanics 40}, 11 (2007), 2406--2413.
 
+\bibitem{diagbouga2018role}
+{\sc Diagbouga, M.~R., Morel, S., Bijlenga, P., and Kwak, B.~R.}
+\newblock Role of hemodynamics in initiation/growth of intracranial aneurysms.
+\newblock {\em European journal of clinical investigation 48}, 9 (2018),
+  e12992.
+
 \bibitem{dolan2013high}
 {\sc Dolan, J.~M., Kolega, J., and Meng, H.}
 \newblock High wall shear stress and spatial gradients in vascular pathology: a
@@ -744,6 +750,12 @@
 \newblock Vascular wall shear stress: basic principles and methods.
 \newblock {\em Hellenic J Cardiol 46}, 1 (2005), 9--15.
 
+\bibitem{penn2014role}
+{\sc Penn, D.~L., Witte, S.~R., Komotar, R.~J., and Jr, E. S.~C.}
+\newblock The role of vascular remodeling and inflammation in the pathogenesis
+  of intracranial aneurysms.
+\newblock {\em Journal of clinical neuroscience 21}, 1 (2014), 28--32.
+
 \bibitem{piccinelli2012characterization}
 {\sc Piccinelli, M., Steinman, D.~A., Hoi, Y., Tong, F., Veneziani, A., and
   Antiga, L.}
@@ -836,6 +848,21 @@
 \newblock {The SIESTA Method for Ab Initio Order-N Materials Simulation}.
 \newblock {\em Journal of Physics: Condensed Matter 14\/} (2002), 2745.
 
+\bibitem{starke2014tumor}
+{\sc Starke, R.~M., Raper, D.~M., Ding, D., Chalouhi, N., Owens, G.~K., Hasan,
+  D.~M., Medel, R., and Dumont, A.~S.}
+\newblock Tumor necrosis factor-$\alpha$ modulates cerebral aneurysm formation
+  and rupture.
+\newblock {\em Translational stroke research 5}, 2 (2014), 269--277.
+
+\bibitem{Steiner_2018}
+{\sc Steiner, T., Juvela, S., Unterberg, A., Jung, C., Forsting, M., and
+  Rinkel, G.}
+\newblock European stroke organization guidelines for the management of
+  intracranial aneurysms and subarachnoid haemorrhage.
+\newblock {\em Cerebrovascular diseases (Basel, Switzerland) 35\/} (02 2013),
+  93--112.
+
 \bibitem{sujudi1995identification}
 {\sc Sujudi, D., and Haimes, R.}
 \newblock Identification of swirling flow in 3-d vector fields.
@@ -854,6 +881,15 @@
 \newblock Biomimetic channel modeling local vascular dynamics of
   pro-inflammatory endothelial changes.
 \newblock {\em Biomicrofluidics 10}, 1 (2016), 014101.
+
+\bibitem{Thompson2015guidelines}
+{\sc Thompson, G.~B., Brown, R.~D., Amin-Hanjani, S., Broderick, J.~P.,
+  Cockroft, K.~M., Connolly, E.~S., Duckwiler, G.~R., Harris, C.~C., Howard,
+  V.~J., Johnston, S. C.~C., and et. al}.
+\newblock Guidelines for the management of patients with unruptured
+  intracranial aneurysms: a guideline for healthcare professionals from the
+  american heart association/american stroke association.
+\newblock {\em Stroke\/} (2015), STR--0000000000000070.
 
 \bibitem{tibshirani1996regression}
 {\sc Tibshirani, R.}
