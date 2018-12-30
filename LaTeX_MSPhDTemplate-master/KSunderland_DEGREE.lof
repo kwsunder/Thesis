@@ -3,17 +3,17 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Mathematical functions plotted using TikZ package\relax }}{4}{figure.caption.10}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Schematic representation of a water molecule\relax }}{10}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Histogram of nearest neighbors\relax }}{13}{figure.caption.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Generic}}}{13}{figure.caption.12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {200 bins}}}{13}{figure.caption.12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Fancy mathematical plots using TikZ package\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Histogram of nearest neighbors\relax }}{14}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Generic}}}{14}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {200 bins}}}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fancy mathematical plots using TikZ package\relax }}{16}{figure.caption.14}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Incidence, transmission and reflection\relax }}{16}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Distribution of random numbers\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fibre optics\relax }}{24}{figure.caption.19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A landscape view of a Turboprop engine - these are jet engine derivatives, still gas turbines, that extract work from the hot-exhaust jet to turn a rotating shaft, which is then used to produce thrust by some other means\relax }}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Distribution of random numbers\relax }}{24}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fibre optics\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A landscape view of a Turboprop engine - these are jet engine derivatives, still gas turbines, that extract work from the hot-exhaust jet to turn a rotating shaft, which is then used to produce thrust by some other means\relax }}{28}{figure.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Two examples illustrating the relationship between the angular histogram and NE: (a) a simple laminar flow case and (b) a rotational flow (eddy) case. In both cases, the right and left plots are the vector flow field and the histogram of angular vector direction, respectively. Vector fields were decimated by a factor of 3 for better visualization.\relax }}{72}{figure.caption.23}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Two examples illustrating the relationship between the angular histogram and NE: (a) a simple laminar flow case and (b) a rotational flow (eddy) case. In both cases, the right and left plots are the vector flow field and the histogram of angular vector direction, respectively. Vector fields were decimated by a factor of 3 for better visualization.\relax }}{74}{figure.caption.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

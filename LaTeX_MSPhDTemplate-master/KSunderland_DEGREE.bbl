@@ -85,6 +85,11 @@
 \newblock {\em Biomechanics and modeling in mechanobiology 9}, 4 (2010),
   481--498.
 
+\bibitem{benndorf1996intraaneurysmal}
+{\sc Benndorf, G., Wellnhofer, E., Lanksch, W., and Felix, R.}
+\newblock Intraaneurysmal flow: evaluation with doppler guidewires.
+\newblock {\em American journal of neuroradiology 17}, 7 (1996), 1333--1337.
+
 \bibitem{biasetti2011blood}
 {\sc Biasetti, J., Hussain, F., and Gasser, T.~C.}
 \newblock Blood flow and coherent vortices in the normal and aneurysmatic
@@ -97,6 +102,11 @@
 \newblock Risk factors for growth of intracranial aneurysms: A systematic
   review and meta-analysis.
 \newblock {\em American Journal of Neuroradiology\/} (2015).
+
+\bibitem{brisman2006cerebral}
+{\sc Brisman, J.~L., Song, J.~K., and Newell, D.~W.}
+\newblock Cerebral aneurysms.
+\newblock {\em New England journal of medicine 355}, 9 (2006), 928--939.
 
 \bibitem{byrne2013vortex}
 {\sc Byrne, G., and Cebral, J.}
@@ -678,6 +688,13 @@
   intracranial aneurysms.
 \newblock {\em Journal of Clinical Neuroscience 22}, 8 (2015), 1275--1281.
 
+\bibitem{meckel2008vivo}
+{\sc Meckel, S., Stalder, A.~F., Santini, F., Rad{\"u}, E.-W., R{\"u}fenacht,
+  D.~A., Markl, M., and Wetzel, S.~G.}
+\newblock In vivo visualization and analysis of 3-d hemodynamics in cerebral
+  aneurysms with flow-sensitized 4-d mr imaging at 3 t.
+\newblock {\em Neuroradiology 50}, 6 (2008), 473--484.
+
 \bibitem{Meng1254}
 {\sc Meng, H., Tutino, V.~M., Xiang, J., and Siddiqui, A.}
 \newblock High wss or low wss? complex interactions of hemodynamics with
@@ -975,6 +992,11 @@
   saccular cerebral aneurysms.
 \newblock {\em Biomechanics and modeling in mechanobiology 10}, 1 (2011),
   109--132.
+
+\bibitem{weir2002unruptured}
+{\sc Weir, B.}
+\newblock Unruptured intracranial aneurysms: a review.
+\newblock {\em Journal of neurosurgery 96}, 1 (2002), 3--42.
 
 \bibitem{wen2014numerical}
 {\sc Wen, J., Ding, G., Jiang, W., Wang, Q., and Zheng, T.}
