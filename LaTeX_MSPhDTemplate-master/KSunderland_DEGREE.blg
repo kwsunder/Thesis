@@ -20,45 +20,46 @@ Warning--empty journal in hunt1988eddies
 Warning--empty title in XCrySDen1999
 Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
-You've used 172 entries,
+Warning--empty journal in versteeg2007introduction
+You've used 183 entries,
             2253 wiz_defined-function locations,
-            1540 strings with 41986 characters,
-and the built_in function-call counts, 67050 in all, are:
-= -- 6295
-> -- 4193
+            1588 strings with 44206 characters,
+and the built_in function-call counts, 71555 in all, are:
+= -- 6732
+> -- 4460
 < -- 0
-+ -- 1726
-- -- 1540
-* -- 6247
-:= -- 11262
-add.period$ -- 512
-call.type$ -- 172
-change.case$ -- 1278
++ -- 1836
+- -- 1638
+* -- 6664
+:= -- 12001
+add.period$ -- 544
+call.type$ -- 183
+change.case$ -- 1360
 chr.to.int$ -- 0
-cite$ -- 178
-duplicate$ -- 1699
-empty$ -- 4547
-format.name$ -- 1540
-if$ -- 13249
+cite$ -- 190
+duplicate$ -- 1814
+empty$ -- 4854
+format.name$ -- 1638
+if$ -- 14144
 int.to.chr$ -- 0
-int.to.str$ -- 172
-missing$ -- 171
-newline$ -- 859
-num.names$ -- 342
-pop$ -- 1026
+int.to.str$ -- 183
+missing$ -- 182
+newline$ -- 913
+num.names$ -- 364
+pop$ -- 1093
 preamble$ -- 1
-purify$ -- 1114
+purify$ -- 1185
 quote$ -- 0
-skip$ -- 1006
+skip$ -- 1078
 stack$ -- 0
-substring$ -- 4317
-swap$ -- 425
+substring$ -- 4656
+swap$ -- 456
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 682
-warning$ -- 6
-while$ -- 596
-width$ -- 175
-write$ -- 1720
-(There were 9 warnings)
+type$ -- 726
+warning$ -- 7
+while$ -- 639
+width$ -- 186
+write$ -- 1828
+(There were 10 warnings)

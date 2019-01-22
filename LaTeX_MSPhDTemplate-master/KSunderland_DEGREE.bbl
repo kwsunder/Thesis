@@ -144,6 +144,12 @@
   with inflammation and degenerative changes of the aneurysm wall.
 \newblock {\em American Journal of Neuroradiology 38}, 1 (2017), 119--126.
 
+\bibitem{cebral2011association}
+{\sc Cebral, J.~R., Mut, F., Weir, J., and Putman, C.~M.}
+\newblock Association of hemodynamic characteristics and cerebral aneurysm
+  rupture.
+\newblock {\em American Journal of Neuroradiology 32}, 2 (2011), 264--270.
+
 \bibitem{cecchi2011role}
 {\sc Cecchi, E., Giglioli, C., Valente, S., Lazzeri, C., Gensini, G.~F.,
   Abbate, R., and Mannini, L.}
@@ -306,6 +312,12 @@
 \newblock {\em Standard handbook of biomedical engineering and design\/}
   (2004), 3--1.
 
+\bibitem{enzmann1994blood}
+{\sc Enzmann, D.~R., Ross, M.~R., Marks, M.~P., and Pelc, N.~J.}
+\newblock Blood flow in major cerebral arteries measured by phase-contrast cine
+  mr.
+\newblock {\em American journal of neuroradiology 15}, 1 (1994), 123--129.
+
 \bibitem{etminan2015unruptured}
 {\sc Etminan, N., Brown, R.~D., Beseoglu, K., Juvela, S., Raymond, J., Morita,
   A., Torner, J.~C., Derdeyn, C.~P., Raabe, A., Mocco, J., and et. al}.
@@ -395,6 +407,14 @@
   aneurysmal, and stenotic arteries.
 \newblock {\em Communications in Computational Physics 19}, 5 (2016),
   1167--1190.
+
+\bibitem{gwilliam2009mr}
+{\sc Gwilliam, M.~N., Hoggard, N., Capener, D., Singh, P., Marzo, A., Verma,
+  P.~K., and Wilkinson, I.~D.}
+\newblock Mr derived volumetric flow rate waveforms at locations within the
+  common carotid, internal carotid, and basilar arteries.
+\newblock {\em Journal of Cerebral Blood Flow \& Metabolism 29}, 12 (2009),
+  1975--1982.
 
 \bibitem{hackenberg2018unruptured}
 {\sc Hackenberg, K.~A., H{\"a}nggi, D., and Etminan, N.}
@@ -490,6 +510,13 @@
 {\sc Jeong, J., and Hussain, F.}
 \newblock On the identification of a vortex.
 \newblock {\em Journal of fluid mechanics 285\/} (1995), 69--94.
+
+\bibitem{jiang2013interactive}
+{\sc Jiang, J., and Strother, C.~M.}
+\newblock Interactive decomposition and mapping of saccular cerebral aneurysms
+  using harmonic functions: its first application with “patient-specific”
+  computational fluid dynamics (cfd) simulations.
+\newblock {\em IEEE transactions on medical imaging 32}, 2 (2013), 153--164.
 
 \bibitem{jiang2005detection}
 {\sc Jiang, M., Machiraju, R., and Thompson, D.}
@@ -793,6 +820,13 @@
 \newblock {Fast Parallel Algorithms for Short-Range Molecular Dynamics}.
 \newblock {\em Journal of Computational Physics 117\/} (1995), 1.
 
+\bibitem{poethke2009cerebral}
+{\sc Poethke, J., Spuler, A., Petz, C., Hege, H.-C., Goubergrits, L., Affeld,
+  K., and Kertzscher, U.}
+\newblock Cerebral aneurysm hemodynamics and a length of parent vessel.
+\newblock In {\em World Congress on Medical Physics and Biomedical Engineering,
+  September 7-12, 2009, Munich, Germany\/} (2009), Springer, pp.~1608--1611.
+
 \bibitem{potters2014measuring}
 {\sc Potters, W.~V., Marquering, H.~A., VanBavel, E., and Nederveen, A.~J.}
 \newblock Measuring wall shear stress using velocity-encoded mri.
@@ -860,6 +894,12 @@
 \newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review 5}, 1
   (2001), 3--55.
 
+\bibitem{si20113d}
+{\sc Si, H., and G{\"a}rtner, K.}
+\newblock 3d boundary recovery by constrained delaunay tetrahedralization.
+\newblock {\em International Journal for Numerical Methods in Engineering 85},
+  11 (2011), 1341--1364.
+
 \bibitem{signorelli2018}
 {\sc Signorelli, F., Sela, S., Gesualdo, L., Chevrel, S., Tollet, F.,
   Pailler-Mattei, C., Tacconi, L., Turjman, F., Vacca, A., and Schul, D.~B.}
@@ -887,6 +927,19 @@
   intracranial aneurysms and subarachnoid haemorrhage.
 \newblock {\em Cerebrovascular diseases (Basel, Switzerland) 35\/} (02 2013),
   93--112.
+
+\bibitem{steinman2002image}
+{\sc Steinman, D.~A.}
+\newblock Image-based computational fluid dynamics modeling in realistic
+  arterial geometries.
+\newblock {\em Annals of biomedical engineering 30}, 4 (2002), 483--497.
+
+\bibitem{steinman2003image}
+{\sc Steinman, D.~A., Milner, J.~S., Norley, C.~J., Lownie, S.~P., and
+  Holdsworth, D.~W.}
+\newblock Image-based computational simulation of flow dynamics in a giant
+  intracranial aneurysm.
+\newblock {\em American Journal of Neuroradiology 24}, 4 (2003), 559--566.
 
 \bibitem{sujudi1995identification}
 {\sc Sujudi, D., and Haimes, R.}
@@ -980,6 +1033,11 @@
   intracranial.
 \newblock {\em Stroke 49\/} (2018), 856--864.
 
+\bibitem{versteeg2007introduction}
+{\sc Versteeg, H., and Malalasekera, W.}
+\newblock An introduction to computational fluid dynamics: the finite volume
+  method.
+
 \bibitem{villablanca2013natural}
 {\sc Villablanca, J.~P., Duckwile, G.~R., Jahan, R., Tateshima, S., Martin,
   N.~A., Frazee, J., Gonzalez, N.~R., Sayre, J., and Vinuela, F.~V.}
@@ -1031,6 +1089,13 @@
   cardiovascular research.
 \newblock {\em Drug discovery today 21}, 9 (2016), 1446--1455.
 
+\bibitem{xiang2011hemodynamic}
+{\sc Xiang, J., Natarajan, S.~K., Tremmel, M., Ma, D., Mocco, J., Hopkins,
+  L.~N., Siddiqui, A.~H., Levy, E.~I., and Meng, H.}
+\newblock Hemodynamic--morphologic discriminants for intracranial aneurysm
+  rupture.
+\newblock {\em Stroke 42}, 1 (2011), 144--152.
+
 \bibitem{Xiang144}
 {\sc Xiang, J., Natarajan, S.~K., Tremmel, M., Ma, D., Mocco, J., Hopkins,
   L.~N., Siddiqui, A.~H., Levy, E.~I., and Meng, H.}
@@ -1076,6 +1141,12 @@
 \newblock Low wall shear stress is associated with the rupture of intracranial
   aneurysm with known rupture point: case report and literature review.
 \newblock {\em BMC Neurol 16\/} (2016).
+
+\bibitem{zhao2007regional}
+{\sc Zhao, M., Amin-Hanjani, S., Ruland, S., Curcio, A., Ostergren, L., and
+  Charbel, F.}
+\newblock Regional cerebral blood flow using quantitative mr angiography.
+\newblock {\em American Journal of Neuroradiology 28}, 8 (2007), 1470--1473.
 
 \bibitem{zhou2017association}
 {\sc Zhou, G., Zhu, Y., Yin, Y., Su, M., and Li, M.}
