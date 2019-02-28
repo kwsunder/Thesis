@@ -51,6 +51,13 @@
   growth.
 \newblock {\em Stroke 47}, 4 (2016), 951--957.
 
+\bibitem{backes2014difference}
+{\sc Backes, D., Vergouwen, M.~D., Velthuis, B.~K., van~der Schaaf, I.~C., Bor,
+  A. S.~E., Algra, A., and Rinkel, G.~J.}
+\newblock Difference in aneurysm characteristics between ruptured and
+  unruptured aneurysms in patients with multiple intracranial aneurysms.
+\newblock {\em Stroke 45}, 5 (2014), 1299--1303.
+
 \bibitem{baek2009flow}
 {\sc Baek, H., Jayaraman, M., Richardson, P., and Karniadakis, G.}
 \newblock Flow instability and wall shear stress variation in intracranial
@@ -201,6 +208,13 @@
 \newblock Effects of disturbed flow on vascular endothelium: pathophysiological
   basis and clinical perspectives.
 \newblock {\em Physiological reviews 91}, 1 (2011), 327--387.
+
+\bibitem{Cornelissen1927}
+{\sc Cornelissen, B., Schneiders, J., Potters, W., van~den Berg, R., Velthuis,
+  B., Rinkel, G., Slump, C., VanBavel, E., Majoie, C., and Marquering, H.}
+\newblock Hemodynamic differences in intracranial aneurysms before and after
+  rupture.
+\newblock {\em American Journal of Neuroradiology 36}, 10 (2015), 1927--1933.
 
 \bibitem{CPMD_02}
 {\sc The CPMD Consortium}.
@@ -631,6 +645,12 @@
 \newblock {Ab Initio Molecular-Dynamics Simulation of the
   Liquid-Metal-Amorphous-Semiconductor Transition in Germanium}.
 \newblock {\em Physical Review B 49\/} (1994), 14251.
+
+\bibitem{ku1985hemodynamics}
+{\sc Ku, D., Gidden, D., Phillips, D., and Jr, D.~S.}
+\newblock Hemodynamics of the normal human carotid bifurcation: in vitro and in
+  vivo studies.
+\newblock {\em Ultrasound in medicine \& biology 11}, 1 (1985), 13--26.
 
 \bibitem{ku1985pulsatile}
 {\sc Ku, D., Giddens, D.~P., Zarins, C.~K., and Glagov, S.}

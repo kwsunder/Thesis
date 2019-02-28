@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.20)  22 JAN 2019 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.20)  28 FEB 2019 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,9 +1678,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
 \openout7 = `KSunderland_DEGREE.x.gnuplot'.
 
 runsystem(gnuplot KSunderland_DEGREE.x.gnuplot)...disabled (restricted).
@@ -1707,6 +1704,9 @@ Package pgf Warning: Plot data file `KSunderland_DEGREE.exp.table' not found. o
 n input line 104.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -1923,92 +1923,91 @@ Package pdftex.def Info: ./Figures/TurboProp-eps-converted-to.pdf used on input
 (./KSunderland_DEGREE.bbl [41
 
 
-] [42] [43] [44] [45]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [46]
-[47] [48] [49] [50] [51]
+] [42]
 Underfull \vbox (badness 1009) has occurred while \output is active []
 
+ [43]
+[44] [45] [46] [47]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [49]
+[50] [51]
+Underfull \vbox (badness 4713) has occurred while \output is active []
+
  [52]
-[53]
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+ [53]
+[54]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [54] [55]
+ [55]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [56]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [56] [57] [58] [59] [60]
+
+[57] [58] [59] [60] [61]
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¤ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¤ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¶ in font cmcsc10!
- [61]
-Underfull \vbox (badness 4647) has occurred while \output is active []
+ [62] [63]
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [62]
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [63]
+ [64]
 Missing character: There is no â in font cmcsc10!
 Missing character: There is no € in font cmcsc10!
 Missing character: There is no ™ in font cmcsc10!
 
-[64]
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [65]
-[66]
+[66] [67] [68] [69] [70]
 Underfull \vbox (badness 4713) has occurred while \output is active []
 
- [67]
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [68]
-[69]
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
- [70]
-[71])) [72]
+ [71]
+[72])) [73]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex
+ (./Appendices/AppendixA.tex [74
+
+
+
+]
 Appendix A.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73
-
-
+ [75
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [76]
-
-LaTeX Warning: Reference `APPENDIXA_SECTION1' on page 77 undefined on input lin
-e 65.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
+
+LaTeX Warning: Reference `APPENDIXA_SECTION1' on page 79 undefined on input lin
+e 65.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79]
@@ -2018,23 +2017,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
+
+LaTeX Warning: Command \d invalid in math mode on input line 110.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83])
-[84]
+ [83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86])
+[87]
 \openout2 = `Appendices/AppendixB.aux'.
 
- (./Appendices/AppendixB.tex
+ (./Appendices/AppendixB.tex [88
+
+
+
+]
 Appendix B.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85
-
-
+ [89
 
 
 ]
@@ -2050,7 +2064,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf, id=1154, 1806.75pt x 902.371
+<./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf, id=1174, 1806.75pt x 902.371
 25pt>
 File: ./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf>
@@ -2060,7 +2074,7 @@ on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86 <./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf>]
+ [90 <./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -2075,13 +2089,13 @@ File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]))
-[88]
+ [91]))
+[92]
 \openout2 = `Appendices/AppendixC.aux'.
 
  (./Appendices/AppendixC.tex
 Appendix C.
-) [89
+) [93
 
 
 
@@ -2089,7 +2103,7 @@ Appendix C.
 ]
 \openout2 = `Appendices/AppendixD.aux'.
 
- (./Appendices/AppendixD.tex [90
+ (./Appendices/AppendixD.tex [94
 
 
 
@@ -2098,11 +2112,11 @@ Appendix D.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91
+ [95
 
 
 ]
-[92] 
+[96] 
 AED: lastpage setting LastPage
 
 Package natbib Warning: There were undefined citations.
@@ -2127,11 +2141,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 31106 strings out of 494910
- 601768 string characters out of 6179836
- 797035 words of memory out of 5000000
- 33161 multiletter control sequences out of 15000+600000
- 22012 words of font info for 86 fonts, out of 8000000 for 9000
+ 31124 strings out of 494910
+ 602188 string characters out of 6179836
+ 797260 words of memory out of 5000000
+ 33171 multiletter control sequences out of 15000+600000
+ 20962 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,13n,394p,1866b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kevin/.texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1200.600pk> </home/k
@@ -2155,13 +2169,11 @@ blic/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KSunderland_DEGREE.pdf (122 pages, 1533414 bytes).
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on KSunderland_DEGREE.pdf (126 pages, 1520588 bytes).
 PDF statistics:
- 1398 PDF objects out of 1440 (max. 8388607)
- 1199 compressed objects within 12 object streams
- 418 named destinations out of 1000 (max. 500000)
+ 1415 PDF objects out of 1440 (max. 8388607)
+ 1213 compressed objects within 13 object streams
+ 428 named destinations out of 1000 (max. 500000)
  469 words of extra memory for PDF output out of 10000 (max. 10000000)
 

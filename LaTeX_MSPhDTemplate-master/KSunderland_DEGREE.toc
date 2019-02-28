@@ -7,8 +7,8 @@
 \contentsline {chapter}{Abstract}{xxix}{section*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Section 1}{5}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Objective}{5}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Methodolgy}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.1}Objective}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Methodolgy}{6}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Aneurysm Geometic Characterisitcs}{8}{section.1.2}
 \contentsline {section}{\numberline {1.3}Aneurysm Hemodynamic Characterisitcs}{10}{section.1.3}
 \contentsline {section}{\numberline {1.4}Disturbed Flow on Vascular Endothelium}{11}{section.1.4}
@@ -21,15 +21,15 @@
 \contentsline {subsection}{\numberline {2.1.5}Vortex Core Extraction and Analysis}{21}{subsection.2.1.5}
 \contentsline {chapter}{\numberline {3}Vortex Analysis to predict IA Initiation}{29}{chapter.3}
 \contentsline {chapter}{References}{41}{chapter*.23}
-\contentsline {chapter}{\numberline {A}Statistics}{73}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Section 1}{74}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Section 2}{78}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Section 3}{80}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Section 4}{82}{section.a.A.4}
-\contentsline {section}{\numberline {A.5}Section 5}{84}{section.a.A.5}
-\contentsline {chapter}{\numberline {B}Sample Code}{85}{Appendix.a.B}
-\contentsline {section}{\numberline {B.1}HelloWorld.c}{87}{section.a.B.1}
-\contentsline {chapter}{\numberline {C}Letters of Permission}{89}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Cellular Biology}{91}{Appendix.a.D}
-\contentsline {section}{\numberline {D.1}TUNEL-assay}{91}{section.a.D.1}
-\contentsline {section}{\numberline {D.2}VCAM-1}{92}{section.a.D.2}
+\contentsline {chapter}{\numberline {A}Statistics}{75}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Section 1}{76}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Section 2}{80}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Section 3}{83}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Section 4}{84}{section.a.A.4}
+\contentsline {section}{\numberline {A.5}Section 5}{86}{section.a.A.5}
+\contentsline {chapter}{\numberline {B}Sample Code}{89}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}HelloWorld.c}{91}{section.a.B.1}
+\contentsline {chapter}{\numberline {C}Letters of Permission}{93}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Cellular Biology}{95}{Appendix.a.D}
+\contentsline {section}{\numberline {D.1}TUNEL-assay}{95}{section.a.D.1}
+\contentsline {section}{\numberline {D.2}VCAM-1}{96}{section.a.D.2}

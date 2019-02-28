@@ -67,45 +67,64 @@ Section \ref{APPENDIXA_SECTION1}.
 \section{Section 2}\label{Nearest Shrunken Centroid}
 Limitations may arise in applying multiple logistic regression analysis to data sets with a large number of variables in relation to the number of samples.
 
+The Nearest Shrunken Centroid (NSC) method is a statistical classification methodology developed by Tibshirani et al.\cite{tibshirani2002diagnosis} as a means to improve predictions in high-dimensional data. Additionally, a 2014 study by Finch \cite{finch2014comparison} compared a number of methods for statistical group prediction. The NSC method was found to be robust in terms of accuracy and identification of predictor variables over other methods when dealing with high-dimensional datasets. Initially developed for predictions within genetic data, NSC aims to shrink class (e.g. rupture status) centroids towards the \textit{overall} centroid of they entire data-set after standardizing by the within-class deviation for each variable. This standardization of the resultant centroid gives higher impact to variables whose expression is more stable withing samples of the same class. Due to the number of  geometric and hemodynamic variables that may impact IA rupture, the NSC method was investigated as a useful methodology to help predict rupture potential within our data-set.
 
-According to Tibshirani et.al. \cite{tibshirani2002diagnosis} the NSC method shrinks each class' centroid toward the overall centroids after standardization using the within-class standard deviation for each variable. Standardizing the resultant centroid gives higher impact to variables whose expression is more stable withing samples of the same class. Additionally, a 2014 study by Finch \cite{finch2014comparison} compared a number of methods for statistical group prediction. The NSC method was found to be robust in terms of accuracy and identification of predictor variables over other methods.
-
-For the NSC method: \textit{x\textsubscript{ij}} is the measured value for each input \textit{i}  = 1, 2, ...\textit{p} for each sample \textit{j}=1, 2, ...n, with classes (in this case, rupture status) 1, 2, ....K and \textit{C\textsubscript{k}} as the indices of the \textit{n\textsubscript{k}} samples in class k. For each class \textit{k}, its \textit{i}th component of the centroid is $\overline{\mbox{\textit{x}}}\textsubscript{ik} = \sum_{j\in \textit{C\textsubscript{k}}} \textit{x\textsubscript{jk}}/\textit{n\textsubscript{k}}$, calculating the mean expression value in \textit{k} for variable \textit{i}. The \textit{i}th component of the overall centroid is $\overline{\mbox{\textit{x}}}\textsubscript{i} = \sum_{j=1}^{n} \textit{x\textsubscript{ij}} / \textit{n}$.
-
-Taking into account the standardization of centroid, the standardization factor is calculated as:
-
-\begin{equation} \label{NSC_d}
-d_{ik} = \frac{\overline{x}_{ik} - \overline{x}_i}{m_k \cdot (s_i + s_0)}
-\end{equation}
-
-where \textit{s}\textsubscript{i} is the within-class standard deviation (for the variable \textit{i}):
+In our study, $x_{ijk}$ represents the value of quantified variables $i = 1, ..., p$ in aneurysm $j = 1,...,n_k$ of class \textit{k}. The mean for variable \textit{i} in each class \textit{k} is calculated
 
 \begin{equation}
-s_i^2 = \frac{1}{n-K} \sum_k \sum_{j \in C_k} (x_{ij} - \overline{x}_{ik})^2
-m_k = \sqrt{\frac{1}{n_k} + \frac{1}{n}}
+\label{variable_mean_NSC}
+\overline{x}_{ik} = \sum_{j=1}^{n_k}\frac{x_{ijk}}{n_k}
+\end{equation}
+and the \textit{overall} mean for variable \textit{i} is calculated.
+
+\begin{equation}
+\label{overall_variable_mean_NSC}
+\overline{x}_i =  \sum_{k=1}^{K} \sum_{j=1}^{n_k}\frac{x_{ijk}}{n_k}
+\end{equation}
+A \textit{t}-statistic value, $d_{ik}$, for each variable is calculated, comparing class \textit{k} to the overall mean:
+
+\begin{equation}
+\label{d_for_NSC}
+d_{ik} = \frac{\overline{x}_{ik} - \overline{x}_i}{m_k \cdot (s_i + s_0)}
+\end{equation}
+with
+
+\begin{equation}
+\label{s2_for_NSC}
+s^{2}_{i} = \frac{1}{n-K}\sum_{k=1}^{K}\sum_{j=1}^{n_k}(x_{ij} - \overline{x}_{ik})^2
+\end{equation}
+and
+
+\begin{equation}
+\label{m_for_NSC}
+m_k = \sqrt{1/n_k + 1/n}, \text{ where } n = \sum_{k=1}^{K}n_k
+\end{equation}
+The $s_0$ in (\ref{d_for_NSC}) is used as a \textit{regularization parameter} to help protect form large $d_{ik}$ values occurring from variables at low expression levels. The value of $s_0$ is determined as the median value of $s_i$ over the set of variables. 
+
+With the inclusion of $d_{ik}$, the class centroid can be rewritten as:
+
+\begin{equation}
+\label{xik_with_d_NSC}
+\overline{x}_{ik} = \overline{x}_i + m_k(s_i+S_0)d_{ik}
+\end{equation}
+The NSC method shrinks each $d_{ik}$ toward zero, creating a new value $\d'_{ik}$ which generates a new shrunken centroid value
+
+\begin{equation}
+\label{shrunken_xik_for_NCS}
+\overline{x}'_{ik} = \overline{x}_i + m_k(s_i+s_0)d'_{ik}
+\end{equation}
+The value of shrinkage is determined through \textit{soft thresholding}, where the absolute value of $d_{ik}$ is reduced by $\Delta$ and is given the value of 0 if the result is $<0$, with
+
+\begin{equation}
+\label{soft_thresholding_NSC}
+d'_{ik} = sign(d_{ik})(|d_{ik}| - \Delta)_+
 \end{equation}
 
-The value of $m_k \cdot s_i$ equal to the estimated standard error of the numerator of \textit{d}\textsubscript{ik}. The value of \textit{s}\textsubscript{0} is kept as a positive constant to protect against the occurrence of a large \textit{d}\textsubscript{ik} from variables with low levels of expression. The median value of \textit{s}\textsubscript{i} over the variables is used to set the value of \textit{s}\textsubscript{0}.
+This combination of shrinkage and \textit{soft thresholding} can result in many 'noisy' $\overline{x}_{ik}$ being close to the value of the overall mean $\overline{x}_i$. If $\Delta$ shrinks $d_{ik}$ to zero for all \textit{k}, then the centroid for variable \textit{i} is the same for all classes and is excluded from prediction analysis. 
 
-The calculation of \textit{d}ik acts as a \textit{t} statistics for the variables, comparing each class \textit{k} to the overall centroid. This leads to a re-write of \ref{NSC_d} as:
+The value of $\Delta$ is determined through cross-validation: fitting the model for many values of $\Delta$ and determining the level of error per chosen $\Delta$. The $\Delta$ resulting in the smallest error was chosen for our prediction.
 
-\begin{equation} \label{NSC_drw}
-\overline{x}_{ik} = \overline{x}_i + m_k (s_i + s_0)d_{ik}
-\end{equation}
 
-The value of \textit{d}\textsubscript{ik} is shrunk toward zero where:
-\begin{equation} \label{NSC_drw_shrunk}
-\overline{x}_{ik}' = \overline{x}_i + m_k (s_i + s_0)d_{ik}'
-\end{equation}
-
-The level of shrinkage (thresholding) for \textit{d}\textsubscript{ik} is determined by a value $\Delta$ and is set to zero if the value is negative. The thresholding is calculated as:
-
-\begin{equation} \label{NSC_threshold}
-d_{ik}' = sign(d_{ik})(|d_{ik}| - \Delta)_+
-\end{equation}
-with + identifying the positive aspect of the threshold.
-
-The thresholding of \textit{d}\textsubscript{ik} results in the elimination of a number of variables from prediction model(s) as $\Delta$ increases. The remove a variable from a model is decided if, as (for a variable \textit{i}), \textit{d}\textsubscript{ik} is shrunken to zero for all \textit{k} which results in the centroid for variable $\overline{\mbox{x}}_i$ being the same for all \textit{k}. This results in a variable does not contribute to the nearest-centroid calculation. The ideal value of $\Delta$ for a model is chosen by cross-validation. The threshold value that gives the minim cross-validated misclassification error is chosen as the final threshold.
 
 \section{Section 3}\label{Elasitc Net Regularization}
 Elastic Net Regularization (ENR) overcomes some of the limitations of the LASSO selection method, primarily being able to accurately handle data sets with a high number of variables in relation to the sample size \cite{tibshirani1996regression,efron2004least}. Additionally, the ENR method is able to handle data sets with groups of highly correlated variables. 
