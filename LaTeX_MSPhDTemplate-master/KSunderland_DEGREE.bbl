@@ -103,6 +103,14 @@
   aortas: a fluid dynamical approach to intra-luminal thrombus formation.
 \newblock {\em Journal of The Royal Society Interface\/} (2011), rsif20110041.
 
+\bibitem{boussel2008aneurysm}
+{\sc Boussel, L., Rayz, V., McCulloch, C., Martin, A., Acevedo-Bolton, G.,
+  Lawton, M., Higashida, R., Smith, W.~S., Young, W.~L., and Saloner, D.}
+\newblock Aneurysm growth occurs at region of low wall shear stress:
+  patient-specific correlation of hemodynamics and growth in a longitudinal
+  study.
+\newblock {\em Stroke 39}, 11 (2008), 2997--3002.
+
 \bibitem{brinjikji2015risk}
 {\sc Brinjikji, W., Zhu, Y.-Q., Lanzino, G., Cloft, H., Murad, M., Wang, Z.,
   and Kallmes, D.}
@@ -500,6 +508,14 @@
 \newblock {\em Wikipedia}.
 \newblock Wikipedia, The Internet, 2012.
 
+\bibitem{hughes2018estimating}
+{\sc Hughes, J.~D., Bond, K.~M., Mekary, R.~A., Dewan, M.~C., Rattani, A.,
+  Baticulon, R., Kato, Y., Azevedo-Filho, H., Morcos, J.~J., and Park, K.~B.}
+\newblock Estimating the global incidence of aneurysmal subarachnoid
+  hemorrhage: a systematic review for central nervous system vascular lesions
+  and meta-analysis of ruptured aneurysms.
+\newblock {\em World neurosurgery 115\/} (2018), 430--447.
+
 \bibitem{VMD_01}
 {\sc Humphrey, W., Dalke, A., and Schulten, K.}
 \newblock {VMD - Visual Molecular Dynamics}.
@@ -519,6 +535,12 @@
 {\sc Ildiko, F.~E., and Friedman, J.~H.}
 \newblock A statistical view of some chemometrics regression tools.
 \newblock {\em Technometrics 35}, 2 (1993), 109--135.
+
+\bibitem{ucas2012natural}
+{\sc Investigators, U.~J.}
+\newblock The natural course of unruptured cerebral aneurysms in a japanese
+  cohort.
+\newblock {\em New England Journal of Medicine 366}, 26 (2012), 2474--2482.
 
 \bibitem{jeong1995identification}
 {\sc Jeong, J., and Hussain, F.}
@@ -864,6 +886,13 @@
 \newblock {\em {R: A Language and Environment for Statistical Computing}}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria, 2011.
 
+\bibitem{revilla2018prevalence}
+{\sc Revilla-Pacheco, F., Escalante-Seyffert, M.~C., Herrada-Pineda, T.,
+  Manrique-Guzman, S., Perez-Zuniga, I., Rangel-Suarez, S., Rubalcava-Ortega,
+  J., and Loyo-Varela, M.}
+\newblock Prevalence of incidental clinoid segment saccular aneurysms.
+\newblock {\em World neurosurgery 115\/} (2018), e244--e251.
+
 \bibitem{rinne1994multiple}
 {\sc Rinne, J., Hernesniemi, J., Puranen, M., and Saari, T.}
 \newblock Multiple intracranial aneurysms in a defined population: prospective
@@ -913,6 +942,13 @@
 \newblock A mathematical theory of communication.
 \newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review 5}, 1
   (2001), 3--55.
+
+\bibitem{shojima2004magnitude}
+{\sc Shojima, M., Oshima, M., Takagi, K., Torii, R., Hayakawa, M., Katada, K.,
+  Morita, A., and Kirino, T.}
+\newblock Magnitude and role of wall shear stress on cerebral aneurysm:
+  computational fluid dynamic study of 20 middle cerebral artery aneurysms.
+\newblock {\em Stroke 35}, 11 (2004), 2500--2505.
 
 \bibitem{si20113d}
 {\sc Si, H., and G{\"a}rtner, K.}
@@ -1091,6 +1127,12 @@
 {\sc Weir, B.}
 \newblock Unruptured intracranial aneurysms: a review.
 \newblock {\em Journal of neurosurgery 96}, 1 (2002), 3--42.
+
+\bibitem{weir2002sizes}
+{\sc Weir, B., Disney, L., and Karrison, T.}
+\newblock Sizes of ruptured and unruptured aneurysms in relation to their sites
+  and the ages of patients.
+\newblock {\em Journal of neurosurgery 96}, 1 (2002), 64--70.
 
 \bibitem{wen2014numerical}
 {\sc Wen, J., Ding, G., Jiang, W., Wang, Q., and Zheng, T.}

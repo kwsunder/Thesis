@@ -7,30 +7,32 @@
 \BOOKMARK [0][-]{section*.7}{List of Abbreviations}{}% 7
 \BOOKMARK [0][-]{section*.8}{Abstract}{}% 8
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 9
-\BOOKMARK [1][-]{section.1.1}{Section 1}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.1}{Objective}{section.1.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.2}{Methodolgy}{section.1.1}% 12
-\BOOKMARK [1][-]{section.1.2}{Aneurysm Geometic Characterisitcs}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.3}{Aneurysm Hemodynamic Characterisitcs}{chapter.1}% 14
-\BOOKMARK [1][-]{section.1.4}{Disturbed Flow on Vascular Endothelium}{chapter.1}% 15
-\BOOKMARK [0][-]{chapter.2}{Hemodynamic Flow Vortex Identification}{}% 16
-\BOOKMARK [1][-]{section.2.1}{Materials and Methods}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.1.1}{Modeling of "Patient-specific" Vasculature}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.2}{Mesh Generation}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.3}{CFD Simulation}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.4}{Aneurysm Extraction and Voxelization of Aneurismal Velocity Data}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.5}{Vortex Core Extraction and Analysis}{section.2.1}% 22
-\BOOKMARK [0][-]{chapter.3}{Vortex Analysis to predict IA Initiation}{}% 23
-\BOOKMARK [0][-]{chapter*.23}{References}{}% 24
-\BOOKMARK [0][-]{Appendix.a.A}{Statistics}{}% 25
-\BOOKMARK [1][-]{section.a.A.1}{Section 1}{Appendix.a.A}% 26
-\BOOKMARK [1][-]{section.a.A.2}{Section 2}{Appendix.a.A}% 27
-\BOOKMARK [1][-]{section.a.A.3}{Section 3}{Appendix.a.A}% 28
-\BOOKMARK [1][-]{section.a.A.4}{Section 4}{Appendix.a.A}% 29
-\BOOKMARK [1][-]{section.a.A.5}{Section 5}{Appendix.a.A}% 30
-\BOOKMARK [0][-]{Appendix.a.B}{Sample Code}{}% 31
-\BOOKMARK [1][-]{section.a.B.1}{HelloWorld.c}{Appendix.a.B}% 32
-\BOOKMARK [0][-]{Appendix.a.C}{Letters of Permission}{}% 33
-\BOOKMARK [0][-]{Appendix.a.D}{Cellular Biology}{}% 34
-\BOOKMARK [1][-]{section.a.D.1}{TUNEL-assay}{Appendix.a.D}% 35
-\BOOKMARK [1][-]{section.a.D.2}{VCAM-1}{Appendix.a.D}% 36
+\BOOKMARK [1][-]{subsection.1.0.1}{Morphological Characteristics}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.0.2}{Hemodynamic Characteristics}{subsection.1.0.1}% 11
+\BOOKMARK [1][-]{section.1.1}{Section 1}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.1}{Objective}{section.1.1}% 13
+\BOOKMARK [2][-]{subsection.1.1.2}{Methodolgy}{section.1.1}% 14
+\BOOKMARK [1][-]{section.1.2}{Aneurysm Geometic Characterisitcs}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.3}{Aneurysm Hemodynamic Characterisitcs}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.4}{Disturbed Flow on Vascular Endothelium}{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.2}{Hemodynamic Flow Vortex Identification}{}% 18
+\BOOKMARK [1][-]{section.2.1}{Materials and Methods}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{Modeling of "Patient-specific" Vasculature}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.2}{Mesh Generation}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.3}{CFD Simulation}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.4}{Aneurysm Extraction and Voxelization of Aneurismal Velocity Data}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.5}{Vortex Core Extraction and Analysis}{section.2.1}% 24
+\BOOKMARK [0][-]{chapter.3}{Vortex Analysis to predict IA Initiation}{}% 25
+\BOOKMARK [0][-]{chapter*.23}{References}{}% 26
+\BOOKMARK [0][-]{Appendix.a.A}{Statistics}{}% 27
+\BOOKMARK [1][-]{section.a.A.1}{Section 1}{Appendix.a.A}% 28
+\BOOKMARK [1][-]{section.a.A.2}{Section 2}{Appendix.a.A}% 29
+\BOOKMARK [1][-]{section.a.A.3}{Section 3}{Appendix.a.A}% 30
+\BOOKMARK [1][-]{section.a.A.4}{Section 4}{Appendix.a.A}% 31
+\BOOKMARK [1][-]{section.a.A.5}{Section 5}{Appendix.a.A}% 32
+\BOOKMARK [0][-]{Appendix.a.B}{Sample Code}{}% 33
+\BOOKMARK [1][-]{section.a.B.1}{HelloWorld.c}{Appendix.a.B}% 34
+\BOOKMARK [0][-]{Appendix.a.C}{Letters of Permission}{}% 35
+\BOOKMARK [0][-]{Appendix.a.D}{Cellular Biology}{}% 36
+\BOOKMARK [1][-]{section.a.D.1}{TUNEL-assay}{Appendix.a.D}% 37
+\BOOKMARK [1][-]{section.a.D.2}{VCAM-1}{Appendix.a.D}% 38

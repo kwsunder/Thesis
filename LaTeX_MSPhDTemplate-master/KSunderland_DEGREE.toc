@@ -6,30 +6,32 @@
 \contentsline {chapter}{List of Abbreviations}{xxv}{section*.7}
 \contentsline {chapter}{Abstract}{xxix}{section*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Section 1}{5}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Objective}{6}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Methodolgy}{6}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Aneurysm Geometic Characterisitcs}{8}{section.1.2}
-\contentsline {section}{\numberline {1.3}Aneurysm Hemodynamic Characterisitcs}{10}{section.1.3}
-\contentsline {section}{\numberline {1.4}Disturbed Flow on Vascular Endothelium}{11}{section.1.4}
-\contentsline {chapter}{\numberline {2}Hemodynamic Flow Vortex Identification}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Materials and Methods}{18}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Modeling of "Patient-specific" Vasculature}{18}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Mesh Generation}{19}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}CFD Simulation}{19}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Aneurysm Extraction and Voxelization of Aneurismal Velocity Data}{21}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Vortex Core Extraction and Analysis}{21}{subsection.2.1.5}
-\contentsline {chapter}{\numberline {3}Vortex Analysis to predict IA Initiation}{29}{chapter.3}
-\contentsline {chapter}{References}{41}{chapter*.23}
-\contentsline {chapter}{\numberline {A}Statistics}{75}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Section 1}{76}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Section 2}{80}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Section 3}{83}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Section 4}{84}{section.a.A.4}
-\contentsline {section}{\numberline {A.5}Section 5}{86}{section.a.A.5}
-\contentsline {chapter}{\numberline {B}Sample Code}{89}{Appendix.a.B}
-\contentsline {section}{\numberline {B.1}HelloWorld.c}{91}{section.a.B.1}
-\contentsline {chapter}{\numberline {C}Letters of Permission}{93}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Cellular Biology}{95}{Appendix.a.D}
-\contentsline {section}{\numberline {D.1}TUNEL-assay}{95}{section.a.D.1}
-\contentsline {section}{\numberline {D.2}VCAM-1}{96}{section.a.D.2}
+\contentsline {subsection}{\numberline {1.0.1}Morphological Characteristics}{3}{subsection.1.0.1}
+\contentsline {subsection}{\numberline {1.0.2}Hemodynamic Characteristics}{4}{subsection.1.0.2}
+\contentsline {section}{\numberline {1.1}Section 1}{8}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Objective}{8}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Methodolgy}{9}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Aneurysm Geometic Characterisitcs}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}Aneurysm Hemodynamic Characterisitcs}{13}{section.1.3}
+\contentsline {section}{\numberline {1.4}Disturbed Flow on Vascular Endothelium}{14}{section.1.4}
+\contentsline {chapter}{\numberline {2}Hemodynamic Flow Vortex Identification}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Materials and Methods}{22}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Modeling of "Patient-specific" Vasculature}{22}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Mesh Generation}{23}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}CFD Simulation}{23}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Aneurysm Extraction and Voxelization of Aneurismal Velocity Data}{25}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Vortex Core Extraction and Analysis}{25}{subsection.2.1.5}
+\contentsline {chapter}{\numberline {3}Vortex Analysis to predict IA Initiation}{33}{chapter.3}
+\contentsline {chapter}{References}{45}{chapter*.23}
+\contentsline {chapter}{\numberline {A}Statistics}{79}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Section 1}{80}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Section 2}{84}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Section 3}{87}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Section 4}{88}{section.a.A.4}
+\contentsline {section}{\numberline {A.5}Section 5}{90}{section.a.A.5}
+\contentsline {chapter}{\numberline {B}Sample Code}{93}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}HelloWorld.c}{95}{section.a.B.1}
+\contentsline {chapter}{\numberline {C}Letters of Permission}{97}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Cellular Biology}{99}{Appendix.a.D}
+\contentsline {section}{\numberline {D.1}TUNEL-assay}{99}{section.a.D.1}
+\contentsline {section}{\numberline {D.2}VCAM-1}{100}{section.a.D.2}
