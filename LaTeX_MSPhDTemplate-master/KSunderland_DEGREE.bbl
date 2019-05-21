@@ -64,6 +64,12 @@
   aneurysms.
 \newblock {\em Journal of the Royal Society Interface\/} (2009), rsif20090476.
 
+\bibitem{baeyens2016endothelial}
+{\sc Baeyens, N., Bandyopadhyay, C., Coon, B.~G., Yun, S., and Schwartz, M.~A.}
+\newblock Endothelial fluid shear stress sensing in vascular health and
+  disease.
+\newblock {\em The Journal of clinical investigation 126}, 3 (2016), 821--828.
+
 \bibitem{balaguru2016disturbed}
 {\sc Balaguru, U.~M., Sundaresan, L., Manivannan, J., Majunathan, R., Mani, K.,
   Swaminathan, A., Venkatesan, S., Kasiviswanathan, D., and Chatterjee, S.}
@@ -912,6 +918,12 @@
   Decomposition}.
 \newblock {\em Physical Review B 78\/} (2008), 035407.
 
+\bibitem{sato2000local}
+{\sc Sato, M., Nagayama, K., Kataoka, N., Sasaki, M., and Hane, K.}
+\newblock Local mechanical properties measured by atomic force microscopy for
+  cultured bovine endothelial cells exposed to shear stress.
+\newblock {\em Journal of biomechanics 33}, 1 (2000), 127--135.
+
 \bibitem{sawyer2016lymphocytes}
 {\sc Sawyer, D.~M., Pace, L.~A., Pascale, C.~L., Kutchin, A.~C., O’Neill,
   B.~E., Starke, R.~M., and Dumont, A.~S.}
@@ -1076,6 +1088,12 @@
   strategy on prediction of intracranial aneurysm hemodynamics and rupture
   status indicators.
 \newblock {\em American Journal of Neuroradiology\/} (2013).
+
+\bibitem{van2010analyzing}
+{\sc van~der Meer, A.~D., Poot, A.~A., Feijen, J., and Vermes, I.}
+\newblock Analyzing shear stress-induced alignment of actin filaments in
+  endothelial cells with a microfluidic assay.
+\newblock {\em Biomicrofluidics 4}, 1 (2010), 011103.
 
 \bibitem{vanhoutte2009endothelial}
 {\sc Vanhoutte, P.~M., Shimokawa, H., Tang, E.~H., and Feletou, M.}

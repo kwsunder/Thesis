@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.20)  20 MAY 2019 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.20)  20 MAY 2019 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1630,31 +1630,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 13.
+(hyperref)                than one, level fixed on input line 12.
 
 
 Package natbib Warning: Citation `ucas2012natrual' on page 2 undefined on input
- line 15.
+ line 14.
 
+[2]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-
-Package caption Warning: \label without proper reference on input line 29.
+Package caption Warning: \label without proper reference on input line 26.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Low_WSS_meta_analysis' on page 4 undefined on input l
-ine 21.
+LaTeX Warning: Reference `Low_WSS_meta_analysis' on page 3 undefined on input l
+ine 18.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [3]
 Package epstopdf Info: Source file: <./Figures/Zhou_2016_Meta_analysis_low_WSS_
 fig1.eps>
 (epstopdf)                    date: 2019-01-09 08:19:40
@@ -1666,7 +1660,7 @@ fig1-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Zhou_2016_Meta_a
 nalysis_low_WSS_fig1-eps-converted-to.pdf ./Figures/Zhou_2016_Meta_analysis_low
 _WSS_fig1.eps>
-(epstopdf)             \includegraphics on input line 25.
+(epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1674,16 +1668,23 @@ pdfTeX warning: pdflatex (file ./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
 
-<./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-converted-to.pdf, id=449, 1
+<./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-converted-to.pdf, id=451, 1
 406.25375pt x 1192.455pt>
 File: ./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-con
-verted-to.pdf used on input line 25.
+verted-to.pdf used on input line 22.
 (pdftex.def)             Requested size: 241.38153pt x 204.67976pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./Figures/Zhou_2016_Meta_analysis_low_WSS_fig1-eps-converted-to.pdf>]
@@ -1693,9 +1694,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
 \openout7 = `KSunderland_DEGREE.x.gnuplot'.
 
 runsystem(gnuplot KSunderland_DEGREE.x.gnuplot)...disabled (restricted).
@@ -1703,7 +1701,7 @@ runsystem(gnuplot KSunderland_DEGREE.x.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.x.table' not found. on 
-input line 120.
+input line 117.
 
 \openout7 = `KSunderland_DEGREE.sin.gnuplot'.
 
@@ -1711,7 +1709,7 @@ runsystem(gnuplot KSunderland_DEGREE.sin.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.sin.table' not found. o
-n input line 122.
+n input line 119.
 
 \openout7 = `KSunderland_DEGREE.exp.gnuplot'.
 
@@ -1719,9 +1717,12 @@ runsystem(gnuplot KSunderland_DEGREE.exp.gnuplot)...disabled (restricted).
 
 
 Package pgf Warning: Plot data file `KSunderland_DEGREE.exp.table' not found. o
-n input line 124.
+n input line 121.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
@@ -1739,29 +1740,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [14])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17]
+ [15]
+[16]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (./Chapters/Chapter2.tex [18
-
-
-
-]
+ (./Chapters/Chapter2.tex
 Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [17
+
+
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
@@ -1780,12 +1782,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
 Package epstopdf Info: Source file: <./Figures/NearestNeighborsHistogram.eps>
 (epstopdf)                    date: 2018-10-10 11:05:08
 (epstopdf)                    size: 10090 bytes
@@ -1798,7 +1794,7 @@ Histogram-eps-converted-to.pdf ./Figures/NearestNeighborsHistogram.eps>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/NearestNeighborsHistogram-eps-converted-to.pdf, id=763, 467.7475pt x
+<./Figures/NearestNeighborsHistogram-eps-converted-to.pdf, id=757, 467.7475pt x
  407.5225pt>
 File: ./Figures/NearestNeighborsHistogram-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1819,7 +1815,7 @@ Histogram200-eps-converted-to.pdf ./Figures/NearestNeighborsHistogram200.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf, id=764, 467.7475p
+<./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf, id=758, 467.7475p
 t x 407.5225pt>
 File: ./Figures/NearestNeighborsHistogram200-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1836,18 +1832,18 @@ Overfull \hbox (5.09943pt too wide) in paragraph at lines 105--110
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./Figures/NearestNeighborsHistogram-eps-converted-to.pdf> <./Figures/Near
+ [26 <./Figures/NearestNeighborsHistogram-eps-converted-to.pdf> <./Figures/Near
 estNeighborsHistogram200-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29])
+ [27])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32]
+ [29]
+[30]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -1855,31 +1851,31 @@ Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [31
 
 
 
 
 ]
 
-Package natbib Warning: Citation `Mantha1113' on page 34 undefined on input lin
+Package natbib Warning: Citation `Mantha1113' on page 32 undefined on input lin
 e 25.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [32]
 
-Package natbib Warning: Citation `Shimogonya2009' on page 35 undefined on input
+Package natbib Warning: Citation `Shimogonya2009' on page 33 undefined on input
  line 31.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [34]
 Package epstopdf Info: Source file: <./Figures/RandomDistribution.eps>
 (epstopdf)                    date: 2018-10-10 11:05:08
 (epstopdf)                    size: 38450 bytes
@@ -1892,7 +1888,7 @@ on-eps-converted-to.pdf ./Figures/RandomDistribution.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/RandomDistribution-eps-converted-to.pdf, id=836, 479.7925pt x 390.45
+<./Figures/RandomDistribution-eps-converted-to.pdf, id=830, 479.7925pt x 390.45
 876pt>
 File: ./Figures/RandomDistribution-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1903,15 +1899,15 @@ Package pdftex.def Info: ./Figures/RandomDistribution-eps-converted-to.pdf used
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-[38 <./Figures/RandomDistribution-eps-converted-to.pdf>] [39]
+ [35]
+[36 <./Figures/RandomDistribution-eps-converted-to.pdf>] [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40
+ [38
 
 
 ]
-[41]
+[39]
 Package epstopdf Info: Source file: <./Figures/TurboProp.eps>
 (epstopdf)                    date: 2018-10-10 11:05:08
 (epstopdf)                    size: 16130721 bytes
@@ -1922,80 +1918,93 @@ Package epstopdf Info: Source file: <./Figures/TurboProp.eps>
 nverted-to.pdf ./Figures/TurboProp.eps>
 (epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
- <./Figures/TurboProp-eps-converted-to.pdf, id=868, 578.16pt x 325.215pt>
+ <./Figures/TurboProp-eps-converted-to.pdf, id=862, 578.16pt x 325.215pt>
 File: ./Figures/TurboProp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/TurboProp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/TurboProp-eps-converted-to.pdf used on input
  line 290.
 (pdftex.def)             Requested size: 546.08179pt x 307.14749pt.
- [42 <./Figures/TurboProp-eps-converted-to.pdf>]) [43
+ [40 <./Figures/TurboProp-eps-converted-to.pdf>]) [41
 
 
 ]
 \openout2 = `References/References.aux'.
 
- (./References/References.tex [44
+ (./References/References.tex [42
 
 
 
 ]
-(./KSunderland_DEGREE.bbl [45
+(./KSunderland_DEGREE.bbl [43
 
 
-] [46]
+] [44]
 Underfull \vbox (badness 1009) has occurred while \output is active []
 
- [47]
-[48] [49]
+ [45]
+[46] [47]
 Underfull \vbox (badness 4713) has occurred while \output is active []
 
- [50]
-[51] [52] [53] [54] [55] [56] [57] [58]
+ [48]
+[49] [50] [51] [52] [53] [54] [55]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [56]
+[57]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [59] [60]
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [58]
+[59]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [61] [62] [63] [64] [65]
+ [60] [61] [62]
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [63]
+[64]
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¤ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¤ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¶ in font cmcsc10!
+ [65]
+Underfull \vbox (badness 1546) has occurred while \output is active []
 
-[66]
-Underfull \vbox (badness 4647) has occurred while \output is active []
+ [66]
+Underfull \vbox (badness 4846) has occurred while \output is active []
 
  [67]
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [68]
 Missing character: There is no â in font cmcsc10!
 Missing character: There is no € in font cmcsc10!
 Missing character: There is no ™ in font cmcsc10!
 
-[69] [70] [71] [72]
-Underfull \vbox (badness 4713) has occurred while \output is active []
+[68] [69] [70] [71] [72]
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [73]
-[74] [75] [76] [77])) [78]
+[74] [75] [76])) [77]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex
+ (./Appendices/AppendixA.tex [78
+
+
+
+]
 Appendix A.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79
-
-
 
 
 ]
@@ -2069,7 +2078,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf, id=1224, 1806.75pt x 902.371
+<./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf, id=1228, 1806.75pt x 902.371
 25pt>
 File: ./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIO-17-1393_fig_9-eps-converted-to.pdf>
@@ -2146,13 +2155,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 31157 strings out of 494910
- 602908 string characters out of 6179836
- 797388 words of memory out of 5000000
- 33192 multiletter control sequences out of 15000+600000
+ 31169 strings out of 494910
+ 603199 string characters out of 6179836
+ 797437 words of memory out of 5000000
+ 33201 multiletter control sequences out of 15000+600000
  20962 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,13n,394p,1958b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,394p,2347b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kevin/.texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1200.600pk> </home/k
 evin/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
@@ -2175,10 +2184,10 @@ msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on KSunderland_DEGREE.pdf (130 pages, 1527671 bytes).
+Output written on KSunderland_DEGREE.pdf (130 pages, 1527660 bytes).
 PDF statistics:
- 1469 PDF objects out of 1728 (max. 8388607)
- 1263 compressed objects within 13 object streams
- 440 named destinations out of 1000 (max. 500000)
+ 1473 PDF objects out of 1728 (max. 8388607)
+ 1267 compressed objects within 13 object streams
+ 443 named destinations out of 1000 (max. 500000)
  485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
