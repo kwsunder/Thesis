@@ -1,5 +1,10 @@
 \begin{thebibliography}{100}
 
+\bibitem{giant2015cost}
+Cost comparison of surgical and endovascular treatment of unruptured giant
+  intracranial aneurysms.
+\newblock {\em Neurosurgery 77}, 5 (2015), 733--743.
+
 \bibitem{abboud2017morphology}
 {\sc Abboud, T., Rustom, J., Bester, M., Czorlich, P., Vittorazzi, E.,
   Pinnschmidt, H.~O., Westphal, M., and Regelsberger, J.}
@@ -116,6 +121,13 @@
   patient-specific correlation of hemodynamics and growth in a longitudinal
   study.
 \newblock {\em Stroke 39}, 11 (2008), 2997--3002.
+
+\bibitem{brinjikji2012hospitalization}
+{\sc Brinjikji, W., Kallmes, D.~F., Lanzino, G., and Cloft, H.}
+\newblock Hospitalization costs for endovascular and surgical treatment of
+  unruptured cerebral aneurysms in the united states are substantially higher
+  than medicare payments.
+\newblock {\em American Journal of Neuroradiology 33}, 1 (2012), 49--51.
 
 \bibitem{brinjikji2015risk}
 {\sc Brinjikji, W., Zhu, Y.-Q., Lanzino, G., Cloft, H., Murad, M., Wang, Z.,
@@ -1215,6 +1227,12 @@
 \newblock Aneurysm volume-to-ostium area ratio: a parameter useful for
   discriminating the rupture status of intracranial aneurysms.
 \newblock {\em Neurosurgery 68}, 2 (2011), 310--318.
+
+\bibitem{zeng2011can}
+{\sc Zeng, Z., Durka, M.~J., Kallmes, D.~F., Ding, Y., and Robertson, A.~M.}
+\newblock Can aspect ratio be used to categorize intra-aneurysmal
+  hemodynamics?—a study of elastase induced aneurysms in rabbit.
+\newblock {\em Journal of biomechanics 44}, 16 (2011), 2809--2816.
 
 \bibitem{Zhang2016}
 {\sc Zhang, Y., Jing, L., Zhang, Y., Liu, J., and Yang, X.}

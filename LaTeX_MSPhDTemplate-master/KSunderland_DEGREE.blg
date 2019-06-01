@@ -15,6 +15,8 @@ Warning--I didn't find a database entry for "ucas2012natrual"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Mantha1113"
 Warning--I didn't find a database entry for "Shimogonya2009"
+Warning--to sort, need author or key in giant2015cost
+Warning--empty author in giant2015cost
 Warning--empty year in aoki2007a
 Warning--can't use both volume and number fields in castro2013wall
 Warning--empty journal in hunt1988eddies
@@ -22,45 +24,45 @@ Warning--empty title in XCrySDen1999
 Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
 Warning--empty journal in versteeg2007introduction
-You've used 195 entries,
+You've used 198 entries,
             2253 wiz_defined-function locations,
-            1646 strings with 47413 characters,
-and the built_in function-call counts, 77070 in all, are:
-= -- 7244
-> -- 4859
+            1658 strings with 48027 characters,
+and the built_in function-call counts, 78118 in all, are:
+= -- 7349
+> -- 4909
 < -- 0
-+ -- 1999
-- -- 1788
-* -- 7218
-:= -- 12937
-add.period$ -- 580
-call.type$ -- 195
-change.case$ -- 1471
++ -- 2020
+- -- 1806
+* -- 7322
+:= -- 13100
+add.period$ -- 588
+call.type$ -- 198
+change.case$ -- 1489
 chr.to.int$ -- 0
-cite$ -- 202
-duplicate$ -- 1922
-empty$ -- 5185
-format.name$ -- 1788
-if$ -- 15202
+cite$ -- 207
+duplicate$ -- 1948
+empty$ -- 5266
+format.name$ -- 1806
+if$ -- 15413
 int.to.chr$ -- 0
-int.to.str$ -- 195
-missing$ -- 194
-newline$ -- 973
-num.names$ -- 388
-pop$ -- 1180
+int.to.str$ -- 198
+missing$ -- 197
+newline$ -- 987
+num.names$ -- 392
+pop$ -- 1193
 preamble$ -- 1
-purify$ -- 1284
+purify$ -- 1299
 quote$ -- 0
-skip$ -- 1138
+skip$ -- 1153
 stack$ -- 0
-substring$ -- 5034
-swap$ -- 480
+substring$ -- 5124
+swap$ -- 485
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 774
-warning$ -- 7
-while$ -- 686
-width$ -- 198
-write$ -- 1948
-(There were 11 warnings)
+type$ -- 786
+warning$ -- 9
+while$ -- 696
+width$ -- 201
+write$ -- 1976
+(There were 13 warnings)
