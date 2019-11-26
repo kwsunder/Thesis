@@ -28,7 +28,8 @@
 \contentsline {section}{\numberline {A.2}Section 2}{84}{section.a.A.2}
 \contentsline {section}{\numberline {A.3}Section 3}{87}{section.a.A.3}
 \contentsline {section}{\numberline {A.4}Section 4}{88}{section.a.A.4}
-\contentsline {section}{\numberline {A.5}Section 5}{90}{section.a.A.5}
+\contentsline {section}{\numberline {A.5}Section 5}{88}{section.a.A.5}
+\contentsline {section}{\numberline {A.6}Section 5}{90}{section.a.A.6}
 \contentsline {chapter}{\numberline {B}Sample Code}{93}{Appendix.a.B}
 \contentsline {section}{\numberline {B.1}HelloWorld.c}{95}{section.a.B.1}
 \contentsline {chapter}{\numberline {C}Letters of Permission}{97}{Appendix.a.C}
