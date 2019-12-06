@@ -12,7 +12,6 @@ A level-1 auxiliary file: Appendices/AppendixC.aux
 A level-1 auxiliary file: Appendices/AppendixD.aux
 Database file #1: References/References.bib
 Warning--I didn't find a database entry for "ucas2012natrual"
-Warning--I didn't find a database entry for "Cebral510"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Mantha1113"
 Warning--I didn't find a database entry for "Shimogonya2009"
@@ -24,46 +23,47 @@ Warning--empty journal in hunt1988eddies
 Warning--empty title in XCrySDen1999
 Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
+Warning--can't use both volume and number fields in strater20184d
 Warning--empty journal in versteeg2007introduction
-You've used 202 entries,
+You've used 204 entries,
             2253 wiz_defined-function locations,
-            1680 strings with 48927 characters,
-and the built_in function-call counts, 79923 in all, are:
-= -- 7506
-> -- 5057
+            1691 strings with 49650 characters,
+and the built_in function-call counts, 81395 in all, are:
+= -- 7635
+> -- 5186
 < -- 0
-+ -- 2080
-- -- 1862
-* -- 7508
-:= -- 13415
-add.period$ -- 600
-call.type$ -- 202
-change.case$ -- 1529
++ -- 2132
+- -- 1912
+* -- 7656
+:= -- 13657
+add.period$ -- 606
+call.type$ -- 204
+change.case$ -- 1560
 chr.to.int$ -- 0
-cite$ -- 211
-duplicate$ -- 1984
-empty$ -- 5365
-format.name$ -- 1862
-if$ -- 15757
+cite$ -- 214
+duplicate$ -- 2018
+empty$ -- 5437
+format.name$ -- 1912
+if$ -- 16044
 int.to.chr$ -- 0
-int.to.str$ -- 202
-missing$ -- 201
-newline$ -- 1007
-num.names$ -- 400
-pop$ -- 1226
+int.to.str$ -- 204
+missing$ -- 203
+newline$ -- 1017
+num.names$ -- 404
+pop$ -- 1256
 preamble$ -- 1
-purify$ -- 1335
+purify$ -- 1364
 quote$ -- 0
-skip$ -- 1173
+skip$ -- 1201
 stack$ -- 0
-substring$ -- 5208
-swap$ -- 493
+substring$ -- 5283
+swap$ -- 508
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 802
-warning$ -- 9
-while$ -- 708
-width$ -- 205
-write$ -- 2015
+type$ -- 810
+warning$ -- 10
+while$ -- 717
+width$ -- 207
+write$ -- 2037
 (There were 14 warnings)
