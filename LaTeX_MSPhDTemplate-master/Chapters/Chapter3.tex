@@ -1,38 +1,89 @@
 \cleartooddpage[\thispagestyle{empty}]
-\chapter{Vortex Analysis to predict IA Initiation}\label{CHAPTER3}
+\chapter{Hemodynamic Flow Vortex Identification}\label{CHAPTER3}
 
-The tangential, frictional stress caused by blood flowing along the vessel wall is known as WSS. The ANSYS-FLUENT software calculates WSS by the normal velocity gradient at the vessel wall:
-	\begin{equation}
-\tau\textsubscript{w} = \mu\frac{\partial v}{\partial n}
-	\end{equation}
-where $\mu$ is the dynamic viscosity. In this work, areas of high WSS were of interest as it is thought to play a role in the IA initiation \cite{Meng1254}. High WSS was defined as values $\ge$ 20 Pa during peak systole of the MRI waveform.
+The assessment of disturbed hemodynamic patterns is known to have an impact on the origin and national history of IAs \cite{weir2002unruptured,brisman2006cerebral}. From a clinical perspective, phase-contrast magnetic resonance imaging (PC-MRI) or Phase-contrast magnetic resonance angiography (PC-MRA) has been used to assess flow characteristics in the vasculature \textit{in-vivo} \cite{benndorf1996intraaneurysmal,meckel2008vivo}. Yet, determining flow details in and around IAs has proven difficult with PC-MRI/PC-MRA. The complex, disturbed patterns of aneurysmal flow results in incoherent velocites (at the sub-grid level) and these specific characteristics cannot be resolved by a typical "averaged" velocity measurement at the relatively large resolution in medical imaging (\textit{at 1-mm scale}). The consequence of this sub-grid limitation, clinical hemodynamic flow measurements may be impacted by errors and potential flow artifacts which adversely affect the accuracy of PC-MRI/PC-MRA results \cite{strater20184d,meckel2008vivo}. In parallel to research efforts of assessing MR flow imaging in and around IAs to determine rupture characteristics, blood flow simulated from "patient-specific" computational fluid dynamics (CFD) simulations \cite{steinman2002image} have also garnered interest by the clinical and research community \cite{xiang2011hemodynamic,cebral2011association}. CFD simulation data has an initial advantage over MRI derived data in that a high degree of control of both desired data resolution, as well as data quality (lack of imaging errors and flow artifacts) can be maintained. The development of novel flow measurement techniques can be initially tested and refined on data free from errors which may confound initial findings.
 
-The WSSG was calculated using in-house VMTK scripts and is derived from three spatial derivatives of the WSS as follows:
-	\begin{equation}
-WSSG = \sqrt{(\frac{\partial{\tau_{w}}}{\partial{x}})^2 + (\frac{\partial{\tau_{w}}}{\partial{y}})^2 + (\frac{\partial{\tau_{w}}}{\partial{z}})^2}
-	\end{equation}
-with the time-averaged WSSG calculated as
-	\begin{equation}
-WSSG\textsubscript{av} = \frac{1}{T}\int_{0}^{T} | WSSG | dt
-	\end{equation}
-	
-OSI is a nondimentional parameter, computing oscillations in the direction of the WSS vectors over the course of a cardiac cycle:
-	\begin{equation}
-OSI=\frac{1}{2}\left\{1-\frac{| \int_{0}^{T} \mathrm{\tau}_{i}dt |}{\int_{0}^{T} | \mathrm{\tau}_{i} | dt}\right\}
-	\end{equation}
-were $\tau\textsubscript{i}$ represents the WSS vector at a given time step across the duration of the cardiac cycle (T). The OSI describes the changes of a WSS vector's alignment with the cardiac cycle's temporally-averaged WSS vector. An OSI of 0 indicates no change in directionality and 0.5 being a complete direction reversal. 
+Assessment of hemodynamic conditions from CFD simulations has brought about a number of potential parameters that correlate to IA rupture risk: wall shear stress \cite{baek2009flow}, oscillatory shear index \cite{steinman2003image}, flow impingement \cite{cebral2011association}, and flow stability \cite{byrne2014quantifying}. As mentioned in the focus of flow stability, Bryne et al. \cite{byrne2014quantifying} found that aneurysmal flow flow spatial complexity and temporal stability is closely correlated with IA rupture. Yet this methodology only relies on qualitative assessment of the centroid-most region of vortex patterns (vortex core), giving less insight on the broader structural changes to vortices. Expanding upon the idea of vortex analysis to identify, and quantify changes to, the broader structural characteristics of vortices may give additional insight into conditions that can be linked to IA rupture potential.
 
-The AFI \cite{Mantha1113} quantifies the variation in angle between the instantaneous WSS vector and time-averaged WSS vector:
-	\begin{equation}
-AFI=cos(\theta)=\frac{\mathrm{\tau}_{i}\cdot \mathrm{\tau}_{av}}{| \mathrm{\tau}_{i} |*| \mathrm{\tau}_{av}|}
-	\end{equation}
-For each point along the vessel wall, the minimum AFI calculated during the cardiac cycle was used to indicate the greatest deviation of the WSS vector from its mean direction. A minimum AFI of -1, 0, and 1 indicate deviations of 180\textdegree, 90\textdegree, and 0\textdegree respectively.
+In an initial study, the development of an alternative technique for vortex analysis (expanding upon vortex core analysis) was investigated to assess the presence, destruction and spatialtemporal characteristics of vortices within an IA \cite{sunderland2016vortex}. This image processing algorithm expanded upon two established vortex identification methods, the \textit{Q}-criterion \cite{hunt1988eddies} and $\lambda_2$ \cite{jeong1995identification} methods, to identify and assess the broader aspects of vortices as opposed to solely identifying the vortex core. Subsequent studies investigated the use of a vortex identification methodology based on the Shannon's entropy (CITATION NEEDED) as an alternative identification metric not wholly reliant upon vortex core identification. 
 
-The GON index \cite{Shimogonya2009} quantifies fluctuations in WSSG directionality over the cardiac cycle. 
-	\begin{equation}
-GON=1-\frac{|\int_{0}^{T}Gdt|}{\int_{0}^{T}| G | dt}
-	\end{equation}
-T is the period of the cardiac cycle and G is the spatial wall shear stress gradient vector
+Due to the differences between traditional CFD data resolution (high) and MRI derived flow data (lower resolution), the identification methods were based on velocity data on a rectilinear grid, and the susceptibility of changes to vortex identification outcomes were tested under a range of grid resolutions. Additionally, variations to methodological outputs were tested under a range of chosen threshold values (dependent on the method and will be explained in Section NEED THE SECTION). The vulnerability of a methodology to significant changes in outcomes with minimal changes to methodological threshold values would have the potential to result in broad variations to research findings if thresholds were to be applied to a wide array of studies. Toward this end, the primary focus of this work was to explore analyzing the spatiotemporal characteristics of hemodynamic vortex structures as a possible means to compliment future assessment of IA rupture potential.  
+
+\section{Materials and Methods}\label{CHAPTER3_SECTION1}
+\subsection{Modeling of "Patient-specific" Vasculature}\label{CHAPTER3_SECTION1_SUBSECTION1}
+
+Medical imaging scans of ten (10) patient's vasculature structure were arbitrarily selected from an internal database: five patients with a single bifurcation aneurysm, and five with a single sidewall aneurysm. Models were located within the internal carotid artery or the basilar artery. A commercially available image segmentation package (Mimics Innovation Suite, version 17, Materialise Inc. Leuven, Belgium) was used to reconstruct the vascular surface from digital subtraction angiography (DSA) scans, resulting in 'patient-specific' vascular structures. For all cases, the longest available upstream vessel section proximal to the aneurysm was left intact to maintain as much of the patient vessel geometry as possible. Surface irregularities were manually removed using the localized smoothing capability in the commercially available computer aided design (CAD) 3-matic software (Version 9, Materialize Inc., Leuven, Belgium). Additionally, a $1^{st}$ order Laplacian smoothing filter was used to perform a global smoothing to the vessel structure, reducing surface irregularities while preserving the vascular geometry. Cylindrical flow extensions (6 times the inlet vessel diameter) were added to each model using the open-source Vascular Modeling Toolkit (VMTK) software (version 1.2). The addition of vessel extensions help reduce the effects of inlet, plug-flow flow on hemodynamic characteristics \cite{poethke2009cerebral}.
+
+\subsection{Mesh Generation}\label{CHAPTER3_SECTION1_SUBSECTION2}
+Processed vascular surface structures were converted into an unstructured, 3D, tetrahedralized volumetric mesh using an open-source mesh generator, Tetgen (version 1.4.2) \cite{si20113d}. The mesh generation process was done by an in-house Python script derived from the VMTK program. Approximately, 1 million computing cells were used per case, with the average mesh size as 0.0022-mm$^{3}$.
+
+\subsection{CFD Simulation}\label{CHAPTER3_SECTION1_SUBSECTION3}
+To compute fluid velocity data in and around the IA, the time-dependent incompressible, 3D Navier-Stokes equations was  (THERE NEEDS TO BE AN ADJECTIVE HERE....CHECK RECENT PAPERS) solved using two CFD solvers: a commercial CFD solved (version 14.0, ANSYS-FLUENT Inc., Lebanon, NH) and a research prototype CFD solver (version 4.0, Siemens Medical Solution Inc., IL). Details on the Navier-Stokes equation can be found in the Appendix.  In the ANSYS-FLUENT solver, the pressure-velocity coupling was obtained using the SIMPLEC algorithm \cite{versteeg2007introduction}. The explicit time-marching second-order scheme with a time step of $1\times 10^-3$ second (1000 steps per cardiac cycle) was used for computations.
+
+As the Siemens research CFD solver is still under development, limited information on its hosen methods for solving the Navier-Stokes equation will be discussed in this thesis. IA models were defined by water-tight 3D surface triangles were automatically discretized with cubical voxels. A Lattice-Boltzmann Mehod (LBM) solver was then used to chose adaptievly choose the solver time-step, and varied from $1\times 10^-3$ to $2\times 10^-3$. A Siemens Leonardo workstation equipped with a dual quad-core CPU and 8 GB of memory was used to perform CFD simulations. Of note, the exact same vessel geometries (STL files) were used to generate the volumetric meshes (for the ANSYS-FLUENT solver) and voxel discretization (for the LBM solver). The final velocity results obtained from the LBM method were re-sampled to form velocity data onto a rectilinear grid whose voxel size varied from 0.18 to 0.25 mm.
+
+In both solvers, vessels walls were assumed rigid with a no-slip boundary. While blood vessels are not rigid, the assumed rigidity for simulation has been shown to cause a rise in overall wall shear stress values, but have minimal impact on flow pattern characteristics in the arterial system unless the microvasculature is being simulated.  Blood was considered an incompressible and Newtonian fluid with a dynamic viscosity of 0.004 kg/m-s and a mass density of 1050 kg/m$^3$. A zero-pressure condition was used for all vessel outlets. For inlet flow rates, two pulsatile waveforms at a rate of 60 bpm were derived from magnetic resonance measurements and were taken from Gwilliam et al. \cite{gwilliam2009mr} as patient-specific flow waveforms were not available. Each case had its inlet waveform scaled according to their inlet cross-sectional area, standardizing their mean volumetric flow rate to either 280mL/min for ICA cases or 180mL/min for BAs. This choice of volumetric flow rate(s) were based on measured physiological flow rates available in MR literature \cite{enzmann1994blood,zhao2007regional}. Four (4) cardiac cycles were simulated per case at 20 data points per cardiac cycle with only the final cardiac cycle saves as a means to reduce initial transient flow conditions.  
+
+\subsection{Aneurysm Extraction and Voxelization of Aneurismal Velocity Data}
+A published method \cite{jiang2013interactive} was used to semi-automatically isolate and extract the IA sac. The isolated IA sac was sealed at the IA opening (ostium) and converted to a binary mask that is spatially-registered with the volumetric velocity data. The mask allows the analysis of only the intra-aneurysmal velocity data. TO verify intra-rater reliability of proper sectioning of IA masks, 2 separate users sectioned the IAS and Bland-Altman plots were performed on the resultant mask volumes and ostium areas to determine the similarity between chosen masks. Once no significant differences were ensured between sectioned masks, one user was chosen at random and all resultant masks from that user were implemented in the rest of the study. 
+
+\subsection{Vortex Core Extraction and Analysis}\label{CHAPTER3_SECTION1_SUBSECTION4}
+All computational methods for identification and extraction of vortices and spatio-temporal analysis of said vortices were performed using in-house scipts (C++ and Python) that were derived form the open-source VTK/VMTK software package.
+
+
+ 
+
+
+This flow assessment was performed through the analysis of vortex critical point (core) lines and it was concluded that "ruptured aneurysms had more complex and more unstable flow patterns than un-ruptured aneurysms." In their work, Bryne used proper orthogonal decomposition \cite{} of time-resolved velocities were used to characterize temporal flow stability. As a brief explanation, vortex core lines, identifying the center-most region of vortex pattern, were identified by the use of a co-linearlity conditions between flow instantaneous vorticity $\vec{\omega}$ and velocity $\vec{v}$ vectors.
+
+\begin{equation}
+\begin{aligned}
+\vec{\omega} \times \vec{v} = 0 \\
+\vec{\omega} = \nabla \times \vec{v}
+\end{aligned}
+\label{CHAPTER3_vortex_core_line}
+\end{equation}
+
+To identify the centroid region of vortices, the eigenvalues of the velocity gradient tensor was calculated. In the event of a pair of complex conjugate eigenvalues was identified, the vorticity vector $\vec{\omega}$ as calculated and tested against the velocity vector to assess whether Equation \ref{CHAPTER3_vortex_core_line} was satisfied. From an identified element, the velocity component in the direction of vorticity vector was subtracted form the velocity vector (reduced velocities). Element faces that had a point where the reduced velocity is zero was marked, and if two or more faces of an element had a zero reduced velocity, a vortex core line passes through the element. 
+
+Vortex core line analysis 
+
+
+
+\begin{equation}
+\begin{aligned}
+\nabla \vec{u} & = S + \Omega \\
+  			   & S = \frac{1}{2}\left[(\nabla \vec{u}) + (\nabla \vec{u})^T\right] \\
+  			   & \Omega = \left[\frac{1}{2}(\nabla \vec{u}) - (\nabla \vec{u}^T)\right]
+\end{aligned}
+ \label{CHAPTER3_velocity_gradient_tensor}
+\end{equation}
+
+Where $\nabla\vec{u}$ is the calculation of the velocity gradient: S as the rate-of-strain tensor and $\Omega$ as the vorticity tensor.
+
+Hunt, Wray and Moin \cite{hunt1988eddies} defined a vortex as the spatial region of flow where  the Euclidean norm of the vorticity tensor dominates.
+\begin{equation}
+Q = \frac{1}{2}\left[|\Omega|^2 - |S|^2\right] > 0
+\label{CHAPTER3_Q}
+\end{equation}
+
+Jeong and Hussain identified the vortices as:
+\begin{equation}
+\lambda_2 = (S^2 + \Omega^2) < 0
+\label{CHAPTER3_lambda2}
+\end{equation}
+where $\lambda_2{A}$ identifies a vortex when the second intermediate eigenvalue of the 3 x 3 tensor \textit{A} is symmetric (all three eigenvalues are real). 
+
+In our original study, the normalized Q and $\lambda_2$ values were tested to identify vortices within IAs.
+
+\begin{equation}
+\begin{aligned}
+&Q(x,t) = \frac{Q(x,t)}{|\vec{u}(x,t)|^2} \\
+&\lambda_2 (x,t) = \frac{\lambda_2 (x,t)}{|\vec{u}(x,t)|^2}
+\end{aligned}
+\label{CHAPTER3_normalized_Q_lambda2}
+\end{equation}
+
 
 
 

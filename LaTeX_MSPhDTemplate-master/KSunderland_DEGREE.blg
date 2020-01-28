@@ -4,6 +4,7 @@ The top-level auxiliary file: KSunderland_DEGREE.aux
 A level-1 auxiliary file: Chapters/Chapter1.aux
 A level-1 auxiliary file: Chapters/Chapter2.aux
 A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
 A level-1 auxiliary file: References/References.aux
 The style file: acm.bst
 A level-1 auxiliary file: Appendices/AppendixA.aux
@@ -11,7 +12,9 @@ A level-1 auxiliary file: Appendices/AppendixB.aux
 A level-1 auxiliary file: Appendices/AppendixC.aux
 A level-1 auxiliary file: Appendices/AppendixD.aux
 Database file #1: References/References.bib
-Warning--I didn't find a database entry for "ucas2012natrual"
+Warning--entry type for "WIKI_Vessel" isn't style-file defined
+--line 7 of file References/References.bib
+Reallocated field_info (elt_size=4) to 10014 items from 5000.
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Mantha1113"
 Warning--I didn't find a database entry for "Shimogonya2009"
@@ -25,45 +28,45 @@ Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
 Warning--can't use both volume and number fields in strater20184d
 Warning--empty journal in versteeg2007introduction
-You've used 204 entries,
+You've used 232 entries,
             2253 wiz_defined-function locations,
-            1691 strings with 49650 characters,
-and the built_in function-call counts, 81395 in all, are:
-= -- 7635
-> -- 5186
+            1833 strings with 56762 characters,
+and the built_in function-call counts, 93506 in all, are:
+= -- 8744
+> -- 6062
 < -- 0
-+ -- 2132
-- -- 1912
-* -- 7656
-:= -- 13657
-add.period$ -- 606
-call.type$ -- 204
-change.case$ -- 1560
++ -- 2490
+- -- 2240
+* -- 8852
+:= -- 15728
+add.period$ -- 690
+call.type$ -- 232
+change.case$ -- 1806
 chr.to.int$ -- 0
-cite$ -- 214
-duplicate$ -- 2018
-empty$ -- 5437
-format.name$ -- 1912
-if$ -- 16044
+cite$ -- 242
+duplicate$ -- 2269
+empty$ -- 6177
+format.name$ -- 2240
+if$ -- 18380
 int.to.chr$ -- 0
-int.to.str$ -- 204
-missing$ -- 203
-newline$ -- 1017
-num.names$ -- 404
-pop$ -- 1256
+int.to.str$ -- 232
+missing$ -- 230
+newline$ -- 1157
+num.names$ -- 460
+pop$ -- 1453
 preamble$ -- 1
-purify$ -- 1364
+purify$ -- 1582
 quote$ -- 0
-skip$ -- 1201
+skip$ -- 1345
 stack$ -- 0
-substring$ -- 5283
-swap$ -- 508
+substring$ -- 6028
+swap$ -- 564
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 810
+type$ -- 922
 warning$ -- 10
-while$ -- 717
-width$ -- 207
-write$ -- 2037
+while$ -- 818
+width$ -- 235
+write$ -- 2317
 (There were 14 warnings)

@@ -1,24 +1,24 @@
 \cleartooddpage[\thispagestyle{empty}]
 \chapter{Introduction}\label{CHAPTER1}
 
+
 Subarachnoid hemorrhage is a potentially devastating pathologic condition in which bleeding occurs into the space surrounding the brain. One of the prevalent events that result in subarachnoid hemorrhage is the rupture of an intracranial aneurysm (IA). IAs are degenerative, irregular expansions of areas in the cerebral vasculature that occur in an estimated 3-5\% of the global population \cite{revilla2018prevalence,hackenberg2018unruptured,villablanca2013natural}, with an estimated 0.15\% - 0.7\% of the global population suffering the rupture of an IA each year \cite{hughes2018estimating}. Mortality rates due to the rupture of IAs are estimated between 45-50\%, with survivors suffering significant neurological damage, including physical and cognitive impairment \cite{LONGO2017632,villablanca2013natural}. Yet the disparity between the number of ruptured and unruptured IAs indicate that not all IAs are at high rupture risk. 
-	From a clinical perspective, improved medical imaging techniques have led to an increase in the detection of unruptured IAs, and novel surgical intervention methods have aimed to reduce the instances of IA rupture and their subsequent impacts of patient health \cite{molyneux2002international,komotar2008guidelines}. Yet surgical treatments are not without a high healthcare costs: surgical repair (without complications) if IAs can be an estimated \$25,000. Data has also shown that, while treatment risks are relatively low, similar outcomes of morbidity and mortality can occur in the event of treatment complications \cite{mascitelli2015predictors,liu2016recanalization,chalouhi2015safety}. Surgical complications also result in a marked increase in costs: between \$36,188 and \$68,165 depending on possible complications (varies with surgical intervention) \cite{brinjikji2012hospitalization}. Additionally, continued economic burden is placed upon patients and their families if long term rehabilitation, home care, or in-hospital treatment is required, post-surgical complications. Therefore, elucidating the processes and conditions which impact IA rupture are of significant interest for risk stratification, improved patient selection and treatment planning.
-	
-Research has shown that a wide array of risk factors may impact IA development, growth and rupture potential \cite{Korja2014,penn2014role,starke2014tumor,diagbouga2018role}, but these factors can generally be broken down into three categories:
+	From a clinical perspective, improved medical imaging techniques have led to an increase in the detection of unruptured IAs, and novel surgical intervention methods have aimed to reduce the instances of IA rupture and their subsequent impacts of patient health \cite{molyneux2002international,komotar2008guidelines}. Yet surgical treatments are not without a high healthcare costs: surgical repair (without complications) of IAs can be an estimated \$25,000. Data has also shown that, while treatment risks are relatively low, similar outcomes of morbidity and mortality can occur in the event of treatment complications \cite{mascitelli2015predictors,liu2016recanalization,chalouhi2015safety}. Surgical complications also result in a marked increase in costs: between an estimated \$35,000 - \$70,000 depending on possible complications (varies with surgical intervention) \cite{brinjikji2012hospitalization}. Additionally, continued economic burden is placed upon patients and their families if long term rehabilitation, home care, or in-hospital treatment is required post-surgical complications. 
+This surgical vs rupture risk has led to significant interest in elucidating the processes and conditions which impact IA rupture. Proper identification of IAs at high risk of rupture could significantly benefit risk stratification, improve patient selection and aid treatment planning as to best determine a course of action for the clinical management of IAs.
+
+
+\subsection{Current Rupture Prediction Metrics}
+Research has shown that a wide array of risk factors may impact IA development, growth and rupture potential \cite{Korja2014,penn2014role,starke2014tumor,diagbouga2018role}, with said factors generally separated into three categories:
 	\begin{itemize}
   		\item[--] IA morphological characteristics
  	    \item[--] Vascular hemodynamics
  	    \item[--] Patient genetic and health factors
 	\end{itemize}
 
-\subsection{Morphological Characteristics}
+Morphological characteristics of IAs are often first considered when determining the severity of an unruptured IA and its potential to rupture. Factors such as IA size (volume), shape, aspect ratio, IA to parent vessel angles, etc. \textcolor{red}{NEEEEED REFERENCES} have been identified in a number of studies as a possible metrics to assess IA rupture potential. However, many of these parameters have been shown to generate conflicting results between studies, varying in their strengths toward rupture prediction. As per example, IAs $>$10mm in size are often associated with rupture risk, with IAs $>$25mm thought to be at the greatest rupture risk leading the majority of IAs at these sizes to undergo surgical intervention\cite{Xiang2011WSS,mocco2018aneurysm,wermer2007risk} even though not all large IAs rupture. If this thought process would be applied clinically, many small IAs ($<$4mm) may be spared surgical intervention due to the thought that the complications from surgical interventions would be of greater risk than the possibility of small IA rupture. Yet small aneurysms have been shown to be at a non-insignificant risk of rupture \cite{duan2018morphological}. In addition to assessing rupture risk solely on IA size may overestimate the risk of large IAs (and subsequently underestimating small IAs), size characteristics may be of limited usefulness in assessing rupture risk in medium-sized IAs (4-10mm). Additionally, may of the other morphological characteristics of IAs have had varying degrees of strength toward predicting IA rupture\cite{brinjikji2015risk,Backes2016,Jing2015}. To overcome the limitations of relying on morphological characteristics for assessment of IA rupture potential, hemodynamic characteristics within the IA sac have been investigated.
 
-Morphological characteristics of IAs are oft-considered when determining rupture potential. Factors such as IA size (volume), shape, aspect ratio, IA to parent vessel angles, etc. \textcolor{red}{NEEEEED REFERENCES} have been identified in a number of studies as a possible metric to assess IA rupture potential. However, many of these parameters have been shown to generate conflicting results between studies, varying in the strengths toward rupture prediction. As per example, IAs $>$7mm in size are often associated with rupture risk, with IAs $>$25mm thought to be at the greatest rupture risk. If applied clinically, this would leave many small IAs ($<$7mm) under-treated due to the thought that the risk of complications from surgical interventions may be of greater risk than the possibility of small IA rupture \textbf{(IS THIS TRUE)}. Yet small aneurysms have been shown to be at a non-insignificant risk of rupture \cite{duan2018morphological} and not all large IAs rupture. The strength of IA size on rupture impact may be further complicated by IA location, which has also been noted to potentially impact IA rupture \cite{ucas2012natrual,weir2002sizes}. Similar to IA size, additional morphological characteristics are applied to clinical assessment of IAs, yet similar discrepancies exist between studies assessing their impact on rupture prediction.
-
-\subsection{Hemodynamic Characteristics}
-
-Hemodynamic stressors are thought to play a significant role on the initiation, growth and possible rupture of IAs. Tangental fluid stressors along the vascular wall, known as wall shear stress (WSS), and its derivatives are often of investigated when generating models for IA rupture prediction(s)\cite{Jing2015,Xiang2011WSS,doddasomayajula2017hemodynamic,Cebral510}. These near-wall forces have been shown to act as a biological stimulator, eliciting various changes to both vasculature endothellial and smooth muscle cells, inducing changes in gene expression, phenotypical and mechanical properties, and protein expressions which dictate cellular activity \cite{baek2009flow,van2010analyzing,dolan2013high,sato2000local,baeyens2016endothelial,byrne2014quantifying,cecchi2011role,kulcsar2011hemodynamics}. While likely triggers to vascular cell changes, discrepancies exist, similar to IA morphological characteristics, of to which specific hemodynamic characteristics impact IA rupture prediction and their overall predictive strength. It has been shown that vascular cells maintain healthy physiological characteristics while exposed to a range of WSS between 3 and 15 dynes/cm$^{2}$ yet studies are in conflict if WSS lower \cite{Miura519,boussel2008aneurysm} or higher \cite{dolan2013high,shojima2004magnitude} from said preferred range is of greater impact on IA rupture risk. It has been suggested that both high and low WSS trigger differing impacts on vascular cells \cite{Meng1254} which both may play a significant role in IA development and potential rupture. Even focusing on one extrema of WSS values and determining their usefulness on prediction IA rupture risk has proven difficult. In a 2016 meta analysis by Zhou, the impact of low wall shear stress on predicting IA rupture varied between studies (Fig.~\ref{Low_WSS_meta_analysis}). Nonetheless, while the exact role of WSS and its impact on IA rupture is still being elucidated, WSS if often applied to a number of studies aiming to determine the characteristics of IAs a high risk of rupture. It is worth noting, that the clinical measurement of hemodynamic characteristics and WSS \textit{in-vivo} is possible, yet remains difficult especially in smaller blood vessels and small IAs. Improvements in computational fluid dynamics (CFD) can help overcome the limitations of \textit{in-vivo} WSS measurement and is being adopted as a clinical tool for assessment of rupture potential and planning of IA treatments \cite{steinman2002image,valen2013mind}. 
-
+Hemodynamic stressors are thought to play a significant role on the initiation, growth and possible rupture of IAs. Tangental fluid stressors along the vascular wall, known as wall shear stress (WSS), and its derivatives are often of investigated when generating models for IA rupture prediction(s)\cite{Jing2015,Xiang2011WSS,doddasomayajula2017hemodynamic,Cebral510}. These near-wall forces have been shown to act as a biological stimulator, eliciting various changes to both vasculature endothelial and smooth muscle cells, inducing changes in gene expression, phenotypical and mechanical properties, and protein expressions which dictate cellular activity \cite{baek2009flow,van2010analyzing,dolan2013high,sato2000local,baeyens2016endothelial,byrne2014quantifying,cecchi2011role,kulcsar2011hemodynamics}. While WSS has been assessed to trigger vascular cell changes, discrepancies exist to which specific hemodynamic characteristics impact IA rupture prediction and their overall predictive strength, similar to IA morphological characteristics. It has been shown that vascular cells maintain healthy physiological characteristics while exposed to a range of WSS between 5 and 20 dynes/cm$^{2}$ yet studies are in conflict if WSS lower \cite{Miura519,boussel2008aneurysm} or higher \cite{dolan2013high,shojima2004magnitude} from said preferred range is of greater impact on IA rupture risk. It has been suggested that both high and low WSS trigger differing impacts on vascular cells \cite{Meng1254}, meaning both may play a significant role in IA development and potential rupture. Yet even focusing on one extrema of WSS values and determining their usefulness on prediction IA rupture risk has proven difficult. In a 2016 meta analysis by Zhou, the impact of low wall shear stress on predicting IA rupture varied between studies (Fig.~\ref{Low_WSS_meta_analysis}). In addition to WSS extrema as a predictive metric toward IA rupture, fluctuations in WSS gradients and changes in WSS directionality (Oscillatory shear index (OSI)) are thought to cause pathologic changes to the vasculature are often applied to IA rupture prediction models. Its has been theorized that fluctuations in WSS directionality can trigger varying changes to vascular cells, weakening the overall strength of the vasculature and triggering possible IA development or rupture. 
+  
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=3.34in]{Zhou_2016_Meta_analysis_low_WSS_fig1.eps}
@@ -28,30 +28,78 @@ Hemodynamic stressors are thought to play a significant role on the initiation, 
 \label{Low_WSS_meta_analysis}
 \end{figure}
 
+It is worth noting, that the clinical measurement of WSS characteristics \textit{in-vivo} is possible, yet remains difficult especially in smaller blood vessels and small IAs. Improvements in computational fluid dynamics (CFD) can help overcome the limitations of \textit{in-vivo} WSS measurement and is being adopted as a clinical tool for assessment of rupture potential and planning of IA treatments \cite{steinman2002image,valen2013mind}. 
 
-While a number of metrics (geometric, hemodynamic, and health factors) have aided in understanding possible mechanisms triggering IA development and rupture, these aforementioned metrics overlook the broader flow patterns occurring within the aneurysm sac and parent vessel. Initial investigations into areas of likely IA development correlated their development with areas of high vessel curvature or at areas of vessel bifurcation. These specific vascular geometries can generate irregular swirling flow patterns (vortices) which were hypothesized to impact IA development and rupture. Investigations of hemodynamic vortices in both \textit{in-vivo} and \textit{in-vivo} and have been shown to elicit endothelial cell dysfunction \cite{balaguru2016disturbed,mannino2015yourself,nowicki2014novel}.
+While the development of IAs have been related to hemodynamic factors, a number of genetic and patient health-factors have also been associated with structural weakness in the arterial wall indicative of IAs\cite{mohan2015genetic,theodotou2017genetic}. The increased liklehood of IA development in a person whose family member(s) have also presented with an IA gave early insight towards a possible genetic component to IAs. 
+
+A number of patient health factors have also been associated with IA development/rupture and have been incorporated into prediction models. Patient age, gender and smoking habits, which have bee linked with changes to the mechanical properties of the vasculature, have been incorportated into IA rupture prediction \cite{McDowell2018,Backes2016,brinjikji2015risk}s. Increases in age and smoking\cite{mcdowell2018demographic,Backes951,Korja2014,greving2014development} have been linked with a breakdown of the collagen of the vasculature, weakening the overall mechanical strength of the vasculature. There is also a breakdown in the elastin complexes of the vasculature as a function of aging, decreasing the compliance of the vessel (to hemodynamic conditions) and increasing vessel stiffness\cite{duca2016matrix,wang2018proinflammatory}. Additionally, hypertension has also been linked with an increase in the likelihood of aneurysm development and potential rupture\cite{sun2019effects,qian2016assessment}. Hypertension is thought to weaken vessels by increasing mechanical stresses while also causing a subsequent increase in vascular inflammation, leading to possible remodeling of the vascular wall\cite{schiffrin2018novel}.
+
+Combining the assessment of IA morphological characteristics, WSS and genetic/patient medical information have been applied to a number of models aiming to predict the likelyhood of IA rupture. Yet the indices chosen and the resultant strength of predictions models can vary significantly between studies (\ref{Previous_Prediction_Tables}). 
+
+\begin{table}[h]
+\caption{Recent articles for aneurysm rupture prediction}
+   \centering
+   \resizebox{\textwidth}{!}{
+\begin{tabular}{|l|p{40mm}|p{30mm}|c|p{25mm}|c|}
+\hline
+Author-Year & Parameters for \newline Analysis & Aneurysm \newline Location(s) & Ruptured IAs & Unruptured IAs& AUC or Accuracies \\
+\hline
+Qin et al., 2017\cite{qin2017morphological} & W, H, L, NW, Age, AR, Dmax, HW, BF, WSS, LSA, EL & MCA & 36 & 31 & 0.931 \\
+&&&&&\\
+Bijlenga et al., 2017\cite{bijlenga2017phases} &S, Age, Hyp, Race, SAH   & MCA, ICA, ACA/PcomA/Post & 598 & 243 & 0.681-0.756 \\
+&&&&&\\
+Detmer et al., 2018\cite{detmer2018external} &Age, Gender, S, OSIm, NSI & ACA, AcoM, BA, ICA, MCA, PCom, VA & 66 & 183 & 0.82 \\
+&&&&&\\
+Kocur et al., 2019\cite{kocur2019alternative}    &S, H, W, NS, AR, BF, H/W, SR, Aθ & AcoM, ICA, MCA, Post
+ & 146 & 285 & 0.55-0.64 \\
+ &&&&&\\
+Wang et al., 2019\cite{wang2019simple} & R, DD, NW, W, D, Dia, AR, DW, BF, SR, Fθ, LDθ, SDθ,  & AcoM & 214 & 147 & 0.846   \\
+ &&&&&\\
+Varble et al., 2018\cite{varble2018stroke} & Age, SR, AR, UI, EL, NSI, WSS, OSI, WSSG, RRT, LSA, MWSS, PLc, EL & ACA, ICA, MCA, PcoM, Post & 102 (Train)  14 (Test) & 311 (Train) 115 (Test) & 0.767 \\
+&&&&&\\
+Jiang et al., 2018\cite{jiang2018novel} & L, H, AR, SR, UI, EI, Dθ, NSI, NWSSa, WSSm, WSSa, NWSSa, NWSSm, WSSG, LSA, OSI, RRT, Pm, Pa, NPa, NPm & ACA, AcoM, ICA, MCA, PcoM & 167 & 167 & 0.81 \\
+\hline
+ \multicolumn{6}{|p{240mm}|}{Anertieor communicating artery (AcoM), Anterior communicating artery (ACA), Internal carotid artery (ICA), ­­­Middle cerebral artery (MCA), Posterior communicating artery (PcoM), Posterior inferior cerebral artery (Post),  Aneurysm angle (Aθ), Area (A), Aspect Ratio (AR), Bottleneck factor (BF),  depth/width (DW), Diameter (D), Energy Loss (EL), Flow angle (Fθ), Height (H), Hypertension (Hyp), Irregular shape (IR), Large daughter artery angle (LDθ), Lateral angle ratio (LAR), Length (L), Low wall shear area (LSA), Mean diameter (MD), Mean wall shear stress (MWSS), Non-sphericity index (NSI), Normalized pressure average (NPa), Normalized pressure max (NPm), Normalized wall shear stress area (NWSSa), Normalized wall shear stress mean (NWSSm), Oscillatory shear index(max) (OSIm), Pressure average (Pa), Pressure loss(coefficient) (PLc), Pressure max (Pm), Relative residence time (RRT), Size ratio (SR), Small daughter artery angle (SDθ),  Surface (S), Temporally averaged WSS (TAWSS), Undulation Index (UI), Vessel angle (Vθ), Width (W), Wall shear stress (WSS), Wall shear stress gradient (WSSG), Wormsley number (WN), Wall shear stress mean (WSSm).}\\
+ \hline
+\end{tabular}}
+\label{Previous_Prediction_Tables}
+\end{table}
+
+These variations between study outcomes suggest that novel assessment methods may help improve the understanding of IA characteristics indicative of rupture. Of recent attention are the assessments of broader flow patterns occurring within the aneurysm sac and parent vessel for their relationship to aneurysms. While WSS characteristics assess the 'near-wall' flow within the vasculature, this overlooks the reaming flow characteristics within the vasculature that may help improve prediction models (Fig. \ref{WSS_vs_Disturbed}). 
+
+\begin{figure}[h]
+\begin{subfigure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{Wall_shear_stress_N_mm2.eps}
+  \label{fig:sfig1}
+\end{subfigure}
+\begin{subfigure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{Flow_Pattern_Vortex_in_mm_sec.eps}
+  \label{fig:sfig2}
+\end{subfigure}
+\caption{The wall shear stress (N/mm$^2$) distribution on the aneurysm wall(A) and blood flow  pattern inside the aneurysm visualized with streamlines (mm/sec)(B). Wall shear stressors may overlook the disturbed/swirling flow patterns (white arrow) that are generated in the IA sac.}
+\label{WSS_vs_Disturbed}
+\end{figure}
+
+Early investigations into the nature of IAs uncovered the non-random distribution of areas of the vasculature susceptible to IA development: vessel bifurcations and areas of significant vasculature curvature (Fig \ref{IA_Areas}). These areas of likely aneurysm development were shown to correlate with areas of disturbed, swirling hemodynamic flow patterns (vortex/vortices). In much of the vasculature, blood maintains laminar flow characteristics in which fluid travels smoothly in regular paths with little to no mixing. Vortices are antithetical to laminar flow, with areas of significant mixing/recirculation, and causing a significant drop in WSS values. Not only are said vortex patterns present in specific areas of the vasculature, they are also present within IA sacs. These findings led research toward understanding the impact that these vortices may have on altering the vasculature, triggering IA development and rupture\cite{Cebral119,chiu2011effects,Liu2015}. As hemodynamic forces help regulate the physiological characteristics of the vasculature, vortex flow conditions are thought to impart pathologic cellular changes to vascular cells. 
+
+\begin{figure}[h]
+ \begin{center}
+  \includegraphics[width=0.6\linewidth]{Cerebral_IA_locations.eps}
+\caption{Areas of likely cerebral IA development: Original image from \cite{Cerebral_IA_Location}.}
+\end{center}
+\label{IA_Areas}
+\end{figure}
+ 
+Yet the analysis of disturbed flow is typically done from a visual qualitative assessment of computational fluid dynamic (CFD) based flow patterns or through limited computational analysis of a vortex's centroid region. These methodoligies can only result in a restrictive assessment of the characteristics of vortices, and could limit their usefulness in predicting IA rupture. As per example, a study by Varble et al\cite{varble2017identification}. was unable to find a strong correlation between vortices and IA rupture, but said study only focused on identifying the centroid region of vortices. A more comprehensive analysis of vortices may give novel insight towards IAs and could provide a useful tool to help improve the assessment of IA rupture potential. 
+
+The \textbf{focus of this thesis} is to apply novel computational technique to assess the spatiotemporal characteristics of broader structure of hemodynamic vortex patterns and determine their usefulness in identifying cerebral IAs rupture risk. 
+ 
+
+While a number of metrics (geometric, hemodynamic, and health factors) have aided in understanding possible mechanisms triggering IA development and rupture,  I Investigations of hemodynamic vortices in both \textit{in-vivo} and \textit{in-vivo} and have been shown to elicit endothelial cell dysfunction \cite{balaguru2016disturbed,mannino2015yourself,nowicki2014novel}.
 
 %Current surgical interventions typically focus on occluding blood flow into an IA. IA clipping involves opening the skull to place a titanium clip around the opening (ostium) of the IA. Yet a meta-analysis between 1990 and 2011 showed this surgical methodology carried with it a 1.7\% and 6.7\% mortality and morbidity rate (respectively) \cite{Kotowski42}. A more recent method to repair IAs and prevent their potential rupture is through coiling: the implantation of flexible platinum wires inside an IA to create an artificial thrombosis within the IA sac. A combination of coiling alongside implantation of a stent across the IA ostium may be used to help ensure proper coil retention within the IA sac. Treatment of IAs with coiling has been shown to have an 80-85\% success rate \cite{molyneux2002international}, yet carries with it complication risks: morbidity, mortality, coil slippage, incomplete occlusion or coil compaction \cite{hoppe2015comparison,liu2016recanalization}. While clinical intervention methods have been shown to reduce the onset of IA rupture, they are not without their own inherent physiological risk, leading to similar neurological damage as a ruptured IA\cite{liu2016recanalization,mascitelli2015predictors,chalouhi2015safety}.
-
-Typically, the geometrical properties of IA and their surrounding vasculature as well as patient medical history and health factors (smoking, diabetus, etc) \cite{Backes951} have been linked with IA rupture. \cite{Steiner_2018,Thompson2015guidelines}. Additionally, a growing body of research has focused on the hemodynamic stressors along the IA wall, and how they may contribute to the development of IAs and their and potential rupture, specifically how they trigger pathologic changes to vascular cells \cite{baek2009flow,dolan2013high,byrne2014quantifying,cecchi2011role,kulcsar2011hemodynamics}. 
-
-
-To better differentiate aneurysms at risk of rupture, novel assessment of the ever-chaining hemodynamic conditions within the IA sac may hold they key. Flow patterns within aneurysm, specifically the swirling flow (vortices) in IAs, have been thought to impart pathologic cellular changes to vascular cells. Yet the presence of swirling flow patterns, or a visual, qualitative appraisal of flow complexity is what is typically correlated with IA rupture risk. The focus of this thesis is that by applying a novel analysis technique to assess the temporal changes to vortices' stability and complexity over the cardiac cycle and how they may be useful in identifying the possible development and rupture potential of cerebral IAs. 
-
-
-
-Lorem ipsum dolor sit amet, at qui viderer recusabo aliquando, dignissim 
-evertitur ei his. Ignota iuvaret fabulas ei vim. Ne utinam inciderint quo. 
-Pri ea congue postulant conclusionemque. Ut elitr dicam elaboraret pro, ius 
-altera voluptaria cu. Eam mazim aliquip cu, recusabo pericula accommodare at 
-mea, facer affert nonumes qui ea.
-
-Discere dissentiet vel et, soluta nostrum epicurei ad eam, cu has aperiam 
-vituperata. In prima quaeque diceret pri. Enim labores contentiones eos at, 
-duo altera denique nominavi ea, eos inani nominavi consectetuer at. Ut elitr 
-dicam elaboraret pro, ius altera voluptaria cu. Eam mazim aliquip cu, 
-recusabo pericula accommodare at mea, facer affert nonumes qui ea.
-\cite{Crystal09_01,DMOL3_01,HPL_DGEMM_02}
 
 \section{Section 1}\label{CHAPTER1_SECTION1}
 
