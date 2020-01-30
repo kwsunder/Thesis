@@ -15,6 +15,9 @@ Database file #1: References/References.bib
 Warning--entry type for "WIKI_Vessel" isn't style-file defined
 --line 7 of file References/References.bib
 Reallocated field_info (elt_size=4) to 10014 items from 5000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "cooper2017stenosis"
+Warning--I didn't find a database entry for "aneurysmsvanrossomme2015intracranial"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Mantha1113"
 Warning--I didn't find a database entry for "Shimogonya2009"
@@ -28,45 +31,45 @@ Warning--can't use both volume and number fields in schafhitzel2008topology
 Warning--empty title in MolDen2000
 Warning--can't use both volume and number fields in strater20184d
 Warning--empty journal in versteeg2007introduction
-You've used 232 entries,
+You've used 278 entries,
             2253 wiz_defined-function locations,
-            1833 strings with 56762 characters,
-and the built_in function-call counts, 93506 in all, are:
-= -- 8744
-> -- 6062
+            2061 strings with 69168 characters,
+and the built_in function-call counts, 114082 in all, are:
+= -- 10607
+> -- 7619
 < -- 0
-+ -- 2490
-- -- 2240
-* -- 8852
-:= -- 15728
-add.period$ -- 690
-call.type$ -- 232
-change.case$ -- 1806
++ -- 3125
+- -- 2826
+* -- 10894
+:= -- 19268
+add.period$ -- 829
+call.type$ -- 278
+change.case$ -- 2225
 chr.to.int$ -- 0
-cite$ -- 242
-duplicate$ -- 2269
-empty$ -- 6177
-format.name$ -- 2240
-if$ -- 18380
+cite$ -- 288
+duplicate$ -- 2700
+empty$ -- 7388
+format.name$ -- 2826
+if$ -- 22333
 int.to.chr$ -- 0
-int.to.str$ -- 232
-missing$ -- 230
-newline$ -- 1157
-num.names$ -- 460
-pop$ -- 1453
+int.to.str$ -- 278
+missing$ -- 277
+newline$ -- 1387
+num.names$ -- 552
+pop$ -- 1797
 preamble$ -- 1
-purify$ -- 1582
+purify$ -- 1956
 quote$ -- 0
-skip$ -- 1345
+skip$ -- 1598
 stack$ -- 0
-substring$ -- 6028
-swap$ -- 564
+substring$ -- 7219
+swap$ -- 662
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 922
+type$ -- 1104
 warning$ -- 10
-while$ -- 818
-width$ -- 235
-write$ -- 2317
-(There were 14 warnings)
+while$ -- 980
+width$ -- 281
+write$ -- 2774
+(There were 16 warnings)
